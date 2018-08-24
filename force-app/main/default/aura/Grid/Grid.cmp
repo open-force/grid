@@ -1,0 +1,47 @@
+<aura:component>
+
+	<!--Public Attributes-->
+	<aura:attribute name="columns" type="Aura.ComponentDefRef[]" />
+
+	<aura:attribute name="headerTemplate" type="Aura.ComponentDefRef[]">
+		<th>{!column.label}</th>
+	</aura:attribute>
+
+	<aura:attribute name="rowTemplate" type="Aura.ComponentDefRef[]">
+		<tr></tr>
+	</aura:attribute>
+
+	<aura:attribute name="cellTemplate" type="Aura.ComponentDefRef[]">
+		<td></td>
+	</aura:attribute>
+
+	<!--Private Attributes-->
+	<aura:attribute name="records" type="List" access="private" description="The data records to show in the table." />
+	<aura:attribute name="simplifiedColumns" type="List" access="private" description="JSON object representations of the columns." />
+	<aura:attribute name="generatedRowMarkup" type="Aura.ComponentDefRef[]" access="private" description="Row template with column markup baked in." />
+
+	<!--Event Handlers-->
+	<aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+
+	<!--Content-->
+	{!v.body}
+
+	<table class="slds-table slds-table_bordered">
+
+		<thead>
+
+		<tr>
+			<aura:iteration items="{!v.simplifiedColumns}" var="column" template="{!v.headerTemplate}" />
+		</tr>
+
+		</thead>
+
+		<tbody>
+
+		<aura:iteration items="{!v.records}" var="record" template="{!v.generatedRowMarkup}" />
+
+		</tbody>
+
+	</table>
+
+</aura:component>
