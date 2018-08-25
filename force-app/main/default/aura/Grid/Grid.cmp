@@ -1,4 +1,4 @@
-<aura:component>
+<aura:component controller="GridController" description="A component that surfaces a table of server-side data that supports search/filter/sort/paging.">
 
 	<!--Public Attributes-->
 	<aura:attribute name="columns" type="Aura.ComponentDefRef[]" />
@@ -14,6 +14,9 @@
 	<aura:attribute name="cellTemplate" type="Aura.ComponentDefRef[]">
 		<td></td>
 	</aura:attribute>
+
+	<aura:attribute name="namespace" type="String" description="The namespace of the Apex class that will provide data; leave blank if you don't know it" />
+	<aura:attribute name="className" type="String" required="true" description="The class name of the Apex class that will provide data" />
 
 	<!--Private Attributes-->
 	<aura:attribute name="records" type="List" access="private" description="The data records to show in the table." />

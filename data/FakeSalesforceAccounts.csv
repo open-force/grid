@@ -1,0 +1,1001 @@
+AccountNumber,Name,AnnualRevenue,BillingStreet,BillingCity,BillingState,BillingPostalCode,BillingCountry,AccountSource,Description,NumberOfEmployees,Industry,Phone,Type
+1,Jazzy,3949667,966 Monument Parkway,Chula Vista,California,91913,United States,Web,In congue.,4811,Retail,619-536-6658,Customer - Channel
+2,Realbuzz,5963514,4 Mockingbird Terrace,Seattle,Washington,98121,United States,Web,,,,360-687-9187,Installation Partner
+3,Tagpad,5674912,0 Roxbury Park,Charlotte,North Carolina,28284,United States,Web,,2955,Electronics,704-383-7160,Technology Partner
+4,Twinte,3865311,9 Ilene Avenue,Arlington,Texas,76004,United States,Other,,6929,Consulting,817-715-9093,Installation Partner
+5,Yotz,1683968,543 Loeprich Crossing,Syracuse,New York,13224,United States,Purchased List,"Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla.",,,315-597-1139,Customer - Direct
+6,Oyoba,7421177,04 Service Street,Fresno,California,93786,United States,Web,Duis at velit eu est congue elementum. In hac habitasse platea dictumst.,1951,Hospitality,559-528-1976,Installation Partner
+7,Tagfeed,9987103,15 7th Street,Fort Worth,Texas,76105,United States,Phone Inquiry,Phasellus id sapien in sapien iaculis congue.,4826,Shipping,817-181-8319,Technology Partner
+8,Quire,8988582,10 Rutledge Court,New York City,New York,10120,United States,,,5917,Other,212-599-2888,
+9,Feedmix,5842909,3 Basil Street,Tucson,Arizona,85705,United States,Web,"Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.",957,Construction,520-812-6770,Installation Partner
+10,Kamba,3099549,852 Mayer Road,Lubbock,Texas,79415,United States,,"Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.",,,806-527-1563,
+11,Jayo,5030584,94 Nevada Park,Denver,Colorado,80228,United States,Other,In sagittis dui vel nisl.,4962,Finance,720-397-5963,Technology Partner
+12,Tagtune,2764298,3541 Clarendon Center,Tallahassee,Florida,32309,United States,Phone Inquiry,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.,8742,Electronics,850-282-0909,Installation Partner
+13,Avaveo,6954551,82 Grim Circle,Boston,Massachusetts,02203,United States,Web,Phasellus in felis.,6079,Media,617-228-9026,Customer - Direct
+14,Jazzy,8237942,3769 Hanover Plaza,Springfield,Illinois,62718,United States,Purchased List,,7079,Manufacturing,217-654-5572,Technology Partner
+15,Feedfish,1474789,13 Loftsgordon Park,Los Angeles,California,90060,United States,Phone Inquiry,,2524,Entertainment,323-412-3357,Customer - Channel
+16,Meedoo,4930337,7577 Alpine Circle,New York City,New York,10249,United States,Purchased List,Maecenas pulvinar lobortis est. Phasellus sit amet erat.,7421,Media,212-901-5589,Installation Partner
+17,Oodoo,1995374,55618 Karstens Plaza,Port Washington,New York,11054,United States,,Etiam pretium iaculis justo. In hac habitasse platea dictumst.,6497,Consulting,516-266-7119,
+18,Yambee,6607056,1664 Goodland Center,Decatur,Illinois,62525,United States,Phone Inquiry,Suspendisse potenti.,1872,Shipping,217-453-4659,Other
+19,Jaxnation,1383044,3922 Village Road,Albany,New York,12262,United States,Phone Inquiry,,6825,Education,518-553-1300,Other
+20,Meedoo,2800163,82 Blackbird Place,Charleston,West Virginia,25331,United States,Web,Morbi non lectus.,5840,Not For Profit,304-598-8268,Customer - Direct
+21,Quinu,8650031,6589 Fairfield Hill,Pompano Beach,Florida,33069,United States,Other,"Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",,,754-793-1305,Channel Partner / Reseller
+22,Mynte,4292194,78579 Mosinee Point,Shreveport,Louisiana,71105,United States,Partner Referral,Nam dui.,7175,Chemicals,318-153-0144,Prospect
+23,Trudoo,1983098,9 Forster Point,Huntington Beach,California,92648,United States,,Nulla tempus.,,,562-679-2612,
+24,Zoomdog,229722,0 Golden Leaf Alley,Camden,New Jersey,08104,United States,Phone Inquiry,Sed accumsan felis.,4504,Manufacturing,856-835-1619,Customer - Channel
+25,Jabbercube,9895913,0458 Boyd Terrace,Brooklyn,New York,11225,United States,Phone Inquiry,,,,718-151-4728,Prospect
+26,Mydo,5157741,48531 Golf Course Crossing,Chicago,Illinois,60646,United States,Web,"In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante.",,,312-833-3518,Channel Partner / Reseller
+27,Feedfish,367159,9 Warner Parkway,Muncie,Indiana,47306,United States,Phone Inquiry,,2441,Energy,765-268-4634,Technology Partner
+28,Realcube,1755448,901 Pankratz Avenue,Nashville,Tennessee,37228,United States,Other,In hac habitasse platea dictumst. Etiam faucibus cursus urna.,4126,Telecommunications,615-451-8961,Prospect
+29,Quire,7891968,7841 Graceland Alley,Denver,Colorado,80228,United States,Web,Vivamus in felis eu sapien cursus vestibulum. Proin eu mi.,638,Not For Profit,720-942-4355,Customer - Channel
+30,Cogibox,8333974,557 Lyons Drive,Monticello,Minnesota,55590,United States,Other,,8992,Transportation,763-532-6069,Channel Partner / Reseller
+31,Dabjam,9897693,654 Randy Drive,Louisville,Kentucky,40280,United States,Phone Inquiry,,,,502-775-7390,Technology Partner
+32,Oyoyo,7600969,9483 Hayes Park,Homestead,Florida,33034,United States,Web,,8173,Biotechnology,786-282-5888,Technology Partner
+33,Brightdog,2951851,45715 Havey Terrace,Sacramento,California,95894,United States,,,5517,Telecommunications,916-585-5501,
+34,Camimbo,4408047,9930 Myrtle Center,Charleston,West Virginia,25389,United States,Purchased List,"Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante.",2092,Hospitality,304-614-2511,Prospect
+35,Wikibox,4544088,98 Tennyson Street,New York City,New York,10270,United States,Partner Referral,,750,Healthcare,646-649-4507,Prospect
+36,Jabbercube,1898295,2 Service Drive,El Paso,Texas,88569,United States,Web,Proin at turpis a pede posuere nonummy. Integer non velit.,3565,Transportation,915-990-8853,Other
+37,Tazzy,4680920,253 Kingsford Park,Fort Smith,Arkansas,72916,United States,,"Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante.",2087,Insurance,479-772-5769,
+38,Skalith,7627191,130 Utah Circle,Peoria,Illinois,61656,United States,,,5466,Biotechnology,309-445-6876,
+39,Yozio,3074734,7 Truax Trail,Boston,Massachusetts,02203,United States,Purchased List,,,,617-270-7420,Technology Partner
+40,Yambee,4119588,33179 Elka Place,Newport News,Virginia,23605,United States,Web,,1315,Retail,757-313-0575,Technology Partner
+41,Browseblab,5209872,08438 Prairie Rose Street,Reno,Nevada,89505,United States,,,6582,Retail,775-916-3414,
+42,Skimia,9886106,93 Magdeline Pass,Norfolk,Virginia,23551,United States,Purchased List,,,,757-116-5257,Prospect
+43,Shufflester,209920,0 High Crossing Lane,Albuquerque,New Mexico,87140,United States,Other,,2366,Construction,505-880-7629,Customer - Channel
+44,Tagtune,7142900,13 Rutledge Terrace,Des Moines,Iowa,50981,United States,Purchased List,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue.",,,515-741-4016,Other
+45,InnoZ,1809437,24 Sachs Point,Salt Lake City,Utah,84115,United States,Web,Integer a nibh. In quis justo.,,,801-847-3411,Other
+46,Edgeblab,5449114,28 Ronald Regan Trail,Jamaica,New York,11436,United States,Purchased List,,,,917-992-3293,Installation Partner
+47,Lajo,8736242,1 Messerschmidt Park,Fairfax,Virginia,22036,United States,Other,,8132,Construction,571-942-8740,Customer - Channel
+48,Flashspan,7866088,8477 Prentice Junction,Pittsburgh,Pennsylvania,15240,United States,,"Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.",4478,Electronics,412-466-3858,
+49,Bubbletube,9801335,82573 Iowa Terrace,Fort Lauderdale,Florida,33315,United States,Other,,673,Insurance,954-635-8747,Prospect
+50,Kazu,5583744,45 Springs Trail,Portsmouth,New Hampshire,00214,United States,Partner Referral,,6035,Banking,603-692-9506,Prospect
+51,Quimba,3948858,9 Mcguire Trail,Baltimore,Maryland,21290,United States,Other,,5755,Apparel,410-559-2296,Customer - Channel
+52,Quinu,1913515,7702 Haas Junction,Visalia,California,93291,United States,Purchased List,"Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.",,,559-128-9634,Channel Partner / Reseller
+53,Demizz,8489979,298 Steensland Place,Sterling,Virginia,20167,United States,Other,,,,571-618-1805,Technology Partner
+54,Tazzy,9948928,06947 Rowland Pass,Los Angeles,California,90030,United States,Web,Pellentesque ultrices mattis odio. Donec vitae nisi.,6861,Banking,213-898-7979,Channel Partner / Reseller
+55,Innojam,4651039,8 Morning Lane,Topeka,Kansas,66629,United States,Other,Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo.,,,785-531-0342,Customer - Direct
+56,Blogtag,1528212,54 Green Ridge Court,Scranton,Pennsylvania,18514,United States,Partner Referral,,8151,Construction,570-750-7534,Customer - Channel
+57,Yacero,6122792,6 Hoepker Junction,Hayward,California,94544,United States,Purchased List,,698,Machinery,510-361-1619,Customer - Direct
+58,Realcube,7199885,106 Hanover Lane,Washington,District of Columbia,20238,United States,Other,Proin at turpis a pede posuere nonummy.,305,Transportation,202-345-8498,Installation Partner
+59,Gigashots,801522,059 Fieldstone Park,Topeka,Kansas,66606,United States,Purchased List,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien.",4879,Engineering,785-976-4344,Channel Partner / Reseller
+60,Fivechat,8413155,8 Sundown Park,Jackson,Mississippi,39204,United States,Purchased List,Phasellus sit amet erat.,,,601-890-9198,Installation Partner
+61,Gabtype,990134,1 Burrows Parkway,San Antonio,Texas,78250,United States,Purchased List,,2725,Electronics,210-878-8934,Other
+62,Yodo,497449,710 Beilfuss Hill,Mesa,Arizona,85210,United States,Other,,,,602-421-8413,Technology Partner
+63,Izio,2505610,5453 Anniversary Road,Panama City,Florida,32412,United States,Other,"Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.",,,850-639-7924,Installation Partner
+64,Zoonoodle,2864287,831 Green Crossing,Vancouver,Washington,98664,United States,Purchased List,,3655,Agriculture,360-392-4170,Installation Partner
+65,Talane,5794609,49424 Hoffman Plaza,San Jose,California,95194,United States,Phone Inquiry,,2626,Consulting,408-333-7163,Technology Partner
+66,Buzzbean,7667345,73 Village Avenue,Fort Worth,Texas,76162,United States,Partner Referral,Phasellus sit amet erat.,3861,Education,682-214-3986,Customer - Direct
+67,Livepath,9986091,236 Mosinee Way,Memphis,Tennessee,38181,United States,Phone Inquiry,,6018,Entertainment,901-236-5532,Prospect
+68,Riffpath,4151869,038 Golf View Circle,Alexandria,Virginia,22301,United States,Phone Inquiry,Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.,,,202-410-1407,Customer - Channel
+69,Aibox,5952597,00 Welch Place,Dallas,Texas,75205,United States,Web,In eleifend quam a odio. In hac habitasse platea dictumst.,,,214-207-5799,Channel Partner / Reseller
+70,Thoughtbeat,5193367,098 Twin Pines Street,Clearwater,Florida,34620,United States,Web,Nulla ut erat id mauris vulputate elementum. Nullam varius.,5264,Media,727-783-8540,Installation Partner
+71,Brightdog,9362440,377 Memorial Way,Saint Louis,Missouri,63104,United States,Web,,,,314-244-9290,Prospect
+72,Shufflebeat,84847,971 Sheridan Pass,Saint Louis,Missouri,63110,United States,Other,Etiam vel augue.,9551,Shipping,314-546-6060,Customer - Direct
+73,Avavee,9218613,6537 Paget Lane,Portland,Oregon,97271,United States,Other,,9621,Education,971-151-9683,Customer - Direct
+74,Bluejam,746326,6 Fieldstone Terrace,Akron,Ohio,44329,United States,Phone Inquiry,,,,330-893-5622,Other
+75,Buzzbean,861349,63178 Lerdahl Lane,Cedar Rapids,Iowa,52405,United States,,Proin interdum mauris non ligula pellentesque ultrices.,45,Other,319-674-0057,
+76,Thoughtworks,2678498,81106 Charing Cross Point,Brea,California,92822,United States,,,3166,Apparel,714-788-0496,
+77,Skimia,4650553,74299 Ronald Regan Terrace,Tallahassee,Florida,32309,United States,Web,,8789,Food & Beverage,850-892-0235,Technology Partner
+78,Realcube,5538706,227 Pennsylvania Avenue,Inglewood,California,90305,United States,Partner Referral,,,,310-221-6251,Channel Partner / Reseller
+79,Skyba,70645,9 Forest Run Junction,San Antonio,Texas,78235,United States,,Morbi non quam nec dui luctus rutrum.,6783,Chemicals,210-918-6652,
+80,Mudo,9679725,53 Pleasure Road,Wichita,Kansas,67220,United States,Phone Inquiry,Donec quis orci eget orci vehicula condimentum.,2647,Manufacturing,316-826-4956,Technology Partner
+81,Fatz,1888877,6 Meadow Ridge Park,Tucson,Arizona,85754,United States,,,4469,Agriculture,520-813-1767,
+82,Flashspan,9782652,6 Talmadge Pass,San Antonio,Texas,78245,United States,Purchased List,"Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.",4607,Retail,830-671-3952,Channel Partner / Reseller
+83,Eimbee,6694843,5413 Straubel Place,Boise,Idaho,83727,United States,,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.,1352,Construction,208-329-1087,
+84,Gigazoom,9894807,1420 Bobwhite Place,Tallahassee,Florida,32314,United States,,,,,850-144-8750,
+85,Plambee,9104003,887 Golf Avenue,Boise,Idaho,83716,United States,Purchased List,"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",9975,Transportation,208-570-1925,Technology Partner
+86,Meevee,4499454,04 Pine View Circle,San Diego,California,92160,United States,Phone Inquiry,,9140,Transportation,619-292-0984,Technology Partner
+87,Quimm,5716726,41 Hallows Pass,Houston,Texas,77085,United States,Purchased List,,61,Entertainment,281-823-4178,Customer - Channel
+88,Jaxworks,6841660,88732 Eagan Place,Boston,Massachusetts,02114,United States,Phone Inquiry,,137,Retail,617-428-6898,Channel Partner / Reseller
+89,Viva,4912444,9 Meadow Valley Drive,Birmingham,Alabama,35290,United States,Phone Inquiry,Sed accumsan felis. Ut at dolor quis odio consequat varius.,4155,Media,205-582-1400,Channel Partner / Reseller
+90,Shufflester,4219041,5 Summerview Hill,Simi Valley,California,93094,United States,Web,,8808,Media,805-219-4827,Customer - Direct
+91,Divavu,1922800,53 Eggendart Way,Tacoma,Washington,98442,United States,Web,,1400,Shipping,253-278-2889,Channel Partner / Reseller
+92,Twimbo,7706030,26 Buhler Trail,Bethlehem,Pennsylvania,18018,United States,,Duis bibendum. Morbi non quam nec dui luctus rutrum.,1423,Media,484-396-3046,
+93,Riffwire,1395658,5 Miller Place,Los Angeles,California,90050,United States,,In hac habitasse platea dictumst.,,,213-168-5080,
+94,InnoZ,1665424,30 Mesta Hill,Spring,Texas,77388,United States,Other,Nunc purus. Phasellus in felis.,,,281-389-7233,Installation Partner
+95,BlogXS,4917706,966 Dapin Circle,Glendale,Arizona,85311,United States,Other,,,,602-114-3599,Prospect
+96,Layo,6734594,0029 Aberg Parkway,Chicago,Illinois,60691,United States,Web,,2894,Retail,312-383-9945,Channel Partner / Reseller
+97,Topicstorm,661576,1696 Drewry Junction,Fresno,California,93786,United States,,,,,559-617-3027,
+98,Rhynoodle,6218674,17014 Heffernan Trail,Philadelphia,Pennsylvania,19141,United States,,,5913,Banking,215-401-9386,
+99,Kwimbee,9676611,4 Morrow Point,Reno,Nevada,89510,United States,,,3578,Other,775-472-9431,
+100,Quamba,5526065,81446 Marcy Crossing,Richmond,California,94807,United States,Web,"Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci.",,,510-876-3219,Technology Partner
+101,Meevee,4388911,50283 Elgar Place,Charleston,South Carolina,29403,United States,Phone Inquiry,,4571,Healthcare,843-552-8818,Prospect
+102,Skynoodle,607975,53772 Transport Street,Myrtle Beach,South Carolina,29579,United States,Other,,,,843-878-1738,Technology Partner
+103,Trudoo,1251519,9 Muir Lane,New Orleans,Louisiana,70160,United States,Partner Referral,,,,504-427-7091,Other
+104,Mudo,2796085,4825 Scoville Trail,Washington,District of Columbia,20404,United States,,,7738,Retail,202-291-2949,
+105,Vimbo,6366634,797 Petterle Court,Mesquite,Texas,75185,United States,Phone Inquiry,,,,214-709-9197,Installation Partner
+106,Voolia,650572,2793 Ryan Place,Montgomery,Alabama,36125,United States,Phone Inquiry,"Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.",5373,Agriculture,334-696-9993,Other
+107,Quire,8445439,875 Charing Cross Crossing,Washington,District of Columbia,20404,United States,Phone Inquiry,Phasellus in felis.,,,202-389-9147,Customer - Direct
+108,Chatterbridge,5298199,02778 Sunbrook Point,Des Moines,Iowa,50305,United States,,,9070,Not For Profit,515-884-1048,
+109,Tazz,4912162,761 Spenser Alley,Waco,Texas,76705,United States,Phone Inquiry,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",8947,Education,254-134-0596,Other
+110,Trunyx,9988571,67 Muir Road,Houston,Texas,77035,United States,Web,Sed accumsan felis. Ut at dolor quis odio consequat varius.,3195,Retail,713-256-4954,Channel Partner / Reseller
+111,Thoughtsphere,9998661,02507 Garrison Place,Dayton,Ohio,45454,United States,,Integer ac leo. Pellentesque ultrices mattis odio.,,,937-561-0074,
+112,Skyndu,1215992,602 Nancy Way,Saint Louis,Missouri,63131,United States,Purchased List,"Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim.",,,314-750-8784,Other
+113,Photobug,1796764,67 Crescent Oaks Terrace,Waterbury,Connecticut,06721,United States,Web,,4359,Not For Profit,203-270-5843,Customer - Channel
+114,Oyondu,2451503,182 Schurz Hill,Philadelphia,Pennsylvania,19115,United States,Other,,1527,Media,215-136-9741,Prospect
+115,Devify,5859761,1 Ridgeview Parkway,Grand Rapids,Michigan,49518,United States,Web,Nam tristique tortor eu pede.,,,616-315-0082,Installation Partner
+116,Quimm,7042743,70 Kensington Park,Philadelphia,Pennsylvania,19184,United States,Web,Morbi a ipsum. Integer a nibh.,7496,Apparel,215-436-7746,Technology Partner
+117,Omba,5339762,3 North Junction,Minneapolis,Minnesota,55470,United States,,"Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.",,,612-454-7515,
+118,Bubbletube,712770,372 Melody Point,Detroit,Michigan,48206,United States,,In sagittis dui vel nisl. Duis ac nibh.,,,734-442-6701,
+119,Kazu,1946138,18330 Delladonna Avenue,Brea,California,92822,United States,Partner Referral,Sed accumsan felis.,,,818-220-6103,Prospect
+120,Realmix,3534583,9745 Chinook Park,Raleigh,North Carolina,27635,United States,,Vestibulum ac est lacinia nisi venenatis tristique.,3300,Insurance,919-633-8803,
+121,Dazzlesphere,9188437,78 Brickson Park Street,Odessa,Texas,79764,United States,Web,,135,Biotechnology,432-661-1341,Other
+122,Youbridge,982600,3 Farragut Hill,San Jose,California,95160,United States,Web,,5170,Agriculture,408-855-7241,Installation Partner
+123,Realpoint,5574788,41249 Glendale Court,Norfolk,Virginia,23514,United States,Partner Referral,Suspendisse potenti. In eleifend quam a odio.,2557,Communications,757-770-6382,Customer - Direct
+124,Meemm,458703,8 North Crossing,Anaheim,California,92825,United States,Purchased List,,8314,Banking,714-862-0015,Customer - Channel
+125,Fliptune,5315045,7291 Eastlawn Terrace,South Bend,Indiana,46699,United States,Phone Inquiry,,8992,Agriculture,574-848-3011,Other
+126,Twitterlist,1846432,444 Mifflin Hill,Nashville,Tennessee,37220,United States,Purchased List,,3817,Food & Beverage,615-856-2013,Prospect
+127,Gabtune,7141976,836 Springview Plaza,Oklahoma City,Oklahoma,73147,United States,,Nunc rhoncus dui vel sem. Sed sagittis.,5959,Telecommunications,405-775-1089,
+128,Kazu,1585245,4867 Graceland Center,Los Angeles,California,90189,United States,Phone Inquiry,,,,213-109-5799,Technology Partner
+129,Yotz,7145806,37 Rutledge Pass,Dayton,Ohio,45432,United States,Partner Referral,,,,937-694-4640,Prospect
+130,Oyoyo,9647549,432 Gerald Court,Green Bay,Wisconsin,54305,United States,Partner Referral,,6,Utilities,920-714-1723,Installation Partner
+131,Devshare,3154766,63708 Fallview Terrace,Wilmington,Delaware,19897,United States,Web,"Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.",,,302-468-1256,Technology Partner
+132,Teklist,3581350,220 Bay Point,Huntington,West Virginia,25711,United States,Web,,5390,Apparel,304-505-6848,Customer - Channel
+133,Fadeo,1196528,9875 Grasskamp Pass,Santa Fe,New Mexico,87592,United States,Other,"Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",5584,Apparel,505-246-1795,Prospect
+134,Kwideo,3034213,5 Namekagon Street,Miami,Florida,33142,United States,Phone Inquiry,,,,954-427-5811,Prospect
+135,Gabtune,6781987,60297 Morrow Plaza,Littleton,Colorado,80126,United States,,Duis at velit eu est congue elementum.,2795,Shipping,720-264-7617,
+136,Rhyloo,615141,97850 Prairie Rose Pass,Wichita,Kansas,67205,United States,Web,,714,Healthcare,316-166-8484,Installation Partner
+137,Youbridge,1195015,75 Victoria Pass,Columbia,South Carolina,29240,United States,Web,Aliquam non mauris. Morbi non lectus.,792,Recreation,803-560-2878,Other
+138,Podcat,8925832,7 Monterey Pass,Van Nuys,California,91499,United States,Other,,,,213-900-0805,Other
+139,Shufflebeat,9684741,04 Pennsylvania Drive,Saginaw,Michigan,48609,United States,Other,In congue.,,,989-191-1672,Prospect
+140,Agimba,9936858,695 8th Lane,Tacoma,Washington,98442,United States,Phone Inquiry,Praesent blandit. Nam nulla.,4033,Media,253-769-8060,Customer - Channel
+141,Divape,5455097,63 Forster Park,Tacoma,Washington,98424,United States,Phone Inquiry,,9004,Education,206-609-7212,Installation Partner
+142,Plambee,1082235,295 Bashford Trail,Albuquerque,New Mexico,87190,United States,Purchased List,,,,505-519-0092,Channel Partner / Reseller
+143,Meezzy,1873571,21 Anzinger Avenue,Fort Worth,Texas,76110,United States,Purchased List,,9288,Energy,817-144-8066,Installation Partner
+144,Buzzster,8680440,7017 Fordem Court,Jamaica,New York,11447,United States,Other,,,,718-230-4410,Prospect
+145,Wikivu,2480780,48 Haas Drive,Los Angeles,California,90025,United States,Other,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.,,,818-638-8818,Customer - Channel
+146,Centizu,8510929,83 Melrose Road,Lake Worth,Florida,33462,United States,Phone Inquiry,"Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante.",,,561-722-5827,Prospect
+147,Nlounge,70790,7 Havey Drive,Pasadena,California,91117,United States,Phone Inquiry,,6316,Not For Profit,626-337-7508,Other
+148,Twitterbridge,5341141,64879 Mockingbird Lane,San Antonio,Texas,78260,United States,Other,Duis mattis egestas metus.,7891,Communications,830-858-3860,Channel Partner / Reseller
+149,Bubblebox,6901333,57721 Raven Circle,Chicago,Illinois,60624,United States,Web,Duis at velit eu est congue elementum.,,,773-184-2119,Installation Partner
+150,Livepath,7373882,16575 Darwin Lane,Sacramento,California,94207,United States,Other,"Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.",,,916-882-2038,Technology Partner
+151,Tambee,3979261,4 Stuart Place,Colorado Springs,Colorado,80945,United States,Phone Inquiry,,6315,Apparel,719-913-8529,Other
+152,Flashset,7090670,390 Truax Avenue,Memphis,Tennessee,38104,United States,Phone Inquiry,,2760,Food & Beverage,901-685-7470,Customer - Direct
+153,Zoombox,6972058,3104 Chinook Road,Asheville,North Carolina,28805,United States,Purchased List,Curabitur gravida nisi at nibh. In hac habitasse platea dictumst.,,,828-240-4541,Technology Partner
+154,Gabvine,9443806,186 Riverside Court,Oklahoma City,Oklahoma,73152,United States,Phone Inquiry,,6337,Recreation,405-182-6192,Channel Partner / Reseller
+155,Eimbee,7193198,82 Crowley Park,Des Moines,Iowa,50320,United States,Web,Quisque porta volutpat erat.,,,515-881-4775,Customer - Direct
+156,Quaxo,6389870,6237 Granby Trail,Newport Beach,California,92662,United States,Phone Inquiry,,523,Other,714-548-3058,Customer - Channel
+157,Jamia,1509102,67 Beilfuss Point,Jamaica,New York,11480,United States,,Nulla nisl.,1074,Hospitality,718-931-1675,
+158,Eidel,639241,75020 Maryland Park,New Orleans,Louisiana,70149,United States,Purchased List,Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.,5141,Communications,504-369-3289,Customer - Direct
+159,Tagchat,3911894,02134 Golf View Road,Torrance,California,90510,United States,Web,Integer ac neque.,2275,Chemicals,818-418-2722,Customer - Channel
+160,Tagopia,1952435,2 Bartillon Court,Springfield,Massachusetts,01152,United States,,,3691,Shipping,413-343-9251,
+161,Meejo,4575545,87973 Sycamore Terrace,Boulder,Colorado,80328,United States,Other,"Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",9698,Engineering,303-684-8688,Prospect
+162,Jabbersphere,300469,142 Gerald Lane,Oakland,California,94616,United States,Purchased List,,4835,Insurance,415-924-4389,Installation Partner
+163,Leexo,2615022,72412 Northview Park,El Paso,Texas,79916,United States,Web,,7274,Shipping,915-598-1343,Technology Partner
+164,Feednation,2705921,7183 Kenwood Crossing,Los Angeles,California,90030,United States,Other,In congue.,,,213-273-2734,Prospect
+165,Feedspan,217285,2925 Debra Park,El Paso,Texas,79950,United States,Phone Inquiry,,4434,Energy,915-939-5027,Prospect
+166,Mynte,3829006,26 Tennyson Park,Houston,Texas,77223,United States,Purchased List,,9594,Technology,713-428-7532,Customer - Channel
+167,Voolia,7048239,4165 Debs Avenue,Washington,District of Columbia,20057,United States,Purchased List,,398,Biotechnology,202-552-3480,Installation Partner
+168,Jabbersphere,8817085,2975 Lunder Hill,Arlington,Virginia,22244,United States,Purchased List,,,,571-609-1065,Channel Partner / Reseller
+169,Wordtune,2567513,3 David Trail,Charlotte,North Carolina,28220,United States,Phone Inquiry,Vivamus tortor. Duis mattis egestas metus.,,,704-961-0612,Prospect
+170,Muxo,8699701,90273 Crownhardt Junction,Beaumont,Texas,77713,United States,,,4816,Telecommunications,409-363-9509,
+171,Dabjam,2644362,00637 Crest Line Center,Lancaster,Pennsylvania,17605,United States,Partner Referral,Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum.,8242,Electronics,717-654-8322,Installation Partner
+172,Blogtags,9694858,711 Sachs Parkway,Sacramento,California,94230,United States,Purchased List,,,,916-943-8911,Prospect
+173,Twinte,7268072,25 7th Plaza,Akron,Ohio,44329,United States,Other,,9119,Energy,330-510-6551,Installation Partner
+174,Photobean,6971605,61 Spaight Street,North Las Vegas,Nevada,89087,United States,Web,Nulla nisl.,2783,Media,702-952-5517,Customer - Direct
+175,Edgeblab,3875090,79 Dexter Place,Philadelphia,Pennsylvania,19109,United States,Other,Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend.,,,215-310-9708,Prospect
+176,Shuffletag,4740494,222 Tennessee Parkway,Wilmington,North Carolina,28410,United States,,,1972,Construction,910-190-3684,
+177,Gabcube,7220760,1 Vahlen Center,Washington,District of Columbia,20029,United States,Other,,1529,Healthcare,202-286-7840,Technology Partner
+178,Npath,7954524,790 Straubel Hill,Brooklyn,New York,11225,United States,Phone Inquiry,Nunc rhoncus dui vel sem. Sed sagittis.,,,718-734-0475,Channel Partner / Reseller
+179,Meeveo,8307913,10 Fulton Pass,Charleston,South Carolina,29411,United States,Phone Inquiry,,865,Insurance,843-157-9797,Installation Partner
+180,Photolist,1396193,74 Caliangt Parkway,Charlotte,North Carolina,28235,United States,Partner Referral,,5774,Telecommunications,704-897-3890,Installation Partner
+181,Divanoodle,3357209,681 Prairieview Crossing,Marietta,Georgia,30061,United States,Partner Referral,,5755,Hospitality,770-998-6912,Prospect
+182,Yakidoo,8829304,271 Birchwood Lane,Charleston,West Virginia,25313,United States,Purchased List,"Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",,,304-916-8032,Prospect
+183,Minyx,2207626,95279 Fairview Parkway,Charleston,West Virginia,25331,United States,Other,,6937,Not For Profit,304-805-3523,Other
+184,Eidel,8700498,2655 Mitchell Alley,Washington,District of Columbia,20420,United States,Other,Duis at velit eu est congue elementum.,8829,Construction,202-348-7736,Prospect
+185,Cogibox,7824745,94477 Northridge Street,Boise,Idaho,83711,United States,Phone Inquiry,Phasellus sit amet erat.,8424,Electronics,208-878-1157,Prospect
+186,Kazio,6304059,3210 Goodland Avenue,Austin,Texas,78759,United States,,"Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim.",2128,Recreation,512-518-6286,
+187,Flashpoint,5488453,68 Pleasure Center,Los Angeles,California,90065,United States,Phone Inquiry,,3796,Banking,323-387-9175,Customer - Channel
+188,Brightbean,8833670,2 Westport Way,Birmingham,Alabama,35263,United States,Web,"Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis.",6386,Banking,205-225-7251,Customer - Channel
+189,Buzzdog,8476043,92306 Jenifer Street,Madison,Wisconsin,53790,United States,,,8813,Agriculture,608-341-5077,
+190,Vinder,2294014,42 Warrior Parkway,Pueblo,Colorado,81005,United States,Partner Referral,Nulla ac enim.,8424,Government,719-715-9407,Customer - Channel
+191,Photojam,4760596,04 Randy Alley,Shreveport,Louisiana,71115,United States,Purchased List,Integer tincidunt ante vel ipsum.,,,318-948-3756,Installation Partner
+192,Eazzy,2468300,5435 Iowa Crossing,Naples,Florida,33961,United States,Other,"Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",7867,Electronics,305-475-8185,Technology Partner
+193,Zoomdog,7901969,6 Bartelt Parkway,Brooklyn,New York,11241,United States,Purchased List,,7417,Healthcare,347-512-9167,Channel Partner / Reseller
+194,Youbridge,4349262,88 Kipling Place,Alhambra,California,91841,United States,Partner Referral,Sed vel enim sit amet nunc viverra dapibus.,8624,Telecommunications,626-398-5583,Channel Partner / Reseller
+195,Minyx,2993163,4137 Ramsey Center,Memphis,Tennessee,38109,United States,Other,,9603,Media,901-596-2226,Channel Partner / Reseller
+196,Yodoo,2662629,26 Everett Circle,Mobile,Alabama,36628,United States,Other,,,,251-724-1261,Other
+197,Realbridge,3245905,13 Truax Center,Los Angeles,California,90040,United States,Web,,9873,Healthcare,760-169-1351,Customer - Direct
+198,Eayo,4355009,7 Monterey Place,Philadelphia,Pennsylvania,19172,United States,Other,,,,215-922-1539,Customer - Direct
+199,Quatz,5017095,8 Kensington Avenue,Rockford,Illinois,61110,United States,,Ut tellus.,,,815-498-2119,
+200,Fliptune,9257064,1 Artisan Trail,Washington,District of Columbia,20310,United States,,Quisque porta volutpat erat.,1492,Chemicals,202-284-3981,
+201,Janyx,6599769,59917 Onsgard Terrace,Omaha,Nebraska,68105,United States,Web,,5427,Machinery,402-274-8231,Customer - Channel
+202,Quimba,7669483,72 Ohio Plaza,Seattle,Washington,98133,United States,Purchased List,Aliquam erat volutpat. In congue.,6522,Technology,206-721-8663,Installation Partner
+203,Nlounge,8755077,51 Erie Lane,Garden Grove,California,92844,United States,Web,Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus.,,,310-400-7770,Channel Partner / Reseller
+204,Quatz,721703,455 Graceland Lane,Des Moines,Iowa,50335,United States,Partner Referral,,7995,Food & Beverage,515-507-0262,Customer - Channel
+205,Kwilith,5014652,4 Mesta Avenue,Columbus,Ohio,43231,United States,Web,"Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.",8206,Not For Profit,614-244-3679,Technology Partner
+206,Lazz,2875428,40636 Saint Paul Lane,Norfolk,Virginia,23514,United States,Purchased List,,1603,Insurance,757-434-3071,Customer - Channel
+207,Quatz,9639737,73743 8th Crossing,Tampa,Florida,33694,United States,Other,Suspendisse potenti.,2779,Construction,813-848-6178,Customer - Direct
+208,Youtags,1730473,9887 Dakota Circle,Philadelphia,Pennsylvania,19146,United States,Web,Suspendisse accumsan tortor quis turpis.,8912,Technology,215-328-8497,Other
+209,Fivechat,3453807,01 Oak Valley Pass,Springfield,Illinois,62718,United States,Other,Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.,7912,Chemicals,217-749-3928,Technology Partner
+210,Centidel,4500928,5132 Stang Avenue,Cincinnati,Ohio,45218,United States,Web,,2033,Education,513-359-8723,Channel Partner / Reseller
+211,Avavee,6999372,9912 Holy Cross Place,Dayton,Ohio,45426,United States,Purchased List,,8006,Retail,937-410-3018,Customer - Direct
+212,Fliptune,280995,82 Forster Plaza,Cincinnati,Ohio,45249,United States,Purchased List,Vivamus tortor.,,,513-605-6503,Channel Partner / Reseller
+213,Voonte,1224194,1 Morrow Way,Juneau,Alaska,99812,United States,,Donec vitae nisi.,,,907-950-6549,
+214,Edgeblab,6104485,9753 Eastlawn Plaza,Mobile,Alabama,36689,United States,Purchased List,"In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat.",3748,Retail,251-412-6943,Customer - Channel
+215,Jazzy,8679179,0046 Rutledge Parkway,Dallas,Texas,75287,United States,Purchased List,Maecenas pulvinar lobortis est.,5461,Agriculture,469-510-0495,Technology Partner
+216,Ozu,7108144,0 Pearson Road,Omaha,Nebraska,68144,United States,Purchased List,,,,402-736-4988,Technology Partner
+217,Meedoo,8019377,4719 Menomonie Plaza,Washington,District of Columbia,20215,United States,Phone Inquiry,"Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",4234,Chemicals,202-867-1974,Prospect
+218,Gigaclub,6385468,00964 Nelson Pass,Washington,District of Columbia,20220,United States,Purchased List,In hac habitasse platea dictumst.,9046,Machinery,202-506-8377,Other
+219,Avamba,449043,477 East Street,Worcester,Massachusetts,01654,United States,Other,,521,Machinery,508-722-2743,Prospect
+220,Yoveo,9282167,55 Kensington Point,Albany,New York,12227,United States,Purchased List,Fusce consequat.,4805,Healthcare,518-428-8484,Other
+221,Browsecat,9125356,23671 Knutson Street,Naples,Florida,34102,United States,Web,Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.,8016,Education,941-653-7355,Prospect
+222,Chatterbridge,7837422,69 Fieldstone Avenue,Houston,Texas,77055,United States,Web,"Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",6851,Communications,713-578-1787,Other
+223,Agimba,1361530,4 Bellgrove Drive,Philadelphia,Pennsylvania,19196,United States,Purchased List,,3376,Shipping,215-427-6119,Other
+224,Skidoo,2927438,0605 Parkside Junction,Dayton,Ohio,45426,United States,,Nulla nisl.,9694,Education,937-407-0641,
+225,Photojam,3775140,8999 Almo Place,Charlottesville,Virginia,22903,United States,Phone Inquiry,,3717,Not For Profit,434-199-1965,Installation Partner
+226,Demimbu,3309896,4646 Gulseth Park,Kissimmee,Florida,34745,United States,,Etiam justo. Etiam pretium iaculis justo.,,,407-489-4343,
+227,Jamia,5909304,6222 Fair Oaks Pass,Albuquerque,New Mexico,87190,United States,Purchased List,Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.,3312,Recreation,505-610-1751,Technology Partner
+228,Topicblab,913722,83 Algoma Park,Carson City,Nevada,89706,United States,Purchased List,,,,775-940-5458,Channel Partner / Reseller
+229,Kamba,2560047,4 Monument Drive,Shreveport,Louisiana,71151,United States,,,7462,Electronics,318-338-6842,
+230,Mybuzz,8800379,9475 Orin Hill,Memphis,Tennessee,38114,United States,Phone Inquiry,,5252,Chemicals,901-805-6596,Channel Partner / Reseller
+231,Skimia,3479867,8 Golf View Avenue,Milwaukee,Wisconsin,53234,United States,Partner Referral,"Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus.",,,414-714-7749,Customer - Direct
+232,Rhyloo,6425237,4 Dryden Place,Gilbert,Arizona,85297,United States,Other,,281,Retail,480-679-3151,Prospect
+233,Jabbersphere,9402709,0 Duke Parkway,Tucson,Arizona,85710,United States,Partner Referral,,3727,Engineering,520-913-4296,Customer - Direct
+234,Jayo,1889026,68 Thackeray Crossing,Fort Smith,Arkansas,72905,United States,Purchased List,Sed ante. Vivamus tortor.,9891,Banking,479-532-1100,Installation Partner
+235,Skimia,8508218,27369 Portage Trail,Lexington,Kentucky,40546,United States,,Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum.,4485,Food & Beverage,859-361-4992,
+236,Meevee,9140097,935 Fallview Trail,Columbus,Ohio,43204,United States,Purchased List,Donec quis orci eget orci vehicula condimentum.,7812,Transportation,614-183-3057,Technology Partner
+237,Twimbo,1839454,25 La Follette Park,Houston,Texas,77070,United States,Partner Referral,,,,713-506-2955,Customer - Channel
+238,Tambee,51826,1700 Veith Circle,Montgomery,Alabama,36195,United States,Purchased List,,3148,Media,334-108-5618,Other
+239,Realmix,8940399,71 Lyons Place,Pittsburgh,Pennsylvania,15266,United States,Partner Referral,,,,-606-0166,Customer - Channel
+240,Yodoo,9685264,911 High Crossing Hill,Decatur,Illinois,62525,United States,Partner Referral,,139,Education,217-802-3140,Prospect
+241,Jaxbean,5077578,27192 Orin Circle,Tulsa,Oklahoma,74141,United States,,"Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.",688,Hospitality,918-106-4658,
+242,Edgepulse,9230462,51072 Corben Street,Birmingham,Alabama,35279,United States,Purchased List,Ut tellus. Nulla ut erat id mauris vulputate elementum.,2051,Hospitality,205-987-9851,Other
+243,Camimbo,3516343,79411 Shasta Junction,Albuquerque,New Mexico,87121,United States,,,982,Agriculture,505-789-6334,
+244,Gabvine,8592625,586 Swallow Drive,Boulder,Colorado,80310,United States,Other,,1471,Banking,303-325-5513,Technology Partner
+245,Blognation,3247926,2567 Stephen Hill,Kent,Washington,98042,United States,,"In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",,,360-689-0395,
+246,Twitternation,4729266,2735 Magdeline Drive,Salt Lake City,Utah,84105,United States,Phone Inquiry,,56,Entertainment,435-224-3602,Prospect
+247,Photobug,8954309,1 Buhler Pass,Springfield,Missouri,65898,United States,Web,,9399,Environmental,417-684-2466,Other
+248,Meejo,6874270,58494 Esker Lane,Harrisburg,Pennsylvania,17140,United States,Phone Inquiry,,3757,Education,717-167-2191,Installation Partner
+249,Edgeify,9749362,3481 Randy Point,Chandler,Arizona,85246,United States,Other,,6182,Utilities,480-360-0049,Installation Partner
+250,Tagfeed,1050632,1 Arizona Avenue,Shreveport,Louisiana,71130,United States,Purchased List,,9733,Banking,318-789-9943,Technology Partner
+251,Tagpad,7208295,59 Logan Road,Mesa,Arizona,85210,United States,,,638,Engineering,602-548-5063,
+252,Dabshots,5136062,90741 6th Park,Miami,Florida,33175,United States,Phone Inquiry,,,,305-573-8656,Customer - Channel
+253,Katz,8324299,91 Garrison Alley,Boston,Massachusetts,02104,United States,Partner Referral,,,,318-116-8573,Customer - Channel
+254,Realcube,1556989,7 Vidon Place,Rochester,New York,14646,United States,Web,Etiam faucibus cursus urna. Ut tellus.,3586,Transportation,585-900-8644,Customer - Channel
+255,Rooxo,9619149,214 Fisk Crossing,Lake Charles,Louisiana,70607,United States,Web,,,,337-668-6021,Prospect
+256,Jabbertype,5392017,05211 Forster Hill,Grand Rapids,Michigan,49544,United States,Web,,7101,Communications,616-675-6598,Customer - Channel
+257,Photospace,3312232,258 Lunder Street,Newark,Delaware,19714,United States,,,2434,Other,302-808-5689,
+258,Yata,5834689,2 Donald Point,Houston,Texas,77025,United States,Other,,4896,Banking,281-446-7278,Technology Partner
+259,Thoughtstorm,6243697,7754 Montana Avenue,Columbia,South Carolina,29215,United States,Web,Donec dapibus.,1833,Consulting,803-222-2040,Installation Partner
+260,Chatterbridge,951094,045 Dawn Trail,Houston,Texas,77228,United States,Other,,6532,Electronics,713-541-1490,Installation Partner
+261,Wordpedia,1012889,21600 Transport Junction,Florence,South Carolina,29505,United States,Partner Referral,Etiam vel augue.,5407,Finance,843-994-4254,Other
+262,Jazzy,3499150,2 Sundown Trail,Houston,Texas,77020,United States,Partner Referral,,9384,Construction,713-108-2780,Customer - Direct
+263,Gabspot,935993,4 Hovde Parkway,Providence,Rhode Island,02905,United States,Phone Inquiry,"Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti.",,,401-694-0675,Technology Partner
+264,Yotz,6872994,9 Magdeline Road,Pittsburgh,Pennsylvania,15240,United States,Phone Inquiry,,4244,Insurance,412-531-3168,Customer - Channel
+265,Buzzbean,9296804,78830 Sunnyside Parkway,Jeffersonville,Indiana,47134,United States,Purchased List,,5527,Agriculture,812-781-6373,Technology Partner
+266,Jayo,7913011,18797 Mitchell Street,Henderson,Nevada,89012,United States,Phone Inquiry,,9935,Energy,702-515-3247,Channel Partner / Reseller
+267,Jatri,7426961,57 Colorado Drive,Wilmington,Delaware,19810,United States,Web,Pellentesque at nulla.,373,Recreation,302-996-2647,Channel Partner / Reseller
+268,Abata,6388642,4 Delladonna Road,Scranton,Pennsylvania,18505,United States,,,5978,Transportation,570-694-7372,
+269,Wordify,7911305,75955 Hayes Avenue,San Jose,California,95133,United States,Other,"Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.",4935,Chemicals,408-808-5881,Channel Partner / Reseller
+270,Skyndu,7558437,63743 Huxley Point,Metairie,Louisiana,70005,United States,Partner Referral,,8551,Biotechnology,504-764-0467,Installation Partner
+271,Flashpoint,2131670,666 Victoria Point,Houston,Texas,77288,United States,Phone Inquiry,Duis aliquam convallis nunc.,9593,Apparel,713-533-7342,Customer - Channel
+272,Meetz,5165801,8156 Birchwood Place,Evansville,Indiana,47725,United States,Partner Referral,Integer ac neque.,,,812-273-0521,Customer - Direct
+273,Edgeclub,8278185,67 Oneill Road,Laurel,Maryland,20709,United States,Partner Referral,"In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante.",7818,Machinery,410-415-5015,Customer - Channel
+274,Tambee,222541,728 Dovetail Hill,Fairbanks,Alaska,99790,United States,,In hac habitasse platea dictumst.,9474,Machinery,907-696-0460,
+275,Innojam,6249661,71577 Green Drive,Richmond,Virginia,23272,United States,Phone Inquiry,,2842,Entertainment,804-482-8195,Prospect
+276,Divavu,6401002,487 Service Center,Los Angeles,California,90071,United States,Partner Referral,Donec vitae nisi.,6125,Engineering,626-195-9849,Prospect
+277,Youspan,3082177,6563 Northland Road,Abilene,Texas,79605,United States,Purchased List,Proin interdum mauris non ligula pellentesque ultrices.,,,325-548-0791,Other
+278,Wikibox,7146784,8 Corscot Drive,Tampa,Florida,33615,United States,Other,Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat.,8023,Electronics,813-677-7305,Customer - Direct
+279,Divavu,9388730,79 Portage Avenue,Kansas City,Missouri,64144,United States,Other,,6878,Retail,816-137-8547,Installation Partner
+280,Skyble,707004,27 Redwing Place,Fort Worth,Texas,76129,United States,Partner Referral,Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue.,7215,Government,817-912-3424,Customer - Direct
+281,Youbridge,4776451,37 Everett Center,Denver,Colorado,80228,United States,Web,,508,Entertainment,303-756-6482,Other
+282,Topdrive,4777953,8789 Fisk Park,Laredo,Texas,78044,United States,Phone Inquiry,"Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante.",9237,Entertainment,956-218-7449,Other
+283,Kayveo,5684528,6 Paget Drive,Knoxville,Tennessee,37939,United States,Web,"Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",,,865-565-9641,Customer - Direct
+284,Edgewire,1812897,32 Acker Pass,Bakersfield,California,93311,United States,Web,Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat.,,,661-230-1543,Customer - Direct
+285,Viva,9241743,183 Susan Plaza,Orlando,Florida,32854,United States,Partner Referral,Donec dapibus. Duis at velit eu est congue elementum.,222,Engineering,407-896-9793,Prospect
+286,Meevee,5368950,14229 Bowman Street,Philadelphia,Pennsylvania,19136,United States,Other,"Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum.",1423,Communications,215-705-3036,Other
+287,Trilia,723908,2 Ridgeway Court,Orlando,Florida,32885,United States,Purchased List,,94,Biotechnology,407-156-0643,Technology Partner
+288,Jaxnation,5913856,70169 Buell Center,Madison,Wisconsin,53785,United States,,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",,,608-969-7910,
+289,Meemm,8361204,4 Namekagon Park,Tucson,Arizona,85743,United States,Purchased List,Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem.,,,520-354-5892,Channel Partner / Reseller
+290,Livepath,5155865,1640 Ruskin Avenue,Tucson,Arizona,85743,United States,,Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat.,,,520-642-5229,
+291,Dynabox,8607157,478 Thierer Lane,Raleigh,North Carolina,27635,United States,Web,,1743,Shipping,919-602-7811,Technology Partner
+292,Pixonyx,756715,0 Morrow Park,Billings,Montana,59105,United States,Web,,,,406-525-9376,Channel Partner / Reseller
+293,Leenti,3166258,086 John Wall Point,Panama City,Florida,32412,United States,Purchased List,,,,850-545-4703,Channel Partner / Reseller
+294,Shuffledrive,3876015,27408 Fuller Way,Miami,Florida,33164,United States,,Suspendisse potenti. Cras in purus eu magna vulputate luctus.,4998,Education,786-596-2069,
+295,Gigabox,9415008,81 Vidon Drive,Bakersfield,California,93386,United States,Web,,,,661-802-9352,Customer - Channel
+296,Skipstorm,4323888,6065 Lawn Junction,New Orleans,Louisiana,70142,United States,,,4444,Environmental,504-908-5845,
+297,Vidoo,7797825,1833 Morning Circle,Tulsa,Oklahoma,74156,United States,Other,,,,918-943-5090,Channel Partner / Reseller
+298,Skaboo,579434,645 Hagan Street,Mesa,Arizona,85210,United States,,Aliquam non mauris.,8252,Government,928-449-4538,
+299,Livefish,196426,96070 Warbler Parkway,Boca Raton,Florida,33499,United States,Partner Referral,Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum.,3962,Healthcare,561-506-8541,Customer - Direct
+300,Roomm,7260102,878 Messerschmidt Way,Salt Lake City,Utah,84105,United States,Phone Inquiry,,8539,Other,801-586-1963,Other
+301,DabZ,7527924,948 Esch Street,San Jose,California,95155,United States,Purchased List,,,,408-937-5574,Other
+302,Zoonder,8645459,6115 Cardinal Junction,Knoxville,Tennessee,37939,United States,,,,,865-910-3226,
+303,Divanoodle,2901202,007 Orin Park,Richmond,Virginia,23220,United States,Partner Referral,Integer ac leo.,,,804-600-0416,Technology Partner
+304,Devshare,3540572,3 Hansons Hill,Riverside,California,92513,United States,Partner Referral,,,,951-457-4182,Customer - Channel
+305,Browseblab,4863388,483 Mallory Drive,Des Moines,Iowa,50347,United States,,"In est risus, auctor sed, tristique in, tempus sit amet, sem.",1774,Utilities,515-434-6942,
+306,Yakijo,1993780,9 Hermina Way,Fort Lauderdale,Florida,33330,United States,Phone Inquiry,Nullam sit amet turpis elementum ligula vehicula consequat.,3786,Insurance,954-942-5034,Customer - Direct
+307,Leexo,1719410,4 Bunting Terrace,Las Vegas,Nevada,89140,United States,Other,,4230,Construction,702-713-8235,Prospect
+308,Voonyx,6039188,426 Vidon Road,Mount Vernon,New York,10557,United States,Phone Inquiry,,7725,Apparel,914-726-2224,Channel Partner / Reseller
+309,Abatz,9176328,48 Blaine Pass,Fairbanks,Alaska,99709,United States,Phone Inquiry,"Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla.",993,Not For Profit,907-950-4035,Channel Partner / Reseller
+310,Kayveo,9126566,15931 Swallow Center,Bakersfield,California,93311,United States,Phone Inquiry,In congue. Etiam justo.,,,661-732-8746,Customer - Direct
+311,Yadel,5157728,2 Clemons Center,Sterling,Virginia,20167,United States,Other,,,,571-256-5129,Technology Partner
+312,Jabbercube,7118664,11 Memorial Court,Charlotte,North Carolina,28284,United States,Purchased List,,8249,Recreation,704-401-3406,Prospect
+313,Gigabox,7075712,72 Thierer Place,Denver,Colorado,80291,United States,Partner Referral,,3430,Consulting,303-104-3489,Technology Partner
+314,Topiclounge,3803424,1693 Weeping Birch Alley,Oklahoma City,Oklahoma,73179,United States,Purchased List,Fusce posuere felis sed lacus.,,,405-925-9091,Customer - Channel
+315,Photofeed,6407935,8 Southridge Junction,Paterson,New Jersey,07522,United States,Purchased List,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",5475,Government,973-297-4194,Installation Partner
+316,Vinder,8800779,88 Kingsford Lane,Jacksonville,Florida,32230,United States,Other,,,,904-513-9536,Prospect
+317,Youopia,4966243,397 Wayridge Lane,Kansas City,Missouri,64179,United States,,,7660,Engineering,816-936-8920,
+318,Blogspan,5914333,99505 Melody Center,Rochester,New York,14604,United States,,Nulla suscipit ligula in lacus.,4112,Finance,585-601-2477,
+319,Riffwire,6251898,5341 8th Court,Hayward,California,94544,United States,Partner Referral,Vivamus in felis eu sapien cursus vestibulum. Proin eu mi.,5703,Insurance,925-503-6657,Channel Partner / Reseller
+320,Agimba,282963,593 Rutledge Park,Loretto,Minnesota,55598,United States,Purchased List,"Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla.",,,763-655-4577,Other
+321,Trupe,6910079,94 Chive Way,Jacksonville,Florida,32220,United States,Phone Inquiry,,,,904-120-2167,Prospect
+322,Yakidoo,5812852,1576 Merry Park,Columbia,South Carolina,29225,United States,Phone Inquiry,,8710,Retail,803-442-3377,Customer - Channel
+323,Trudoo,4055574,8 Mcbride Street,Mobile,Alabama,36610,United States,,,7781,Communications,251-894-9007,
+324,Aimbo,8615283,930 Hagan Trail,New York City,New York,10160,United States,Other,Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.,6996,Engineering,212-179-0512,Installation Partner
+325,Skippad,3997343,87232 Banding Lane,Apache Junction,Arizona,85219,United States,Phone Inquiry,,2537,Education,480-271-4781,Installation Partner
+326,Feednation,8235563,34348 Anhalt Alley,Norcross,Georgia,30092,United States,Phone Inquiry,Proin risus. Praesent lectus.,,,678-111-4534,Technology Partner
+327,Skipstorm,541568,7 Londonderry Court,Chattanooga,Tennessee,37416,United States,Web,Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.,,,423-625-6112,Installation Partner
+328,Voonyx,9966373,589 Hollow Ridge Point,Denver,Colorado,80241,United States,Phone Inquiry,,4053,Government,303-781-9517,Installation Partner
+329,Eayo,2207843,110 7th Trail,Des Moines,Iowa,50315,United States,,Praesent blandit lacinia erat.,1161,Recreation,641-575-0749,
+330,Twitterworks,7487131,52 Kensington Place,Tampa,Florida,33625,United States,Web,,3351,Transportation,813-530-2605,Customer - Direct
+331,Mynte,7532950,83 Haas Center,Riverside,California,92513,United States,Partner Referral,,,,951-361-4009,Prospect
+332,Oyoba,2510062,71603 Cody Junction,Richmond,Virginia,23260,United States,Other,Integer a nibh. In quis justo.,2574,Construction,804-208-0804,Customer - Direct
+333,Youtags,659249,8793 Melby Plaza,Peoria,Illinois,61640,United States,Partner Referral,Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum.,5352,Recreation,309-131-2355,Technology Partner
+334,Wordify,4692191,8617 Scoville Point,San Jose,California,95173,United States,Other,,9262,Shipping,408-822-4206,Installation Partner
+335,Skilith,4658106,78402 Northport Circle,Canton,Ohio,44705,United States,,Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat.,7148,Finance,330-726-5995,
+336,Jabbersphere,7512983,89 Susan Terrace,Springfield,Illinois,62776,United States,Other,,6065,Entertainment,217-184-2358,Other
+337,Kaymbo,3217935,90 Schiller Street,Corpus Christi,Texas,78405,United States,Purchased List,Fusce consequat. Nulla nisl.,3828,Energy,361-496-8707,Customer - Channel
+338,Gabspot,5086923,76 Ramsey Lane,Newton,Massachusetts,02458,United States,Partner Referral,,341,Apparel,617-550-8785,Other
+339,Realmix,4760058,76 Columbus Trail,Oklahoma City,Oklahoma,73129,United States,Web,,,,405-492-8632,Technology Partner
+340,Dabjam,7581756,08988 Maple Wood Plaza,El Paso,Texas,79916,United States,Purchased List,Morbi non lectus.,6211,Environmental,915-989-8921,Customer - Channel
+341,Riffwire,841395,47 Schiller Avenue,Saint Louis,Missouri,63169,United States,,Pellentesque viverra pede ac diam.,8609,Healthcare,314-663-7314,
+342,Browsedrive,7692345,8628 Caliangt Lane,Washington,District of Columbia,20016,United States,Other,,9418,Manufacturing,703-161-7975,Customer - Channel
+343,Divape,9065762,833 Corscot Plaza,Louisville,Kentucky,40210,United States,Other,"Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.",,,502-871-9206,Other
+344,Twitterlist,2110018,886 Del Sol Way,Zephyrhills,Florida,33543,United States,,In hac habitasse platea dictumst. Etiam faucibus cursus urna.,,,813-102-2254,
+345,Rhycero,5424519,13 Springview Crossing,Milwaukee,Wisconsin,53210,United States,Web,,,,414-438-9087,Channel Partner / Reseller
+346,Gevee,9988092,18 Kings Circle,Bloomington,Illinois,61709,United States,Other,,5495,Technology,309-155-6370,Customer - Direct
+347,Rhyzio,7952770,0899 Lillian Road,Saint Cloud,Minnesota,56372,United States,,,4385,Transportation,320-428-1452,
+348,Twitterwire,8953670,390 Ruskin Street,Albany,New York,12205,United States,Phone Inquiry,In sagittis dui vel nisl.,3965,Biotechnology,518-129-3295,Customer - Direct
+349,Skyble,389481,4 Bartillon Trail,Scranton,Pennsylvania,18505,United States,,,6306,Food & Beverage,570-549-6248,
+350,Npath,5056256,1 Charing Cross Road,Trenton,New Jersey,08650,United States,Phone Inquiry,Curabitur gravida nisi at nibh. In hac habitasse platea dictumst.,6488,Hospitality,609-854-9851,Channel Partner / Reseller
+351,Brightbean,1260002,1196 Walton Street,Round Rock,Texas,78682,United States,Phone Inquiry,"Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.",5637,Technology,512-610-3314,Other
+352,Skimia,5965197,0 Thompson Trail,Oklahoma City,Oklahoma,73179,United States,Purchased List,Cras in purus eu magna vulputate luctus.,5296,Healthcare,405-816-2332,Prospect
+353,Quatz,665674,6 6th Hill,Shawnee Mission,Kansas,66215,United States,,,,,913-437-0243,
+354,Midel,8231450,0261 Continental Pass,Saint Louis,Missouri,63110,United States,Web,,,,314-822-4368,Customer - Direct
+355,Devpulse,1530496,87819 Buell Crossing,Lubbock,Texas,79452,United States,Purchased List,Sed accumsan felis.,1928,Banking,806-823-7084,Installation Partner
+356,Skiba,2747815,304 6th Hill,Salt Lake City,Utah,84199,United States,Partner Referral,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.,6699,Utilities,801-603-0081,Other
+357,Avaveo,9942196,67898 Express Alley,Clearwater,Florida,34629,United States,Partner Referral,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",9170,Consulting,727-223-9381,Customer - Channel
+358,Avavee,6063001,99396 Warbler Circle,San Jose,California,95128,United States,Phone Inquiry,,5068,Other,714-701-7686,Customer - Direct
+359,Edgeify,4568615,17078 Miller Pass,Madison,Wisconsin,53710,United States,Other,Phasellus in felis.,2794,Construction,608-826-3243,Prospect
+360,Quatz,2064375,488 Mockingbird Point,Modesto,California,95354,United States,Partner Referral,,8773,Chemicals,559-818-6982,Other
+361,Cogibox,6329535,7 Brentwood Hill,Des Moines,Iowa,50347,United States,Purchased List,,,,515-402-2995,Installation Partner
+362,DabZ,9066108,3 Dovetail Junction,Jersey City,New Jersey,07310,United States,Other,,,,201-618-9712,Technology Partner
+363,Feedfish,6490882,65115 Porter Circle,Fort Wayne,Indiana,46896,United States,Web,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien.",8542,Technology,260-775-8317,Prospect
+364,Ainyx,2646996,24 Oneill Place,San Diego,California,92105,United States,Web,,,,619-141-2923,Customer - Channel
+365,Gabtune,6910959,77963 Fremont Parkway,Nashville,Tennessee,37250,United States,Other,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.,1867,Food & Beverage,615-672-7139,Customer - Direct
+366,Shufflester,2930586,27 Brickson Park Street,New York City,New York,10175,United States,,,544,Hospitality,212-489-5000,
+367,Flipopia,2394668,1 Manley Junction,Largo,Florida,34643,United States,,,,,727-472-0692,
+368,Babbleblab,9418684,0 Graceland Terrace,Shawnee Mission,Kansas,66205,United States,Partner Referral,Mauris sit amet eros.,4681,Insurance,913-324-2757,Technology Partner
+369,Meejo,1328780,355 Leroy Road,Seattle,Washington,98175,United States,,Donec dapibus.,2622,Technology,206-272-0219,
+370,Divanoodle,9068133,00 Iowa Parkway,Washington,District of Columbia,20036,United States,Other,,,,202-956-8846,Customer - Direct
+371,Gigaclub,7482615,81968 Westport Parkway,Brooklyn,New York,11210,United States,,"In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc.",,,347-886-4041,
+372,Pixoboo,6729113,7 Esker Point,Madison,Wisconsin,53790,United States,,Quisque ut erat. Curabitur gravida nisi at nibh.,,,608-718-8453,
+373,Flipstorm,3644653,0179 Morrow Crossing,Duluth,Georgia,30096,United States,Partner Referral,,1346,Healthcare,404-152-8784,Technology Partner
+374,Jaxnation,4191761,5557 Manufacturers Center,Knoxville,Tennessee,37914,United States,Other,,2915,Insurance,865-582-6837,Channel Partner / Reseller
+375,Edgewire,2863895,27505 Forest Run Terrace,Denver,Colorado,80262,United States,,Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat.,,,303-733-7168,
+376,Blogtag,2577903,85491 Toban Way,Inglewood,California,90305,United States,Partner Referral,Curabitur gravida nisi at nibh. In hac habitasse platea dictumst.,181,Electronics,310-922-1089,Other
+377,Topiclounge,3320018,91 Graedel Parkway,Staten Island,New York,10310,United States,Purchased List,,5244,Electronics,914-264-0799,Customer - Channel
+378,Youtags,2838305,4154 Bowman Parkway,Saint Louis,Missouri,63126,United States,Other,Curabitur convallis.,,,314-667-7308,Customer - Direct
+379,Voonte,7665491,037 Westend Lane,El Paso,Texas,88519,United States,Other,,8647,Finance,915-396-7440,Customer - Channel
+380,Einti,2738332,1048 Stoughton Lane,Decatur,Georgia,30089,United States,Partner Referral,"Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",,,770-394-2442,Installation Partner
+381,Jaxworks,4322053,8161 Hudson Point,Clearwater,Florida,34615,United States,Partner Referral,,4603,Electronics,727-473-2333,Prospect
+382,Meejo,6763690,33669 Grim Trail,Phoenix,Arizona,85015,United States,Web,Nullam molestie nibh in lectus.,8622,Transportation,623-495-5718,Customer - Direct
+383,Leexo,9864165,865 Hayes Park,Oklahoma City,Oklahoma,73173,United States,Other,,,,405-147-9946,Installation Partner
+384,Devbug,2322679,212 Mccormick Center,Fort Lauderdale,Florida,33330,United States,Purchased List,"Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",3633,Retail,954-599-0353,Prospect
+385,Plajo,9722008,2 Kedzie Way,Montgomery,Alabama,36119,United States,Partner Referral,"Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus.",2080,Banking,334-723-3243,Technology Partner
+386,Midel,8900940,47476 Clemons Road,Houston,Texas,77060,United States,,,,,713-717-3523,
+387,Zoomdog,3901984,7720 Jenifer Court,Albany,New York,12205,United States,Purchased List,,4064,Shipping,518-986-5611,Customer - Channel
+388,Rooxo,8188915,355 Bonner Terrace,Spokane,Washington,99215,United States,Phone Inquiry,Morbi vel lectus in quam fringilla rhoncus.,,,509-768-4321,Other
+389,Twitterbeat,9559042,5 Melrose Trail,Burbank,California,91520,United States,Web,,9615,Healthcare,626-555-6804,Technology Partner
+390,Wordify,4332862,75 School Way,Arlington,Virginia,22225,United States,Web,Suspendisse potenti. Cras in purus eu magna vulputate luctus.,,,571-732-6593,Other
+391,Twitterlist,9571958,23 Shoshone Hill,Memphis,Tennessee,38109,United States,,,6025,Technology,901-528-7643,
+392,Buzzdog,4758472,215 Steensland Parkway,Colorado Springs,Colorado,80951,United States,Phone Inquiry,Etiam faucibus cursus urna. Ut tellus.,7894,Hospitality,719-589-6757,Other
+393,Oloo,1328894,936 Beilfuss Junction,Oklahoma City,Oklahoma,73179,United States,Web,,241,Construction,405-713-6146,Customer - Channel
+394,Skyvu,1247495,886 Hudson Circle,Tulsa,Oklahoma,74126,United States,Purchased List,,6154,Education,918-714-6226,Prospect
+395,Leenti,7138006,2 Miller Court,Buffalo,New York,14215,United States,Purchased List,Curabitur at ipsum ac tellus semper interdum.,,,716-841-0118,Prospect
+396,Gabtune,2552513,54 Corben Park,Bronx,New York,10469,United States,Other,,4726,Retail,718-113-7650,Prospect
+397,Flipbug,6865909,9 Buhler Park,Pasadena,California,91103,United States,Other,Pellentesque viverra pede ac diam.,,,323-135-2134,Customer - Direct
+398,Centidel,7273328,85 Esch Road,Richmond,Virginia,23260,United States,Partner Referral,,,,804-969-8621,Technology Partner
+399,Fivebridge,5827796,77 Sachtjen Circle,Birmingham,Alabama,35205,United States,Other,In hac habitasse platea dictumst.,,,205-705-5695,Other
+400,Fliptune,9196610,12 Mockingbird Lane,Charleston,West Virginia,25362,United States,Web,,3655,Transportation,304-811-5799,Customer - Direct
+401,Blogtag,3521281,0 Maple Circle,San Antonio,Texas,78230,United States,,,5957,Machinery,210-192-5264,
+402,Centimia,4121005,71 Dwight Terrace,Lincoln,Nebraska,68531,United States,Partner Referral,Proin interdum mauris non ligula pellentesque ultrices.,,,402-995-7676,Customer - Channel
+403,Nlounge,4633668,2984 Browning Terrace,Mount Vernon,New York,10557,United States,Partner Referral,,5135,Insurance,914-778-6255,Installation Partner
+404,Flipstorm,6115283,5991 Derek Street,Baltimore,Maryland,21203,United States,Other,Ut tellus. Nulla ut erat id mauris vulputate elementum.,6257,Other,410-821-2588,Installation Partner
+405,Browsecat,4319618,3891 Stang Drive,Atlanta,Georgia,31196,United States,,Donec semper sapien a libero. Nam dui.,,,404-569-6729,
+406,Divanoodle,6610216,72368 Rusk Terrace,Salt Lake City,Utah,84105,United States,Web,,6201,Insurance,801-884-8652,Technology Partner
+407,Tekfly,7834299,8249 Gulseth Center,Winston Salem,North Carolina,27116,United States,,"In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc.",8145,Healthcare,336-406-7602,
+408,Zoovu,3178970,44 Utah Hill,Pittsburgh,Pennsylvania,15230,United States,Web,"Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",8089,Communications,412-409-3872,Prospect
+409,Yadel,5422820,38687 International Terrace,Bellevue,Washington,98008,United States,Phone Inquiry,,5728,Engineering,425-540-3792,Technology Partner
+410,Geba,4631229,91 Transport Street,Atlanta,Georgia,30336,United States,Other,"In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc.",8401,Recreation,404-699-2560,Other
+411,Oyope,1597714,0 Dottie Street,Baltimore,Maryland,21281,United States,Purchased List,"Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",6882,Utilities,410-372-9344,Installation Partner
+412,Eidel,4200349,63 Hoard Hill,Memphis,Tennessee,38150,United States,Phone Inquiry,,,,901-796-8254,Prospect
+413,Eabox,4817644,573 Autumn Leaf Terrace,Charlotte,North Carolina,28225,United States,Partner Referral,Integer a nibh.,5556,Banking,704-953-0019,Other
+414,Tagopia,4704137,47 Jenifer Court,Conroe,Texas,77305,United States,Purchased List,Nulla mollis molestie lorem.,,,936-403-5807,Customer - Direct
+415,Voolia,8037491,8330 New Castle Plaza,Toledo,Ohio,43699,United States,Web,"Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",1364,Entertainment,419-489-0091,Channel Partner / Reseller
+416,Photojam,9156070,05 Basil Park,Dallas,Texas,75260,United States,,Donec dapibus. Duis at velit eu est congue elementum.,5984,Insurance,214-960-4455,
+417,Feedmix,8618606,8027 Sunnyside Circle,Saint Petersburg,Florida,33742,United States,Purchased List,,,,727-840-3378,Other
+418,Thoughtbeat,556220,486 Nova Junction,Long Beach,California,90831,United States,Other,,6454,Transportation,562-141-6639,Channel Partner / Reseller
+419,Brainlounge,3699187,9189 Corben Street,Cedar Rapids,Iowa,52405,United States,Web,,2290,Transportation,319-898-3104,Installation Partner
+420,Talane,1446057,9102 Goodland Pass,Decatur,Illinois,62525,United States,Other,,,,217-386-2164,Prospect
+421,Oyoloo,4299995,72231 Toban Park,Houston,Texas,77299,United States,Web,"Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.",1523,Other,713-711-4966,Technology Partner
+422,Zooveo,3055019,74 Cottonwood Junction,Kansas City,Missouri,64199,United States,Web,,1197,Media,816-144-6835,Channel Partner / Reseller
+423,Ntags,9286523,9209 Nobel Center,West Palm Beach,Florida,33405,United States,Partner Referral,Donec semper sapien a libero.,4047,Manufacturing,772-767-1601,Technology Partner
+424,Jayo,7621025,7786 Commercial Avenue,Sacramento,California,95818,United States,Web,,1242,Communications,530-867-6560,Other
+425,Linkbridge,2121140,9 Derek Hill,Tulsa,Oklahoma,74193,United States,Other,,3795,Agriculture,918-486-2691,Other
+426,Zoozzy,8841754,03 Amoth Court,Brockton,Massachusetts,02305,United States,Partner Referral,"Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",6712,Manufacturing,508-942-9972,Prospect
+427,Lazzy,6240591,42379 7th Alley,Birmingham,Alabama,35242,United States,Partner Referral,Donec ut mauris eget massa tempor convallis.,959,Entertainment,205-470-4663,Other
+428,Teklist,1560847,1 Clyde Gallagher Center,Washington,District of Columbia,20220,United States,Purchased List,,692,Not For Profit,202-903-0693,Prospect
+429,Buzzdog,2764981,98 Charing Cross Place,Boston,Massachusetts,02283,United States,Partner Referral,,4631,Other,617-934-5306,Channel Partner / Reseller
+430,Twitterworks,9102680,8 Iowa Circle,Akron,Ohio,44315,United States,Other,"Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.",,,330-799-5679,Customer - Channel
+431,Bubblemix,4031894,9 Little Fleur Way,Hayward,California,94544,United States,Web,Ut tellus.,8018,Healthcare,415-503-4345,Installation Partner
+432,Quatz,9130565,68535 Jana Trail,Dallas,Texas,75221,United States,,"Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",4271,Entertainment,214-691-0830,
+433,Centizu,2299328,70 Orin Place,North Hollywood,California,91606,United States,Partner Referral,,6883,Consulting,818-537-5430,Customer - Channel
+434,Minyx,5138931,0 Carioca Terrace,Clearwater,Florida,34620,United States,Purchased List,Suspendisse potenti. Cras in purus eu magna vulputate luctus.,8471,Consulting,727-935-7195,Other
+435,Brainlounge,8656084,5864 Derek Lane,Minneapolis,Minnesota,55428,United States,Phone Inquiry,"Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam.",3740,Entertainment,763-432-7329,Installation Partner
+436,Agivu,9051753,69498 Monument Trail,Dallas,Texas,75236,United States,Web,Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.,9850,Electronics,469-692-0137,Technology Partner
+437,Brightbean,8763563,68 Cherokee Terrace,Hampton,Virginia,23668,United States,,,6662,Telecommunications,757-824-6958,
+438,Twitterlist,2592405,7 Amoth Trail,Punta Gorda,Florida,33982,United States,,"Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.",5051,Manufacturing,941-917-1673,
+439,Oodoo,2942776,350 Lakewood Gardens Street,Rochester,New York,14683,United States,,,2218,Not For Profit,585-262-9366,
+440,Trunyx,4719159,9 Stoughton Point,Roanoke,Virginia,24029,United States,,,,,540-354-3920,
+441,Linkbridge,3628024,5538 Russell Street,Cedar Rapids,Iowa,52405,United States,Partner Referral,Donec dapibus. Duis at velit eu est congue elementum.,2033,Banking,319-414-7895,Other
+442,Thoughtbeat,6579493,398 West Crossing,Roanoke,Virginia,24009,United States,Web,Nullam molestie nibh in lectus.,9855,Education,540-417-9180,Technology Partner
+443,Avavee,9071476,6032 Petterle Parkway,Richmond,Virginia,23285,United States,Web,,5102,Engineering,804-869-4318,Installation Partner
+444,Agivu,2557355,62024 Village Green Trail,Corona,California,92883,United States,Phone Inquiry,Donec vitae nisi.,3498,Education,626-277-5501,Customer - Direct
+445,Divanoodle,4769230,5 Lawn Hill,Dayton,Ohio,45454,United States,,Praesent lectus.,8325,Manufacturing,937-609-7042,
+446,Skynoodle,5975607,263 Mayer Park,Little Rock,Arkansas,72209,United States,Web,,5321,Telecommunications,501-723-2242,Installation Partner
+447,Zazio,5147720,327 Independence Road,Salt Lake City,Utah,84170,United States,,,341,Insurance,801-147-8262,
+448,Jabbercube,4506262,768 Pepper Wood Junction,Norfolk,Virginia,23551,United States,Web,,,,757-936-6794,Installation Partner
+449,Miboo,6568607,604 Macpherson Point,Washington,District of Columbia,20599,United States,,,2648,Telecommunications,202-232-4169,
+450,Flashdog,6477990,5658 Red Cloud Pass,Washington,District of Columbia,20244,United States,Partner Referral,Curabitur gravida nisi at nibh.,,,202-566-8345,Customer - Direct
+451,Feedbug,7420242,63 Arkansas Circle,Canton,Ohio,44760,United States,Web,,9405,Food & Beverage,330-516-3443,Channel Partner / Reseller
+452,Omba,5794277,02 Barnett Pass,Sacramento,California,95894,United States,Purchased List,"Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",5250,Telecommunications,916-797-2811,Technology Partner
+453,Izio,5202150,0657 Pennsylvania Center,Virginia Beach,Virginia,23464,United States,Purchased List,,3687,Agriculture,757-872-1733,Installation Partner
+454,Twitterworks,2362676,1 Jenifer Crossing,Milwaukee,Wisconsin,53277,United States,Partner Referral,Phasellus in felis.,2982,Shipping,414-675-9901,Customer - Channel
+455,Youfeed,2886193,5 Center Crossing,Lansing,Michigan,48919,United States,,,6554,Biotechnology,517-896-8499,
+456,Izio,6036616,433 Dennis Terrace,Pensacola,Florida,32526,United States,Purchased List,Fusce consequat. Nulla nisl.,891,Agriculture,850-598-3952,Prospect
+457,Nlounge,2841361,2 South Street,Pasadena,California,91103,United States,Partner Referral,,3060,Manufacturing,626-521-5410,Customer - Channel
+458,Dabvine,4433869,52259 Lighthouse Bay Hill,Cleveland,Ohio,44111,United States,Web,Vivamus in felis eu sapien cursus vestibulum.,1012,Agriculture,216-691-0373,Customer - Direct
+459,Oyoba,8295790,63562 Straubel Place,Roanoke,Virginia,24034,United States,,,6074,Agriculture,540-514-7436,
+460,Youopia,8603990,9680 Cody Place,Great Neck,New York,11024,United States,Partner Referral,"Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.",4545,Telecommunications,516-550-1175,Technology Partner
+461,Devpulse,7607700,530 Thackeray Hill,Fayetteville,North Carolina,28314,United States,,,1347,Agriculture,910-470-1216,
+462,Layo,1334589,37128 Dryden Street,Monroe,Louisiana,71208,United States,Phone Inquiry,,8849,Shipping,318-548-6931,Customer - Channel
+463,Buzzdog,9210784,83643 Clove Terrace,Sacramento,California,94245,United States,Partner Referral,Maecenas ut massa quis augue luctus tincidunt.,6434,Entertainment,916-231-9799,Customer - Channel
+464,Flipbug,5679472,55 Summit Lane,Cleveland,Ohio,44185,United States,Partner Referral,Nullam varius. Nulla facilisi.,1028,Telecommunications,216-634-9317,Prospect
+465,Kwimbee,952637,598 Fuller Park,Corpus Christi,Texas,78405,United States,Phone Inquiry,In eleifend quam a odio. In hac habitasse platea dictumst.,978,Retail,361-559-1556,Prospect
+466,Yacero,9793809,247 Atwood Alley,Jefferson City,Missouri,65110,United States,Web,Etiam pretium iaculis justo. In hac habitasse platea dictumst.,,,573-950-0854,Installation Partner
+467,Wikizz,1099648,8 Kinsman Park,Shawnee Mission,Kansas,66205,United States,,,3459,Healthcare,913-799-9549,
+468,Fiveclub,3668482,90 Nevada Way,Nashville,Tennessee,37228,United States,,Proin interdum mauris non ligula pellentesque ultrices.,1510,Energy,615-234-1301,
+469,Ozu,1961744,1191 Almo Avenue,Daytona Beach,Florida,32123,United States,Partner Referral,"Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci.",,,386-249-1854,Customer - Channel
+470,Roodel,8431964,860 Holy Cross Trail,Virginia Beach,Virginia,23459,United States,Phone Inquiry,"Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.",3248,Not For Profit,757-798-2900,Installation Partner
+471,Zoombeat,9476404,056 Mifflin Center,Charlotte,North Carolina,28242,United States,Other,,,,704-418-9781,Prospect
+472,Yodel,9745712,9 Novick Hill,Topeka,Kansas,66642,United States,Phone Inquiry,Proin at turpis a pede posuere nonummy. Integer non velit.,5898,Banking,785-664-1993,Technology Partner
+473,Lajo,2092342,22135 Anderson Circle,Orlando,Florida,32819,United States,Web,Pellentesque at nulla. Suspendisse potenti.,,,321-867-1607,Installation Partner
+474,Kwimbee,7909886,0107 Sheridan Terrace,Las Vegas,Nevada,89130,United States,Partner Referral,Maecenas pulvinar lobortis est.,7856,Electronics,702-819-0497,Technology Partner
+475,Youspan,907332,1178 Kings Circle,Washington,District of Columbia,20520,United States,Purchased List,"Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio.",,,202-776-1358,Channel Partner / Reseller
+476,Meeveo,5533053,85531 Drewry Avenue,Kansas City,Missouri,64114,United States,Web,,,,816-987-1977,Other
+477,Twinte,1280211,15695 Marquette Junction,Arlington,Virginia,22225,United States,Web,Praesent lectus.,8986,Healthcare,571-232-8123,Other
+478,Ainyx,4727351,99 Eggendart Trail,Champaign,Illinois,61825,United States,Purchased List,,6613,Insurance,217-788-5788,Installation Partner
+479,Digitube,8319261,11 Marquette Place,Washington,District of Columbia,20022,United States,,,,,202-501-9235,
+480,Brightbean,5245294,2 Harbort Trail,Stockton,California,95219,United States,Web,"Proin leo odio, porttitor id, consequat in, consequat ut, nulla.",5159,Machinery,209-694-8899,Installation Partner
+481,Innotype,700187,6631 Talmadge Circle,Chicago,Illinois,60652,United States,Other,,194,Finance,312-129-6265,Channel Partner / Reseller
+482,Twiyo,1663980,80 Hayes Alley,Phoenix,Arizona,85053,United States,,Curabitur gravida nisi at nibh. In hac habitasse platea dictumst.,3983,Government,602-339-9993,
+483,Divavu,3013326,6 High Crossing Trail,Fresno,California,93773,United States,Purchased List,Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.,327,Machinery,559-731-5657,Prospect
+484,Babbleset,4923981,1674 Dawn Point,Buffalo,New York,14220,United States,Purchased List,"Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.",,,716-324-1526,Customer - Channel
+485,Buzzshare,4015469,9 Dovetail Drive,Lincoln,Nebraska,68505,United States,,,,,402-128-6496,
+486,Aimbo,7831185,69 Fairfield Drive,Syracuse,New York,13251,United States,Partner Referral,Quisque id justo sit amet sapien dignissim vestibulum.,,,315-718-0906,Prospect
+487,Skippad,2145175,29433 Mariners Cove Pass,Salt Lake City,Utah,84125,United States,,"Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",8315,Insurance,801-618-6690,
+488,Edgeify,720386,95202 Hazelcrest Plaza,Lake Charles,Louisiana,70616,United States,Partner Referral,Curabitur at ipsum ac tellus semper interdum.,,,337-458-0853,Installation Partner
+489,Yodo,6817179,98 Chive Alley,Des Moines,Iowa,50330,United States,,Integer a nibh.,9421,Other,515-244-1836,
+490,Voonix,6556885,31603 Southridge Way,Fort Lauderdale,Florida,33315,United States,Web,,3534,Entertainment,954-881-5663,Other
+491,Eabox,4024224,19672 Butterfield Drive,Louisville,Kentucky,40210,United States,Partner Referral,,9176,Retail,502-948-2099,Other
+492,Mynte,1911862,0 Forster Court,Corpus Christi,Texas,78405,United States,Other,Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat.,9163,Biotechnology,361-982-3829,Installation Partner
+493,Dabshots,523119,6 Steensland Alley,Honolulu,Hawaii,96835,United States,Web,Vivamus tortor.,5771,Biotechnology,808-360-4520,Customer - Channel
+494,Dabfeed,1346371,67 Center Street,Albany,New York,12227,United States,,,6267,Transportation,518-118-4739,
+495,Rhybox,9705559,05 Boyd Center,Phoenix,Arizona,85030,United States,Web,"Vestibulum quam sapien, varius ut, blandit non, interdum in, ante.",5147,Food & Beverage,602-628-3160,Customer - Channel
+496,Kimia,1500599,8760 La Follette Terrace,Dayton,Ohio,45454,United States,,,2447,Education,937-592-0913,
+497,Yozio,1986482,054 Kedzie Alley,Houston,Texas,77276,United States,Purchased List,"Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",6640,Chemicals,713-138-1751,Technology Partner
+498,Skinder,5727360,935 Loftsgordon Hill,Portsmouth,New Hampshire,03804,United States,,Morbi ut odio.,,,603-386-9103,
+499,Mynte,4715801,1 Maple Point,Honolulu,Hawaii,96820,United States,Web,,21,Hospitality,808-637-8480,Prospect
+500,Oodoo,3008709,5 Killdeer Trail,El Paso,Texas,88579,United States,Purchased List,Nullam sit amet turpis elementum ligula vehicula consequat.,2145,Utilities,915-591-7748,Installation Partner
+501,Youfeed,7095735,5004 Brickson Park Alley,San Diego,California,92196,United States,Other,Aenean sit amet justo.,,,619-483-8589,Customer - Direct
+502,Skyvu,6269947,77 Haas Avenue,Bellevue,Washington,98008,United States,Partner Referral,,9512,Agriculture,206-480-4914,Prospect
+503,Browsetype,899646,497 Larry Pass,Hartford,Connecticut,06152,United States,,,,,860-281-6904,
+504,Gabtune,916585,311 Kinsman Trail,Denver,Colorado,80270,United States,,Duis bibendum. Morbi non quam nec dui luctus rutrum.,,,303-306-9121,
+505,Tagtune,8857092,27 Bowman Drive,Columbus,Ohio,43204,United States,Purchased List,"Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",1043,Hospitality,614-929-5768,Other
+506,Trunyx,6386560,39872 Florence Pass,Atlanta,Georgia,30380,United States,Phone Inquiry,,945,Communications,404-704-3015,Customer - Channel
+507,Skaboo,4904247,571 Hollow Ridge Park,Wichita,Kansas,67215,United States,Purchased List,,7137,Machinery,316-568-7688,Other
+508,Centimia,7930482,320 Kipling Lane,Naples,Florida,34108,United States,Purchased List,,7920,Construction,239-208-6945,Customer - Direct
+509,Oyoloo,3204003,4 Clarendon Way,Atlanta,Georgia,30351,United States,,,,,404-957-0489,
+510,Thoughtsphere,2529455,23 Porter Hill,Greenville,South Carolina,29610,United States,,Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet.,5918,Technology,864-613-7485,
+511,Zoovu,1876247,46 Moland Terrace,Whittier,California,90605,United States,Phone Inquiry,"Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus.",,,562-201-5397,Customer - Direct
+512,Devpulse,1446187,72675 Westridge Point,San Jose,California,95108,United States,,Aenean sit amet justo. Morbi ut odio.,,,408-475-5604,
+513,Thoughtstorm,6708960,96170 Macpherson Way,Madison,Wisconsin,53790,United States,Purchased List,,5969,Electronics,608-404-3067,Technology Partner
+514,Photospace,1123110,10 Vidon Road,Houston,Texas,77040,United States,Web,,8264,Transportation,832-240-4034,Channel Partner / Reseller
+515,Thoughtworks,5389285,4 Harper Parkway,Richmond,Virginia,23220,United States,Partner Referral,"Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.",1643,Construction,804-980-4526,Technology Partner
+516,Skyvu,1795965,75 Sage Circle,El Paso,Texas,79928,United States,,Suspendisse potenti.,1328,Transportation,915-552-3626,
+517,Topicware,7618015,52 Prairie Rose Lane,San Bernardino,California,92415,United States,Purchased List,,,,760-323-4845,Channel Partner / Reseller
+518,Jabbertype,4673089,9015 Hoffman Road,Southfield,Michigan,48076,United States,Other,Duis consequat dui nec nisi volutpat eleifend.,4291,Transportation,248-349-0073,Customer - Channel
+519,Oozz,1127010,81067 Blue Bill Park Avenue,Fresno,California,93740,United States,,In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt.,9385,Consulting,559-303-8253,
+520,Skivee,1569427,0 Stone Corner Park,Hayward,California,94544,United States,Purchased List,"Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.",6003,Construction,209-884-4137,Other
+521,Kazu,5653071,7526 Warner Park,Columbia,Missouri,65218,United States,Purchased List,Duis mattis egestas metus.,7259,Retail,573-652-0876,Prospect
+522,Vinte,434506,96 Reindahl Circle,Saint Louis,Missouri,63116,United States,,"Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.",6990,Food & Beverage,314-608-3410,
+523,Mydeo,8428593,1388 Longview Drive,Milwaukee,Wisconsin,53234,United States,Web,"Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",9620,Education,414-579-3152,Prospect
+524,Camimbo,2013098,7 Darwin Terrace,Phoenix,Arizona,85072,United States,,Nulla mollis molestie lorem. Quisque ut erat.,8937,Healthcare,602-971-9497,
+525,Voomm,8725368,034 Gerald Way,Portland,Oregon,97271,United States,Phone Inquiry,,,,971-475-2583,Prospect
+526,Jatri,8212447,4 Sauthoff Lane,Denver,Colorado,80243,United States,,,9995,Transportation,303-257-1968,
+527,Bluejam,3314154,828 East Plaza,Charlotte,North Carolina,28284,United States,Other,,,,704-576-0492,Customer - Direct
+528,Youopia,8639557,60 Fordem Street,Detroit,Michigan,48295,United States,Phone Inquiry,"Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla.",,,313-373-3737,Other
+529,Ainyx,5705744,41963 Monica Street,Norwalk,Connecticut,06859,United States,Phone Inquiry,,567,Machinery,203-652-1540,Channel Partner / Reseller
+530,Jatri,4872122,2 Mallard Plaza,Raleigh,North Carolina,27658,United States,Web,In hac habitasse platea dictumst.,919,Agriculture,919-583-9334,Prospect
+531,Quimm,8225499,670 Kropf Court,San Jose,California,95123,United States,Partner Referral,,3202,Banking,408-592-6338,Technology Partner
+532,Topicware,5906786,22 Stuart Place,Washington,District of Columbia,20425,United States,Web,Nulla facilisi.,1523,Energy,202-384-5817,Other
+533,Blogtag,5210596,804 Stang Street,Madison,Wisconsin,53779,United States,,Pellentesque at nulla. Suspendisse potenti.,1978,Manufacturing,608-449-0149,
+534,Edgeify,9170775,818 Amoth Center,Denver,Colorado,80249,United States,,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.,8630,Technology,303-433-0919,
+535,Meetz,807172,6617 Hooker Parkway,High Point,North Carolina,27264,United States,,,6794,Chemicals,336-888-9565,
+536,Camido,3946800,8948 Meadow Valley Way,Inglewood,California,90398,United States,Partner Referral,"Proin leo odio, porttitor id, consequat in, consequat ut, nulla.",,,310-835-5990,Customer - Channel
+537,Skimia,6323454,875 Cardinal Lane,Naples,Florida,33961,United States,Phone Inquiry,"Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.",9851,Hospitality,305-681-7014,Channel Partner / Reseller
+538,Gabtype,5096569,71832 Veith Center,Fort Wayne,Indiana,46805,United States,,,,,260-161-9113,
+539,Bluejam,7429575,73495 Kings Pass,Lexington,Kentucky,40591,United States,Partner Referral,Aliquam sit amet diam in magna bibendum imperdiet.,2081,Manufacturing,859-648-2300,Channel Partner / Reseller
+540,Feedbug,8281447,9960 Summerview Terrace,Hampton,Virginia,23668,United States,Phone Inquiry,,,,757-182-7698,Customer - Direct
+541,Abatz,7123640,02259 Mariners Cove Plaza,Peoria,Arizona,85383,United States,Web,,,,602-672-4718,Installation Partner
+542,Blogspan,9852914,15 Maywood Alley,Saint Paul,Minnesota,55115,United States,Purchased List,Phasellus in felis. Donec semper sapien a libero.,6533,Hospitality,952-865-3737,Technology Partner
+543,Fadeo,7248053,100 Glendale Circle,Washington,District of Columbia,20088,United States,Partner Referral,"In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",,,202-442-4685,Technology Partner
+544,Realpoint,8576036,75437 Maple Wood Park,Fort Worth,Texas,76110,United States,,,3869,Banking,682-324-2330,
+545,Tazz,4856156,28591 Rowland Alley,Florence,South Carolina,29505,United States,Purchased List,,6452,Entertainment,843-277-6911,Channel Partner / Reseller
+546,Feednation,8793616,32604 Ridge Oak Junction,Amarillo,Texas,79182,United States,Web,,293,Healthcare,806-116-8951,Installation Partner
+547,Centimia,5960172,3862 Messerschmidt Park,Palatine,Illinois,60078,United States,Phone Inquiry,Morbi a ipsum.,4888,Retail,847-575-0032,Technology Partner
+548,Avamm,8843435,57 Del Sol Center,Tuscaloosa,Alabama,35405,United States,Partner Referral,,8812,Entertainment,205-806-9592,Customer - Direct
+549,Ozu,9478816,22049 Larry Plaza,Shawnee Mission,Kansas,66205,United States,Web,,3808,Entertainment,816-627-9307,Prospect
+550,Wikivu,1693371,84 Hansons Circle,Saint Paul,Minnesota,55146,United States,,,,,651-949-3783,
+551,Linklinks,728945,2 Lake View Center,Hollywood,Florida,33023,United States,,Aenean sit amet justo. Morbi ut odio.,1918,Finance,954-815-5902,
+552,Camimbo,7746156,56 Bultman Way,Nashville,Tennessee,37235,United States,Partner Referral,,3711,Technology,615-449-6209,Installation Partner
+553,Yacero,3881835,690 Eliot Trail,Honolulu,Hawaii,96820,United States,Partner Referral,Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.,2465,Utilities,808-528-6869,Customer - Channel
+554,Gevee,6255127,95 Maryland Hill,Las Vegas,Nevada,89130,United States,Web,Duis at velit eu est congue elementum.,,,702-606-7734,Customer - Channel
+555,Thoughtblab,8712669,7903 Elmside Crossing,Lexington,Kentucky,40524,United States,Phone Inquiry,,2703,Other,859-173-6749,Customer - Direct
+556,Livetube,4585606,25 Onsgard Alley,Troy,Michigan,48098,United States,Partner Referral,,,,248-707-6104,Technology Partner
+557,Npath,407667,631 Fisk Hill,Denton,Texas,76205,United States,Web,,,,682-678-6169,Technology Partner
+558,Agivu,5482743,4 Boyd Drive,Honolulu,Hawaii,96810,United States,Other,,6647,Transportation,808-208-5287,Other
+559,Wikido,5082584,98 Stephen Trail,Danbury,Connecticut,06816,United States,Purchased List,Etiam justo.,3861,Agriculture,203-515-5258,Installation Partner
+560,Browsebug,5957143,75193 Longview Crossing,El Paso,Texas,88563,United States,Partner Referral,,,,915-756-2084,Prospect
+561,Realcube,2650884,3 Cambridge Terrace,Houston,Texas,77299,United States,,,,,713-264-6216,
+562,Devbug,3784381,57 Westend Circle,Charleston,West Virginia,25321,United States,Purchased List,,528,Media,304-472-2586,Customer - Channel
+563,Realfire,4276970,20201 Waywood Park,Tucson,Arizona,85732,United States,Purchased List,,,,520-956-7308,Channel Partner / Reseller
+564,Katz,9508746,5 Banding Crossing,Tulsa,Oklahoma,74156,United States,Purchased List,,932,Communications,918-466-1235,Prospect
+565,Skiba,8543794,0657 Morrow Hill,Orlando,Florida,32803,United States,Web,,,,407-101-7281,Other
+566,Divape,3864133,7102 Surrey Plaza,Lubbock,Texas,79415,United States,Phone Inquiry,,8692,Media,806-738-4120,Installation Partner
+567,Wikido,2855107,658 Roth Point,Odessa,Texas,79764,United States,Phone Inquiry,Praesent blandit. Nam nulla.,,,432-351-9758,Technology Partner
+568,Cogilith,9671624,856 8th Point,Salt Lake City,Utah,84189,United States,Partner Referral,,8323,Chemicals,801-404-9372,Prospect
+569,Livetube,1910537,1229 Southridge Place,Dallas,Texas,75210,United States,,Integer non velit.,6370,Electronics,972-761-3904,
+570,Skalith,7128118,50869 Hazelcrest Lane,Fort Wayne,Indiana,46867,United States,Phone Inquiry,,7857,Recreation,260-811-3073,Other
+571,Avamm,6657794,943 Talisman Trail,Scottsdale,Arizona,85271,United States,Phone Inquiry,Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis.,8565,Biotechnology,480-950-6908,Installation Partner
+572,Edgewire,9428651,66866 Cambridge Street,Columbia,South Carolina,29240,United States,Partner Referral,"Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus.",6736,Utilities,803-763-3543,Customer - Direct
+573,Geba,1833421,22 Spaight Parkway,Akron,Ohio,44329,United States,Other,Proin eu mi.,,,330-478-8814,Customer - Direct
+574,Skyndu,8121049,56 Declaration Avenue,Philadelphia,Pennsylvania,19109,United States,Web,,7151,Education,610-452-4817,Prospect
+575,Reallinks,4760063,6 Ruskin Court,Des Moines,Iowa,50315,United States,Purchased List,Aenean fermentum.,,,641-544-8874,Customer - Direct
+576,Rhynyx,8221105,8 Becker Avenue,Spring,Texas,77386,United States,Other,,7516,Education,713-891-6789,Channel Partner / Reseller
+577,Thoughtstorm,7530214,73 Granby Court,Rochester,New York,14609,United States,Other,Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat.,5907,Apparel,585-874-1069,Prospect
+578,Devpulse,1902506,04 Eagle Crest Junction,Canton,Ohio,44705,United States,Purchased List,Nam nulla.,5500,Retail,330-466-0385,Channel Partner / Reseller
+579,Thoughtbeat,4962109,440 Dixon Circle,Beaumont,Texas,77713,United States,Web,,127,Communications,409-862-4728,Installation Partner
+580,Browsetype,232974,6135 Golf Course Parkway,San Bernardino,California,92405,United States,,"Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",3883,Utilities,909-552-4800,
+581,Skimia,9659208,569 Beilfuss Circle,Philadelphia,Pennsylvania,19184,United States,,,5479,Transportation,215-700-8832,
+582,Oba,2167189,232 Hoffman Road,Jackson,Mississippi,39282,United States,Phone Inquiry,Curabitur at ipsum ac tellus semper interdum.,5567,Government,601-244-9904,Customer - Channel
+583,Eamia,3731490,01 Sommers Pass,Tallahassee,Florida,32309,United States,,,,,850-881-8763,
+584,Photolist,9533623,8 Lyons Avenue,Lubbock,Texas,79491,United States,Other,Donec posuere metus vitae ipsum.,,,806-635-9512,Technology Partner
+585,Aimbu,3177570,7157 Shasta Center,Billings,Montana,59112,United States,Other,Morbi ut odio.,811,Biotechnology,406-366-6566,Prospect
+586,Eamia,9498289,40 Quincy Terrace,Arlington,Virginia,22225,United States,,,,,571-608-0296,
+587,Wikido,1396779,7 Pleasure Center,Houston,Texas,77010,United States,Purchased List,,4145,Recreation,832-201-5549,Prospect
+588,Meedoo,8063532,89104 Helena Road,Atlanta,Georgia,30386,United States,Partner Referral,,1018,Transportation,404-667-0580,Technology Partner
+589,Browsetype,9078605,82 Waywood Alley,Elmira,New York,14905,United States,Phone Inquiry,Proin at turpis a pede posuere nonummy.,229,Entertainment,607-493-8844,Customer - Channel
+590,Mydeo,1812072,23162 Memorial Point,Des Moines,Iowa,50362,United States,,Vestibulum sed magna at nunc commodo placerat. Praesent blandit.,,,515-726-4233,
+591,Linktype,6023209,770 Vera Hill,Atlanta,Georgia,30343,United States,Web,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.,4728,Retail,404-599-4437,Other
+592,Eadel,8495503,4 Oak Terrace,Charlotte,North Carolina,28242,United States,Web,Etiam justo.,,,704-744-2621,Customer - Channel
+593,Tekfly,6200119,78818 Barby Trail,Tuscaloosa,Alabama,35405,United States,Other,"Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.",,,205-484-4029,Customer - Channel
+594,Jabberbean,921573,4 Golf Course Alley,Arlington,Texas,76016,United States,Phone Inquiry,Pellentesque at nulla. Suspendisse potenti.,294,Not For Profit,713-896-0325,Customer - Direct
+595,Dabvine,7791483,9 Springs Road,Phoenix,Arizona,85083,United States,Partner Referral,Pellentesque ultrices mattis odio. Donec vitae nisi.,8004,Not For Profit,602-502-4447,Prospect
+596,Lajo,2606236,184 Bartelt Drive,Washington,District of Columbia,20540,United States,Phone Inquiry,,4134,Utilities,202-825-5213,Customer - Direct
+597,Devshare,8459548,27409 Westerfield Drive,Inglewood,California,90310,United States,,,3940,Food & Beverage,310-285-5533,
+598,Fivespan,2873309,0346 Clarendon Street,Memphis,Tennessee,38131,United States,Other,"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.",5154,Transportation,901-879-3974,Channel Partner / Reseller
+599,Mymm,7916458,97089 Clemons Hill,Phoenix,Arizona,85035,United States,Other,Vivamus vestibulum sagittis sapien.,7639,Agriculture,623-267-7336,Channel Partner / Reseller
+600,Tagtune,5340994,367 Arizona Parkway,Melbourne,Florida,32941,United States,Partner Referral,Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor.,,,321-868-9454,Customer - Channel
+601,Brainverse,1277398,527 Manufacturers Way,Lima,Ohio,45807,United States,,"Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.",4345,Apparel,419-342-0205,
+602,Jatri,9894514,71034 8th Center,Ogden,Utah,84403,United States,Purchased List,,,,801-478-3849,Customer - Direct
+603,Mynte,7180254,7567 Forest Terrace,New Orleans,Louisiana,70142,United States,Other,"Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo.",9518,Apparel,504-196-4119,Technology Partner
+604,Edgewire,9867711,1 Sauthoff Court,Newark,New Jersey,07195,United States,Partner Referral,,6889,Media,862-359-6067,Other
+605,Thoughtsphere,7900984,2 Sommers Hill,Nashville,Tennessee,37210,United States,Phone Inquiry,,,,615-301-5404,Installation Partner
+606,Voonyx,5714706,2 Village Park,Monticello,Minnesota,55590,United States,Other,Etiam faucibus cursus urna. Ut tellus.,3396,Insurance,763-291-8493,Other
+607,Flashset,2598355,8 Dorton Terrace,Fort Worth,Texas,76147,United States,,,6107,Recreation,817-824-7001,
+608,Devpulse,4328073,621 Kipling Crossing,Salt Lake City,Utah,84152,United States,Web,Nunc purus. Phasellus in felis.,9242,Banking,801-811-8531,Technology Partner
+609,Zoomzone,4364661,8662 Mallory Avenue,Fort Myers,Florida,33913,United States,Phone Inquiry,Donec dapibus. Duis at velit eu est congue elementum.,6392,Electronics,239-826-6207,Technology Partner
+610,Zooveo,8981432,7219 Lukken Avenue,Sacramento,California,94286,United States,,,,,916-110-9245,
+611,Yakijo,2118870,69017 Eliot Crossing,Richmond,Virginia,23228,United States,Partner Referral,Phasellus sit amet erat. Nulla tempus.,4966,Food & Beverage,804-772-2095,Customer - Direct
+612,Skibox,1433445,59 Sunnyside Hill,Columbus,Ohio,43226,United States,,,,,614-855-7615,
+613,Browsezoom,9804798,69861 Barnett Junction,Knoxville,Tennessee,37914,United States,Phone Inquiry,,9037,Utilities,865-721-5530,Customer - Channel
+614,Muxo,5587874,48632 Sachtjen Way,Philadelphia,Pennsylvania,19178,United States,Web,Quisque ut erat. Curabitur gravida nisi at nibh.,7099,Machinery,215-538-2394,Channel Partner / Reseller
+615,Skiba,6888100,18 Coleman Circle,Annapolis,Maryland,21405,United States,,Cras non velit nec nisi vulputate nonummy.,3591,Consulting,410-226-4520,
+616,Jatri,534199,355 Oriole Hill,Washington,District of Columbia,20503,United States,Web,,,,202-177-1520,Other
+617,Voonix,8591367,537 Rutledge Avenue,Harrisburg,Pennsylvania,17105,United States,Web,Aliquam sit amet diam in magna bibendum imperdiet.,5510,Food & Beverage,717-685-0018,Customer - Direct
+618,Gabspot,5193080,7 Springview Drive,Columbus,Georgia,31904,United States,Phone Inquiry,Morbi non lectus.,2095,Telecommunications,706-623-8777,Channel Partner / Reseller
+619,Youtags,6126898,1014 Ridge Oak Road,Bronx,New York,10464,United States,Phone Inquiry,"Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.",7260,Government,718-128-1152,Prospect
+620,Brainsphere,9519530,47014 Shopko Road,Milwaukee,Wisconsin,53210,United States,Other,Integer non velit.,728,Banking,262-255-3616,Technology Partner
+621,Photofeed,4511574,20141 Elka Court,Jamaica,New York,11480,United States,Other,,1844,Environmental,718-206-7598,Prospect
+622,Midel,8320560,1 Dexter Parkway,Beaverton,Oregon,97075,United States,Purchased List,In hac habitasse platea dictumst.,3666,Environmental,503-626-3961,Customer - Channel
+623,Avaveo,2533988,91 Ludington Street,Portland,Oregon,97271,United States,Other,,7364,Finance,971-229-4281,Other
+624,Feedspan,7489668,62977 Calypso Alley,Lansing,Michigan,48919,United States,Web,,,,517-451-6701,Customer - Direct
+625,Edgeblab,2285869,41 Jenifer Drive,Alexandria,Virginia,22333,United States,Other,,7067,Agriculture,571-494-2182,Installation Partner
+626,Innotype,8158283,4775 Bellgrove Park,Washington,District of Columbia,20470,United States,Partner Referral,,,,202-480-0491,Technology Partner
+627,Jabbersphere,5768673,15 Bayside Circle,Waterbury,Connecticut,06726,United States,,Duis ac nibh.,,,203-675-3184,
+628,Flipbug,6591954,317 Colorado Parkway,Lexington,Kentucky,40510,United States,Web,"Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.",,,859-642-7519,Channel Partner / Reseller
+629,Blogtags,7609920,3689 Main Center,Sacramento,California,94207,United States,Web,Aenean lectus. Pellentesque eget nunc.,3806,Education,916-298-7507,Technology Partner
+630,Devshare,8156083,72 Leroy Hill,Trenton,New Jersey,08638,United States,,,3550,Utilities,609-843-5359,
+631,Jatri,5210512,616 Hanson Plaza,Detroit,Michigan,48206,United States,,Nulla mollis molestie lorem. Quisque ut erat.,1228,Construction,734-518-6012,
+632,Jazzy,3943078,348 Cambridge Way,Louisville,Kentucky,40266,United States,Phone Inquiry,,8813,Construction,502-884-2735,Prospect
+633,Edgeify,862030,00 Ramsey Way,Lake Worth,Florida,33467,United States,Partner Referral,Donec ut mauris eget massa tempor convallis.,5233,Hospitality,561-482-8132,Installation Partner
+634,Einti,7976500,79 Superior Circle,Huntsville,Texas,77343,United States,Phone Inquiry,Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.,,,936-579-5479,Customer - Direct
+635,Voomm,4401991,0 Meadow Vale Lane,San Antonio,Texas,78215,United States,Other,,7830,Biotechnology,210-199-7610,Customer - Channel
+636,Shufflester,7593788,5229 Kinsman Hill,Lincoln,Nebraska,68531,United States,,,383,Government,402-909-5950,
+637,Bluejam,5078221,52915 Dottie Point,Austin,Texas,78778,United States,Other,Nullam molestie nibh in lectus.,,,512-863-4657,Channel Partner / Reseller
+638,Jaxbean,622729,72 Brickson Park Alley,Phoenix,Arizona,85053,United States,Other,,6812,Energy,602-973-3141,Channel Partner / Reseller
+639,Wordtune,4731673,5 Meadow Ridge Park,Albuquerque,New Mexico,87110,United States,Partner Referral,Nulla mollis molestie lorem. Quisque ut erat.,,,505-420-2588,Customer - Direct
+640,Shufflebeat,3226439,23 Northwestern Lane,Seminole,Florida,34642,United States,Purchased List,,,,941-887-9670,Technology Partner
+641,Jabberbean,4684443,8690 Hintze Road,Columbus,Georgia,31904,United States,,,6525,Healthcare,706-209-3256,
+642,Zoomdog,9151918,21 Darwin Court,Sioux Falls,South Dakota,57110,United States,Other,,2153,Government,605-654-0463,Channel Partner / Reseller
+643,Fivechat,5557044,42 Lakeland Junction,Norfolk,Virginia,23509,United States,Web,Suspendisse potenti.,335,Entertainment,757-292-9574,Customer - Direct
+644,Voolith,5291242,48273 Weeping Birch Circle,Louisville,Kentucky,40233,United States,,,6718,Machinery,502-433-1952,
+645,Oyoyo,3347334,079 Mccormick Road,Silver Spring,Maryland,20918,United States,Purchased List,,9894,Construction,240-543-6710,Other
+646,Layo,2429439,51017 Kipling Terrace,Sunnyvale,California,94089,United States,Phone Inquiry,,7455,Recreation,650-438-6606,Technology Partner
+647,Babbleblab,9907793,12022 Coolidge Plaza,Hialeah,Florida,33018,United States,Phone Inquiry,Fusce consequat.,,,786-742-6140,Installation Partner
+648,Skiptube,5119322,9811 Orin Hill,Fresno,California,93715,United States,,,2245,Technology,209-395-6601,
+649,Feedfire,1531300,3 Roth Place,Tempe,Arizona,85284,United States,Phone Inquiry,,5079,Entertainment,480-920-6417,Prospect
+650,Agimba,7224654,3576 Crescent Oaks Parkway,Charlottesville,Virginia,22903,United States,Partner Referral,"Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.",9433,Engineering,540-500-3058,Channel Partner / Reseller
+651,Brainlounge,4584388,37742 Armistice Circle,Chicago,Illinois,60669,United States,Purchased List,Quisque porta volutpat erat.,8871,Manufacturing,312-817-9442,Technology Partner
+652,Buzzbean,8917889,474 Blackbird Hill,Ogden,Utah,84403,United States,Web,Phasellus id sapien in sapien iaculis congue.,,,801-575-6474,Installation Partner
+653,Twimm,7786021,4585 Hintze Crossing,Birmingham,Alabama,35205,United States,Web,Duis aliquam convallis nunc.,9972,Chemicals,205-514-8984,Customer - Direct
+654,Tazzy,1786388,3 Ridgeview Junction,Denver,Colorado,80209,United States,Purchased List,,,,720-367-6542,Channel Partner / Reseller
+655,Quimba,8447066,1 Saint Paul Park,Cincinnati,Ohio,45218,United States,Web,Vestibulum ac est lacinia nisi venenatis tristique.,3766,Healthcare,513-462-8837,Channel Partner / Reseller
+656,Camimbo,9836623,91 Grasskamp Park,Tampa,Florida,33661,United States,Purchased List,,3659,Other,813-118-3849,Channel Partner / Reseller
+657,Wordify,3056677,9434 Petterle Point,Kansas City,Missouri,64187,United States,Web,,3546,Electronics,816-952-5349,Customer - Channel
+658,Kwimbee,2393194,33 Grover Circle,White Plains,New York,10606,United States,Partner Referral,,,,845-799-8688,Prospect
+659,Vimbo,1314043,82 Maple Drive,Delray Beach,Florida,33448,United States,,,7107,Chemicals,561-451-7280,
+660,Zooxo,1550229,180 5th Road,Columbia,South Carolina,29203,United States,Purchased List,,7006,Chemicals,803-724-9862,Other
+661,Camimbo,3331277,7526 Ridgeway Drive,Albany,Georgia,31704,United States,,,,,229-660-3670,
+662,Trudeo,3657996,164 Sheridan Terrace,Knoxville,Tennessee,37995,United States,Web,,,,865-435-9879,Customer - Channel
+663,Zoomdog,382795,6796 Moose Park,Phoenix,Arizona,85062,United States,Web,Ut at dolor quis odio consequat varius. Integer ac leo.,6304,Manufacturing,602-698-8340,Technology Partner
+664,Twitterbridge,5990070,9 Oak Drive,Charlottesville,Virginia,22903,United States,Partner Referral,,,,540-234-0289,Technology Partner
+665,Yozio,1061664,4873 Hayes Court,Arlington,Virginia,22225,United States,,Pellentesque at nulla. Suspendisse potenti.,1895,Manufacturing,571-105-1217,
+666,Lazzy,8245651,61346 Di Loreto Way,New York City,New York,10079,United States,Partner Referral,,5163,Machinery,212-163-3973,Other
+667,Centizu,5536750,7990 Del Mar Street,Louisville,Kentucky,40256,United States,Partner Referral,,9578,Government,502-794-6484,Installation Partner
+668,Chatterpoint,7169058,0570 Rutledge Way,Evansville,Indiana,47747,United States,Other,,4750,Education,812-813-9276,Installation Partner
+669,Realblab,9087085,10 Rutledge Alley,San Jose,California,95118,United States,Phone Inquiry,,8774,Electronics,408-534-5297,Installation Partner
+670,Gabspot,3733946,31968 Kingsford Drive,Columbus,Georgia,31914,United States,,Quisque id justo sit amet sapien dignissim vestibulum.,1868,Recreation,706-680-5632,
+671,Eabox,8814721,27 Kim Plaza,West Palm Beach,Florida,33421,United States,Purchased List,,5798,Other,561-530-2364,Other
+672,Twitternation,4506235,2163 Kim Crossing,Portland,Oregon,97286,United States,Phone Inquiry,Mauris sit amet eros.,,,503-229-6066,Prospect
+673,Centidel,9115194,945 Ohio Park,Reno,Nevada,89519,United States,Partner Referral,Fusce posuere felis sed lacus.,9314,Shipping,775-663-4650,Prospect
+674,Abata,8321462,33 Atwood Lane,Fort Worth,Texas,76134,United States,Web,,,,817-611-5172,Customer - Direct
+675,Babbleblab,7639792,50 Straubel Lane,Pittsburgh,Pennsylvania,15240,United States,Phone Inquiry,"Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",4943,Biotechnology,412-537-1691,Channel Partner / Reseller
+676,Divavu,3984743,45 Kennedy Crossing,Oakland,California,94611,United States,Phone Inquiry,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.,,,415-354-6832,Installation Partner
+677,Yakitri,2410407,29 Chinook Street,San Jose,California,95150,United States,Partner Referral,Etiam faucibus cursus urna.,8958,Communications,408-920-5112,Installation Partner
+678,DabZ,3928138,3 Algoma Street,Greensboro,North Carolina,27404,United States,Purchased List,,7113,Communications,336-785-5352,Other
+679,Kare,6238241,447 Carberry Trail,Charleston,West Virginia,25336,United States,,"Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula.",,,304-432-1054,
+680,Skyndu,7690180,89543 Vidon Junction,Pensacola,Florida,32520,United States,,,6995,Telecommunications,850-335-9141,
+681,Yadel,7105576,98 Darwin Court,Macon,Georgia,31217,United States,Phone Inquiry,"Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.",1997,Hospitality,912-187-9241,Installation Partner
+682,Centimia,9256054,6263 Riverside Place,New York City,New York,10170,United States,Web,Donec semper sapien a libero.,5211,Banking,212-411-5353,Customer - Direct
+683,Lazzy,6187614,48 Jay Plaza,Sioux City,Iowa,51105,United States,,"Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla.",6019,Machinery,712-744-5006,
+684,Edgeclub,1836363,0050 Northport Avenue,Knoxville,Tennessee,37914,United States,Purchased List,,,,865-845-8845,Other
+685,Voomm,1178290,41 Sutteridge Alley,Brooklyn,New York,11254,United States,Phone Inquiry,Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat.,,,212-256-1825,Channel Partner / Reseller
+686,Fivespan,1749932,04898 Merry Drive,Harrisburg,Pennsylvania,17140,United States,Phone Inquiry,Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.,5442,Entertainment,717-455-8542,Customer - Direct
+687,Eimbee,4957547,48982 Oakridge Lane,Columbus,Georgia,31998,United States,Purchased List,,2859,Education,706-517-6393,Customer - Direct
+688,Brainsphere,740083,41535 New Castle Road,Albuquerque,New Mexico,87195,United States,Partner Referral,Suspendisse ornare consequat lectus.,9531,Other,505-424-4165,Other
+689,Kamba,240306,51 Westerfield Circle,Ocala,Florida,34474,United States,Other,Nam tristique tortor eu pede.,996,Insurance,352-641-0781,Channel Partner / Reseller
+690,Yoveo,2525763,6 Stuart Hill,Washington,District of Columbia,20046,United States,Phone Inquiry,,8738,Banking,202-405-9429,Prospect
+691,Wikido,1533886,71489 Logan Trail,Shreveport,Louisiana,71151,United States,Other,,3143,Consulting,318-400-6601,Customer - Direct
+692,Dabfeed,6800071,7 Village Street,Richmond,Virginia,23208,United States,Phone Inquiry,,2178,Recreation,804-424-6759,Channel Partner / Reseller
+693,Voonder,2297631,125 American Plaza,Columbia,South Carolina,29208,United States,,Suspendisse potenti. In eleifend quam a odio.,7797,Not For Profit,803-802-0328,
+694,Linkbridge,5366592,078 Montana Circle,Washington,District of Columbia,20442,United States,Web,Phasellus in felis. Donec semper sapien a libero.,178,Healthcare,202-227-9934,Technology Partner
+695,Oba,2525232,791 Monument Point,Saint Louis,Missouri,63196,United States,Partner Referral,"Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",,,314-139-3856,Prospect
+696,Snaptags,9640104,291 Gateway Crossing,Madison,Wisconsin,53785,United States,Purchased List,Nulla justo. Aliquam quis turpis eget elit sodales scelerisque.,3736,Shipping,608-383-7123,Customer - Direct
+697,Yambee,4070547,78 Bayside Junction,Washington,District of Columbia,20580,United States,Phone Inquiry,,2799,Biotechnology,202-848-7527,Installation Partner
+698,Eabox,8811763,776 Lyons Center,Gaithersburg,Maryland,20883,United States,Web,Nulla justo. Aliquam quis turpis eget elit sodales scelerisque.,680,Media,240-262-9871,Prospect
+699,Gigaclub,933909,298 Emmet Trail,Laurel,Maryland,20709,United States,Phone Inquiry,,,,202-682-4042,Channel Partner / Reseller
+700,Mymm,7473459,9 Shasta Center,Pocatello,Idaho,83206,United States,Purchased List,,4702,Retail,208-432-1844,Customer - Channel
+701,Rhybox,7823957,7650 Oak Valley Lane,Colorado Springs,Colorado,80995,United States,Web,,,,719-341-5051,Customer - Channel
+702,Yakidoo,9800270,35540 Lien Center,Port Washington,New York,11054,United States,Other,Sed vel enim sit amet nunc viverra dapibus.,,,516-218-0817,Channel Partner / Reseller
+703,Zoombeat,2374178,0517 Veith Plaza,Houston,Texas,77288,United States,,Aliquam non mauris. Morbi non lectus.,,,713-163-8614,
+704,Blogspan,5437787,9 East Terrace,Boulder,Colorado,80305,United States,,,2413,Banking,720-113-8657,
+705,Tagpad,2835252,4602 Center Parkway,Los Angeles,California,90040,United States,Purchased List,,,,310-183-9268,Technology Partner
+706,Realblab,3373649,1 Brown Parkway,Davenport,Iowa,52804,United States,Other,,,,563-944-7695,Other
+707,Layo,9460601,5 Old Shore Alley,Boulder,Colorado,80310,United States,Phone Inquiry,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",2455,Transportation,303-244-7726,Prospect
+708,Ozu,8609169,9 Corscot Trail,Richmond,Virginia,23225,United States,Other,,1937,Education,757-983-4535,Other
+709,Oyoba,6038956,3 Fieldstone Junction,Kansas City,Missouri,64101,United States,Phone Inquiry,Ut at dolor quis odio consequat varius. Integer ac leo.,4633,Insurance,816-202-2900,Channel Partner / Reseller
+710,Dabjam,7049718,9193 Mayfield Road,West Hartford,Connecticut,06127,United States,Purchased List,,6951,Education,860-309-4717,Installation Partner
+711,Flashpoint,977381,343 Springview Crossing,Lansing,Michigan,48912,United States,,"Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",7474,Transportation,517-821-0305,
+712,Wikivu,5368416,57 6th Park,Philadelphia,Pennsylvania,19178,United States,Other,Suspendisse ornare consequat lectus.,,,215-959-6561,Channel Partner / Reseller
+713,Gevee,9216786,2387 Derek Avenue,San Jose,California,95155,United States,Other,Fusce posuere felis sed lacus.,1471,Media,408-806-8414,Prospect
+714,Realbridge,739747,0102 Sunnyside Trail,Grand Rapids,Michigan,49544,United States,Web,Pellentesque ultrices mattis odio.,5929,Construction,616-658-7309,Prospect
+715,Talane,5331056,2404 Northridge Road,Flint,Michigan,48550,United States,Purchased List,,5638,Insurance,810-997-2036,Customer - Direct
+716,Voomm,1566347,58225 Mosinee Crossing,Amarillo,Texas,79171,United States,Partner Referral,,,,806-955-6497,Customer - Channel
+717,Feedmix,7084407,4771 Spaight Junction,Buffalo,New York,14269,United States,,,2077,Utilities,716-255-0470,
+718,Topicstorm,9429598,69410 Leroy Lane,Pueblo,Colorado,81005,United States,Purchased List,,,,719-900-5184,Customer - Channel
+719,Ainyx,2182915,5128 Superior Park,Lexington,Kentucky,40546,United States,,Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.,,,859-294-3548,
+720,Babbleblab,4909693,98 Portage Way,Toledo,Ohio,43615,United States,,,7097,Transportation,419-351-8793,
+721,Reallinks,3013617,0084 Fairfield Crossing,Stamford,Connecticut,06912,United States,Other,In sagittis dui vel nisl. Duis ac nibh.,5167,Education,203-412-9963,Channel Partner / Reseller
+722,Omba,680935,801 Melvin Alley,Minneapolis,Minnesota,55446,United States,Phone Inquiry,,579,Not For Profit,763-737-0207,Customer - Channel
+723,Twitterworks,2720588,4 Old Gate Lane,Sioux Falls,South Dakota,57198,United States,Partner Referral,Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue.,9886,Engineering,605-593-9155,Prospect
+724,Topicshots,5395736,4 Spenser Lane,Chicago,Illinois,60636,United States,,Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis.,9320,Government,773-857-4905,
+725,Eidel,2471467,4 Packers Place,Fairfax,Virginia,22036,United States,Web,In hac habitasse platea dictumst.,540,Food & Beverage,571-166-1012,Channel Partner / Reseller
+726,Dabtype,2732406,26 Linden Street,Fresno,California,93740,United States,Web,"Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique.",3670,Education,559-995-0585,Channel Partner / Reseller
+727,Jetwire,7487566,0 Fulton Center,Tampa,Florida,33694,United States,,Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.,,,813-104-9363,
+728,Lajo,7577954,5 Fordem Hill,Milwaukee,Wisconsin,53210,United States,Purchased List,,267,Apparel,262-696-9068,Customer - Direct
+729,Babbleopia,8111173,67082 Scott Crossing,Newark,New Jersey,07112,United States,Purchased List,Nulla mollis molestie lorem.,8529,Media,201-408-2147,Installation Partner
+730,Pixoboo,469682,59572 Tony Avenue,Philadelphia,Pennsylvania,19196,United States,Other,,,,215-517-3143,Installation Partner
+731,Aimbo,6502706,27 Autumn Leaf Place,Manchester,New Hampshire,03105,United States,Purchased List,,1207,Insurance,603-522-1497,Customer - Direct
+732,Zoombeat,2600985,5 Becker Terrace,Baltimore,Maryland,21275,United States,Other,"Vestibulum quam sapien, varius ut, blandit non, interdum in, ante.",7632,Insurance,410-446-9184,Other
+733,Zoombox,2228125,8015 Katie Crossing,Arlington,Virginia,22212,United States,Web,,4818,Technology,571-382-5101,Channel Partner / Reseller
+734,Tavu,3258156,95 Miller Trail,Baton Rouge,Louisiana,70883,United States,Partner Referral,Etiam pretium iaculis justo. In hac habitasse platea dictumst.,961,Utilities,225-450-6789,Other
+735,Photospace,7532261,9 Pine View Park,Peoria,Illinois,61651,United States,Web,"Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",,,309-712-2211,Other
+736,Skimia,1004310,56278 Knutson Alley,Chicago,Illinois,60681,United States,Phone Inquiry,In blandit ultrices enim.,720,Recreation,312-869-0822,Customer - Direct
+737,Ooba,6338488,8607 Cascade Way,Dayton,Ohio,45419,United States,Other,,2957,Healthcare,937-720-9887,Technology Partner
+738,Youfeed,5598339,4635 Di Loreto Alley,Richmond,Virginia,23228,United States,Phone Inquiry,In quis justo. Maecenas rhoncus aliquam lacus.,7508,Chemicals,804-139-1754,Technology Partner
+739,Brainbox,6186529,970 Carey Crossing,Washington,District of Columbia,20380,United States,Partner Referral,,,,202-648-3193,Other
+740,Skimia,3477434,9 Elmside Hill,Los Angeles,California,90189,United States,Purchased List,,483,Utilities,213-976-7192,Other
+741,Flashspan,4657058,165 Blaine Plaza,North Las Vegas,Nevada,89087,United States,Phone Inquiry,,616,Education,702-679-3036,Prospect
+742,Quamba,4639984,637 Mesta Lane,Washington,District of Columbia,20530,United States,Web,,,,202-392-2154,Customer - Direct
+743,Jetwire,1109601,177 Kingsford Street,Corpus Christi,Texas,78415,United States,Purchased List,Duis aliquam convallis nunc.,,,361-963-2744,Prospect
+744,Jabbercube,8859560,658 International Place,Indianapolis,Indiana,46226,United States,Other,"Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis.",6136,Media,317-591-7896,Customer - Direct
+745,Topdrive,154949,41981 Maywood Terrace,Galveston,Texas,77554,United States,Web,,,,409-705-8437,Customer - Direct
+746,Devshare,6120075,72131 Daystar Pass,Glendale,California,91205,United States,Other,,4759,Transportation,323-997-8225,Customer - Channel
+747,Eidel,3176023,766 Victoria Pass,Lansing,Michigan,48919,United States,Web,Quisque porta volutpat erat.,5323,Transportation,517-921-1021,Other
+748,Bluejam,5616985,72 Goodland Street,Atlanta,Georgia,31132,United States,,,,,404-473-0892,
+749,Kwimbee,5108079,567 Hoard Crossing,Decatur,Georgia,30033,United States,,Ut at dolor quis odio consequat varius.,1954,Other,678-201-8612,
+750,Gabspot,5675221,029 Melrose Pass,Brooklyn,New York,11254,United States,Phone Inquiry,"Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",,,212-599-9920,Installation Partner
+751,Kwilith,6619582,6 Hanson Alley,Reno,Nevada,89505,United States,,Nulla nisl. Nunc nisl.,5199,Communications,775-125-0007,
+752,Trudeo,1527324,05057 Loeprich Trail,Macon,Georgia,31205,United States,,,2348,Recreation,478-830-7949,
+753,Feednation,702661,8464 Clarendon Lane,Inglewood,California,90310,United States,Web,,,,310-124-4294,Installation Partner
+754,Myworks,6670482,507 New Castle Trail,Las Vegas,Nevada,89105,United States,Other,Integer ac leo.,9280,Apparel,702-370-3229,Prospect
+755,Skipfire,8063639,92 Orin Terrace,Iowa City,Iowa,52245,United States,Web,"Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo.",,,319-229-9537,Channel Partner / Reseller
+756,Twitterbeat,5062265,3 Eagle Crest Center,Knoxville,Tennessee,37995,United States,Phone Inquiry,,9963,Other,865-762-2565,Customer - Channel
+757,Jatri,9295423,98 Warrior Way,Chicago,Illinois,60681,United States,,,7235,Consulting,312-367-1287,
+758,Yakidoo,1940809,282 Chive Way,Suffolk,Virginia,23436,United States,Purchased List,"Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.",476,Recreation,757-182-5943,Installation Partner
+759,Oyoyo,9856352,1069 Stang Terrace,Saint Louis,Missouri,63110,United States,,,5540,Communications,314-772-5091,
+760,Dynazzy,9959352,1216 Mariners Cove Plaza,Jacksonville,Florida,32215,United States,Partner Referral,"Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam.",352,Agriculture,904-742-0412,Customer - Channel
+761,Browsedrive,7401793,4164 Saint Paul Junction,Pasadena,California,91199,United States,,,343,Chemicals,626-844-5159,
+762,Gabvine,947636,33 Rigney Lane,Garland,Texas,75049,United States,Phone Inquiry,Donec dapibus. Duis at velit eu est congue elementum.,,,214-788-2949,Customer - Channel
+763,Browsedrive,5998998,7 Crest Line Road,Dayton,Ohio,45408,United States,,,,,937-117-7766,
+764,Demimbu,261342,7667 Acker Road,Kansas City,Kansas,66160,United States,Other,,,,913-495-9023,Customer - Direct
+765,Jabberbean,4443436,7756 Cottonwood Hill,Birmingham,Alabama,35285,United States,Web,,996,Agriculture,205-976-7011,Channel Partner / Reseller
+766,Skimia,9432639,01391 Sheridan Plaza,Oklahoma City,Oklahoma,73167,United States,Other,Nulla tempus.,2576,Energy,405-890-4926,Installation Partner
+767,Quaxo,1317496,3 Reindahl Lane,Tampa,Florida,33647,United States,Phone Inquiry,,,,813-355-9216,Technology Partner
+768,Vidoo,1322888,447 Kensington Parkway,Montgomery,Alabama,36125,United States,,,,,334-681-0752,
+769,Topicstorm,1103168,7482 Chive Lane,Wichita,Kansas,67260,United States,Partner Referral,Maecenas pulvinar lobortis est. Phasellus sit amet erat.,,,316-454-2934,Customer - Channel
+770,Flashspan,9810228,88691 Katie Drive,Atlanta,Georgia,30356,United States,Purchased List,Aliquam quis turpis eget elit sodales scelerisque.,,,404-453-6365,Installation Partner
+771,Blogpad,6127008,5533 Vera Circle,New Orleans,Louisiana,70187,United States,Purchased List,Duis at velit eu est congue elementum.,,,504-375-2645,Other
+772,Ooba,2984760,0413 John Wall Center,Los Angeles,California,90040,United States,Partner Referral,Proin eu mi.,,,213-352-6037,Customer - Channel
+773,Miboo,4342647,8480 Corben Crossing,Waco,Texas,76705,United States,Purchased List,"Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante.",3701,Energy,254-552-5814,Other
+774,Avamba,8737311,65 Mallory Place,Akron,Ohio,44329,United States,Web,Proin eu mi.,,,330-589-6282,Customer - Direct
+775,Miboo,4521584,88344 Melby Way,Washington,District of Columbia,20436,United States,Phone Inquiry,,4028,Consulting,202-809-8099,Prospect
+776,Shuffletag,9603577,060 Anderson Way,Largo,Florida,33777,United States,Web,,2084,Other,727-683-8118,Prospect
+777,Wordify,8149344,9 Kipling Parkway,Washington,District of Columbia,20456,United States,Phone Inquiry,"Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi.",,,202-552-3809,Other
+778,Divape,5959495,27 Loeprich Avenue,Norfolk,Virginia,23504,United States,Partner Referral,Donec quis orci eget orci vehicula condimentum.,8104,Chemicals,757-401-6039,Prospect
+779,Zoomlounge,6384850,0148 Bluejay Terrace,Colorado Springs,Colorado,80935,United States,Web,,,,719-849-8266,Installation Partner
+780,Photospace,6651097,14294 Sheridan Crossing,Albany,New York,12247,United States,,Vivamus tortor.,3314,Other,518-531-5313,
+781,Buzzshare,5991643,4 Harbort Hill,Hialeah,Florida,33013,United States,Partner Referral,,1381,Finance,786-608-8583,Customer - Direct
+782,Tagchat,6473833,50963 Harbort Avenue,White Plains,New York,10633,United States,Web,Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat.,,,914-557-2747,Other
+783,Demizz,6521276,14900 Annamark Terrace,Indianapolis,Indiana,46216,United States,Web,Aenean fermentum. Donec ut mauris eget massa tempor convallis.,8209,Media,317-455-6504,Installation Partner
+784,Centimia,5127275,57383 Ramsey Court,New York City,New York,10045,United States,Other,,9957,Entertainment,212-389-2295,Other
+785,Rhyzio,6103577,67 Holmberg Park,Kansas City,Kansas,66105,United States,Phone Inquiry,,1043,Retail,913-780-3939,Other
+786,Twitterworks,4349939,664 Briar Crest Trail,York,Pennsylvania,17405,United States,Other,Aenean sit amet justo. Morbi ut odio.,8304,Engineering,717-110-2605,Installation Partner
+787,Linklinks,2174577,1 Tennessee Avenue,Appleton,Wisconsin,54915,United States,Web,,6215,Construction,920-963-6680,Other
+788,Skyba,7315937,9 Killdeer Way,Jacksonville,Florida,32255,United States,Other,,8523,Telecommunications,904-540-0898,Other
+789,Oozz,6035061,13 Independence Alley,Hyattsville,Maryland,20784,United States,Other,,,,301-670-9994,Technology Partner
+790,Voolia,2246806,0 Golden Leaf Hill,Chicago,Illinois,60641,United States,Web,,2812,Retail,773-745-0220,Channel Partner / Reseller
+791,Trilith,6049186,83905 Armistice Pass,Birmingham,Alabama,35295,United States,Partner Referral,,,,205-304-6166,Customer - Direct
+792,Topicstorm,3066785,4477 Spaight Park,San Francisco,California,94177,United States,,,7161,Banking,415-259-3220,
+793,Katz,7241659,12 Bayside Hill,Portland,Oregon,97271,United States,,Phasellus in felis.,9733,Government,971-815-2678,
+794,Kaymbo,4984500,63744 Delaware Avenue,Boise,Idaho,83727,United States,Web,Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo.,971,Telecommunications,208-208-4412,Technology Partner
+795,Oodoo,4854734,2 Morrow Road,Houston,Texas,77055,United States,Other,"Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.",6160,Utilities,832-521-7696,Prospect
+796,Fanoodle,205129,9129 Sachtjen Road,Shreveport,Louisiana,71161,United States,Partner Referral,Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet.,,,318-942-6919,Installation Partner
+797,Abata,3373265,5350 Scoville Center,Tulsa,Oklahoma,74126,United States,Purchased List,"Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",,,918-127-6804,Other
+798,Riffwire,5348133,368 Clarendon Trail,Columbus,Mississippi,39705,United States,Other,Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis.,1135,Government,662-431-0087,Technology Partner
+799,Bubblemix,2047452,62088 South Parkway,Augusta,Georgia,30911,United States,Partner Referral,"Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique.",8730,Energy,706-957-5447,Channel Partner / Reseller
+800,Realpoint,6727425,2 Arizona Center,Phoenix,Arizona,85015,United States,Web,Sed ante. Vivamus tortor.,4674,Recreation,480-840-2664,Customer - Channel
+801,DabZ,2907743,9106 Florence Trail,Fresno,California,93715,United States,Partner Referral,"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.",2819,Entertainment,559-609-7300,Installation Partner
+802,Npath,805977,4824 Straubel Way,Visalia,California,93291,United States,Purchased List,,,,559-827-6810,Other
+803,Eidel,3426846,28 Fisk Way,Trenton,New Jersey,08619,United States,Purchased List,Donec quis orci eget orci vehicula condimentum.,1882,Healthcare,609-563-7700,Channel Partner / Reseller
+804,Flipstorm,831790,6864 Troy Alley,Fort Lauderdale,Florida,33355,United States,,,5039,Other,754-592-8101,
+805,Devshare,5213486,55 American Junction,Portland,Oregon,97240,United States,Web,,812,Transportation,971-437-5929,Customer - Direct
+806,Yodo,7426843,8975 Rockefeller Parkway,Boulder,Colorado,80310,United States,,Pellentesque at nulla.,,,303-331-1636,
+807,Vipe,8939640,78 Debs Park,Boulder,Colorado,80310,United States,Partner Referral,,4697,Entertainment,303-700-9979,Customer - Direct
+808,Eare,3108766,60 South Alley,Washington,District of Columbia,20226,United States,Other,,7222,Telecommunications,202-847-7801,Installation Partner
+809,Yambee,1593122,19 1st Drive,Akron,Ohio,44329,United States,Phone Inquiry,,,,330-846-6969,Channel Partner / Reseller
+810,Youtags,4357726,982 Surrey Terrace,Valley Forge,Pennsylvania,19495,United States,Phone Inquiry,Maecenas tincidunt lacus at velit.,5818,Other,484-740-6143,Customer - Direct
+811,Layo,7841559,4989 Mayer Street,Dallas,Texas,75379,United States,Purchased List,,8798,Agriculture,214-969-5347,Customer - Channel
+812,Talane,6635015,24366 Mifflin Terrace,Wilmington,Delaware,19897,United States,Purchased List,Suspendisse potenti. In eleifend quam a odio.,8404,Apparel,302-413-4626,Prospect
+813,Voonder,2030893,46 Warrior Place,Kalamazoo,Michigan,49048,United States,,,,,517-710-5165,
+814,Oyoloo,3708748,67095 Michigan Drive,Irvine,California,92619,United States,Other,,3621,Communications,949-337-3497,Customer - Channel
+815,Aimbo,5414804,051 Mariners Cove Way,Louisville,Kentucky,40210,United States,Partner Referral,,,,502-181-1815,Installation Partner
+816,Realbridge,892575,63424 Green Ridge Drive,Richmond,Virginia,23242,United States,Web,"Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique.",,,804-838-8262,Installation Partner
+817,Meevee,9611346,6 Oriole Avenue,Minneapolis,Minnesota,55446,United States,Phone Inquiry,,,,952-959-4851,Channel Partner / Reseller
+818,Youopia,1808386,737 Tennyson Parkway,El Paso,Texas,88558,United States,Web,,1882,Entertainment,915-886-3194,Other
+819,Kaymbo,7683612,2420 Haas Lane,Honolulu,Hawaii,96810,United States,Other,Sed sagittis.,,,808-836-4624,Installation Partner
+820,Quinu,5291679,4124 Mallard Court,El Paso,Texas,88584,United States,Purchased List,Phasellus id sapien in sapien iaculis congue.,2303,Technology,915-791-5037,Prospect
+821,Flashset,2908449,15282 Comanche Terrace,Port Washington,New York,11054,United States,Other,Donec semper sapien a libero. Nam dui.,4310,Food & Beverage,516-480-1333,Other
+822,Demivee,5312834,571 Towne Parkway,Sacramento,California,95865,United States,Phone Inquiry,"Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",2864,Agriculture,916-670-0168,Customer - Channel
+823,Skivee,3196261,40 Messerschmidt Drive,New York City,New York,10099,United States,Partner Referral,,5621,Engineering,646-543-4101,Other
+824,Wordify,3884693,7406 Hooker Street,Louisville,Kentucky,40215,United States,,Sed vel enim sit amet nunc viverra dapibus.,303,Healthcare,502-957-1142,
+825,Midel,7942139,58468 Nelson Park,Springfield,Illinois,62705,United States,Partner Referral,"In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante.",6553,Telecommunications,217-476-6568,Channel Partner / Reseller
+826,Edgeify,2498177,988 La Follette Drive,Charlotte,North Carolina,28263,United States,Web,,856,Engineering,704-587-8176,Installation Partner
+827,Jetpulse,2738242,97977 Warbler Point,New York City,New York,10060,United States,Other,"Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula.",,,646-825-1280,Customer - Channel
+828,Centimia,223791,782 Londonderry Junction,Northridge,California,91328,United States,Other,,,,818-163-0330,Technology Partner
+829,Photobug,4866982,293 Cambridge Alley,Denver,Colorado,80217,United States,Other,,27,Consulting,303-254-3252,Channel Partner / Reseller
+830,Divanoodle,1457236,18 Novick Avenue,Tyler,Texas,75705,United States,Web,,,,903-372-6582,Customer - Channel
+831,Ailane,4834222,893 Oakridge Street,Santa Ana,California,92705,United States,Purchased List,,1655,Manufacturing,619-207-9741,Channel Partner / Reseller
+832,Digitube,6372253,34495 Burning Wood Parkway,El Paso,Texas,79977,United States,Phone Inquiry,,,,915-759-1596,Technology Partner
+833,Oba,6487715,17126 La Follette Terrace,Daytona Beach,Florida,32118,United States,Phone Inquiry,,,,407-569-4830,Prospect
+834,Zoovu,9987930,2 Anniversary Hill,San Francisco,California,94164,United States,Web,,3659,Construction,415-318-3195,Customer - Channel
+835,Fliptune,1386773,28 Sutherland Alley,Omaha,Nebraska,68105,United States,Other,,,,402-309-4852,Customer - Channel
+836,Topicware,177357,50 Kingsford Pass,Stockton,California,95210,United States,Purchased List,,4136,Construction,209-947-9815,Technology Partner
+837,Npath,3627684,15984 Roth Circle,Wilmington,Delaware,19805,United States,Web,,3864,Environmental,302-695-5706,Technology Partner
+838,Gabtype,5488877,772 Lien Drive,Las Vegas,Nevada,89155,United States,Purchased List,,4540,Biotechnology,702-431-7359,Technology Partner
+839,Twinder,7115489,5526 Linden Alley,Minneapolis,Minnesota,55480,United States,Other,In eleifend quam a odio.,8088,Biotechnology,612-959-5165,Technology Partner
+840,Dynazzy,85057,95155 Barby Avenue,Marietta,Georgia,30061,United States,,,,,770-153-6050,
+841,Avamba,3133707,641 Oneill Lane,Minneapolis,Minnesota,55436,United States,Partner Referral,Cras pellentesque volutpat dui.,7192,Education,952-640-3379,Customer - Channel
+842,Twitterwire,5023298,7853 Veith Center,San Antonio,Texas,78210,United States,Partner Referral,,,,210-967-3232,Other
+843,Kaymbo,2960794,47349 Grim Pass,Wilkes Barre,Pennsylvania,18768,United States,Web,,6849,Finance,570-517-2988,Customer - Channel
+844,Edgepulse,3667502,0 Kropf Drive,Austin,Texas,78764,United States,Other,,7171,Retail,512-134-1269,Customer - Channel
+845,Twimm,4896246,54 Dunning Parkway,Fort Worth,Texas,76178,United States,Phone Inquiry,,4486,Chemicals,682-682-4307,Channel Partner / Reseller
+846,Twitterbridge,7222975,95 Dawn Place,Chicago,Illinois,60657,United States,Other,Nulla mollis molestie lorem. Quisque ut erat.,,,773-921-2311,Technology Partner
+847,Skimia,2937071,3 Badeau Plaza,Maple Plain,Minnesota,55579,United States,Phone Inquiry,,8305,Recreation,952-954-6554,Other
+848,Bubblebox,5344600,4411 Emmet Trail,Jamaica,New York,11436,United States,,,,,917-176-3333,
+849,Kamba,3439754,0822 Dahle Junction,El Paso,Texas,88558,United States,Phone Inquiry,"Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam. Nam tristique tortor eu pede.",3847,Electronics,915-338-2084,Customer - Channel
+850,Shuffletag,9437776,1410 Calypso Point,Fort Lauderdale,Florida,33345,United States,,,659,Retail,754-476-9417,
+851,Meetz,9287082,19192 East Avenue,London,Kentucky,40745,United States,Purchased List,Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.,,,606-458-9300,Technology Partner
+852,Feedbug,2903425,55 Summerview Alley,Visalia,California,93291,United States,Phone Inquiry,Morbi porttitor lorem id ligula.,,,209-489-1994,Customer - Direct
+853,Jabbercube,2295355,2861 Anzinger Way,Terre Haute,Indiana,47805,United States,Phone Inquiry,,1290,Retail,812-886-0840,Technology Partner
+854,Zooxo,8875513,72051 Crest Line Hill,Columbia,South Carolina,29220,United States,Other,,8393,Electronics,803-221-8245,Customer - Direct
+855,Realbridge,222912,1 Schiller Street,Houston,Texas,77065,United States,,Sed accumsan felis. Ut at dolor quis odio consequat varius.,,,281-277-6253,
+856,Zoomdog,8221440,8 Coolidge Avenue,Daytona Beach,Florida,32123,United States,Phone Inquiry,,3152,Technology,386-625-2428,Technology Partner
+857,Aimbu,7388575,192 Sheridan Avenue,Atlanta,Georgia,31119,United States,Other,,4745,Machinery,770-898-0879,Installation Partner
+858,Trilia,2106577,9 Twin Pines Point,Burbank,California,91505,United States,Web,,143,Utilities,818-385-7942,Channel Partner / Reseller
+859,Einti,4536707,35699 Laurel Hill,Washington,District of Columbia,20299,United States,Partner Referral,Donec dapibus. Duis at velit eu est congue elementum.,9393,Chemicals,202-310-8961,Installation Partner
+860,Minyx,9664225,9448 Linden Parkway,Fort Wayne,Indiana,46896,United States,Purchased List,"Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.",9064,Consulting,260-242-0912,Technology Partner
+861,Oloo,6715972,25869 Farmco Road,Newark,New Jersey,07195,United States,,,9922,Telecommunications,862-187-5475,
+862,Realfire,7934690,42 Nova Park,Reno,Nevada,89510,United States,Phone Inquiry,"Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis.",4846,Technology,775-725-1430,Installation Partner
+863,Vitz,4615129,609 Merry Junction,Cleveland,Ohio,44197,United States,,Proin risus. Praesent lectus.,8547,Other,216-391-8830,
+864,Voolia,1638612,96072 Tony Center,Louisville,Kentucky,40256,United States,Other,,2914,Not For Profit,502-816-8670,Installation Partner
+865,Ozu,6876321,3 Meadow Ridge Street,Portland,Oregon,97296,United States,Web,,,,503-652-8087,Prospect
+866,Gabvine,9446063,3539 Buena Vista Parkway,Saginaw,Michigan,48604,United States,Partner Referral,Mauris lacinia sapien quis libero.,,,989-705-6600,Other
+867,Chatterpoint,6179461,78 Monterey Street,Boulder,Colorado,80310,United States,Purchased List,Aenean sit amet justo.,7286,Energy,303-987-0639,Other
+868,Chatterpoint,5825807,4 Arapahoe Hill,Washington,District of Columbia,20566,United States,Partner Referral,"Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.",2906,Electronics,202-604-1109,Customer - Direct
+869,Jetpulse,9028585,19 Mosinee Way,Yonkers,New York,10705,United States,Other,"Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.",7951,Recreation,914-602-1390,Customer - Channel
+870,Skimia,6127771,255 Merrick Junction,Saint Paul,Minnesota,55166,United States,,,8278,Media,651-826-8417,
+871,Topicshots,6660576,4659 Paget Pass,Brooklyn,New York,11247,United States,Phone Inquiry,,2305,Telecommunications,212-312-6713,Installation Partner
+872,Yakitri,2321489,6917 Westend Parkway,Des Moines,Iowa,50936,United States,Phone Inquiry,,2096,Technology,515-989-5513,Other
+873,Skimia,4557863,6154 Utah Point,Green Bay,Wisconsin,54313,United States,Partner Referral,Integer a nibh.,3475,Technology,920-627-3426,Technology Partner
+874,Youfeed,1980332,72304 Warner Plaza,Newark,New Jersey,07112,United States,Web,,7235,Banking,201-230-6081,Installation Partner
+875,Meeveo,2095341,144 Vermont Alley,Baton Rouge,Louisiana,70820,United States,Other,Vivamus tortor. Duis mattis egestas metus.,1704,Technology,225-344-3961,Technology Partner
+876,Mudo,166342,629 Bellgrove Hill,Shawnee Mission,Kansas,66215,United States,Other,,7763,Not For Profit,913-101-1163,Customer - Channel
+877,Tazz,3780434,98 Victoria Center,West Hartford,Connecticut,06127,United States,Partner Referral,,6107,Transportation,860-208-1236,Installation Partner
+878,Zoonder,8125004,47 Lakewood Gardens Drive,Clearwater,Florida,33763,United States,Partner Referral,Duis bibendum. Morbi non quam nec dui luctus rutrum.,6582,Machinery,727-274-5888,Customer - Direct
+879,Voolia,426686,92 Eggendart Hill,Hyattsville,Maryland,20784,United States,Phone Inquiry,,,,301-464-4273,Technology Partner
+880,Midel,9405984,144 Mcbride Parkway,Wilmington,Delaware,19810,United States,Partner Referral,,1183,Shipping,302-431-1007,Customer - Direct
+881,Centizu,2820544,1 Bay Park,Fort Worth,Texas,76129,United States,Other,,4479,Electronics,817-443-3814,Other
+882,Divape,7058572,097 Hudson Hill,Washington,District of Columbia,20260,United States,Other,,,,202-241-6908,Channel Partner / Reseller
+883,Voomm,2079964,6302 Browning Avenue,Peoria,Illinois,61651,United States,Phone Inquiry,Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis.,4205,Machinery,309-945-5368,Other
+884,Avaveo,4810860,41297 Trailsway Way,Philadelphia,Pennsylvania,19125,United States,Purchased List,Nunc nisl.,4693,Transportation,215-327-5970,Channel Partner / Reseller
+885,Flashpoint,1521576,8006 Coleman Alley,Newark,New Jersey,07112,United States,Web,Aenean lectus. Pellentesque eget nunc.,8147,Machinery,201-858-1077,Customer - Channel
+886,Meembee,2720117,9 John Wall Place,Fresno,California,93786,United States,Phone Inquiry,In hac habitasse platea dictumst.,2472,Insurance,559-546-4069,Other
+887,Leexo,8566396,43944 Dakota Plaza,Rochester,New York,14646,United States,,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.,5867,Machinery,585-468-0034,
+888,Topiczoom,9541563,93933 Sunbrook Parkway,Jamaica,New York,11407,United States,Web,Vestibulum sed magna at nunc commodo placerat.,,,516-880-8542,Prospect
+889,LiveZ,8023482,898 Westend Trail,Fayetteville,North Carolina,28305,United States,,,,,910-316-1049,
+890,Skiptube,7101238,2 Nelson Park,Wilkes Barre,Pennsylvania,18763,United States,Web,,9823,Entertainment,570-182-2502,Prospect
+891,Zooxo,9106144,3 Bay Lane,West Palm Beach,Florida,33405,United States,Other,Nulla tellus.,628,Technology,561-393-5879,Other
+892,Twinder,9657968,08543 Hermina Trail,Charlotte,North Carolina,28242,United States,Web,,,,704-246-5824,Technology Partner
+893,Chatterbridge,9391606,6115 Blue Bill Park Avenue,Richmond,Virginia,23285,United States,Web,,2919,Technology,804-446-2361,Customer - Channel
+894,Kwinu,375518,9818 Arrowood Road,Minneapolis,Minnesota,55480,United States,,,,,612-507-5629,
+895,Thoughtsphere,6532264,764 Bartelt Lane,Louisville,Kentucky,40298,United States,,Etiam faucibus cursus urna.,7418,Education,502-613-2447,
+896,Wikizz,923333,02506 Nelson Crossing,Kansas City,Missouri,64149,United States,Purchased List,Vivamus in felis eu sapien cursus vestibulum. Proin eu mi.,,,816-880-9668,Customer - Direct
+897,Topiczoom,1264720,028 Anniversary Parkway,Tacoma,Washington,98481,United States,Web,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien.",7472,Government,253-619-6956,Installation Partner
+898,Skipstorm,5661609,5 Stone Corner Way,Clearwater,Florida,34620,United States,Phone Inquiry,In quis justo. Maecenas rhoncus aliquam lacus.,5417,Manufacturing,727-157-6035,Prospect
+899,Gabcube,6127907,502 Nevada Court,Columbia,South Carolina,29225,United States,,,,,803-504-4557,
+900,Youtags,2545750,0320 Monument Street,Laredo,Texas,78044,United States,,Pellentesque viverra pede ac diam.,3781,Hospitality,956-925-0998,
+901,Eabox,6956125,5958 Tennyson Lane,Evansville,Indiana,47725,United States,Phone Inquiry,Integer ac neque. Duis bibendum.,3781,Machinery,812-860-6467,Customer - Direct
+902,Zooveo,8425699,59410 Russell Crossing,Austin,Texas,78754,United States,Web,Quisque id justo sit amet sapien dignissim vestibulum.,,,512-990-3213,Installation Partner
+903,Dazzlesphere,6098415,7 1st Road,Houston,Texas,77218,United States,Purchased List,"Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla.",,,713-927-4925,Prospect
+904,Flashdog,9389623,252 Onsgard Crossing,Little Rock,Arkansas,72209,United States,Purchased List,In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt.,,,501-887-7823,Channel Partner / Reseller
+905,Skyble,6570512,8 Lillian Lane,Fort Lauderdale,Florida,33345,United States,Phone Inquiry,,5514,Retail,754-576-7136,Other
+906,Kayveo,1150810,030 Mockingbird Hill,Albany,New York,12247,United States,Web,Aenean sit amet justo. Morbi ut odio.,6303,Apparel,518-760-4562,Prospect
+907,Vinder,7283061,73427 Ilene Terrace,Baton Rouge,Louisiana,70826,United States,Web,,647,Consulting,225-486-7633,Customer - Channel
+908,Youfeed,6696287,608 Lawn Pass,Trenton,New Jersey,08619,United States,Web,,7234,Shipping,609-712-2267,Technology Partner
+909,Voonix,2027687,884 Holy Cross Terrace,Montgomery,Alabama,36177,United States,Other,,,,334-207-3506,Technology Partner
+910,Dynazzy,9504586,19 Sundown Pass,Pasadena,California,91199,United States,Purchased List,Morbi a ipsum. Integer a nibh.,4570,Communications,626-967-3660,Technology Partner
+911,Cogilith,2405453,75 Schurz Crossing,Tacoma,Washington,98411,United States,Other,,,,253-338-8583,Customer - Direct
+912,Edgeclub,4001762,7 Shopko Park,Portland,Oregon,97211,United States,Purchased List,Suspendisse potenti.,7821,Hospitality,208-399-3495,Installation Partner
+913,Tagfeed,3127007,00358 Veith Crossing,Sacramento,California,95828,United States,Other,"Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus.",6300,Retail,916-688-8997,Prospect
+914,Livetube,5977367,87956 Manley Parkway,Jacksonville,Florida,32277,United States,Partner Referral,,8353,Energy,904-259-3893,Customer - Channel
+915,Brainbox,3448415,0 Roxbury Lane,Boca Raton,Florida,33499,United States,Web,Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum.,6688,Hospitality,561-360-0726,Channel Partner / Reseller
+916,Pixoboo,2492512,4 Fremont Hill,Houston,Texas,77045,United States,Other,Nulla ut erat id mauris vulputate elementum.,3956,Education,281-255-0570,Installation Partner
+917,Wikivu,1085928,1 Duke Pass,Montgomery,Alabama,36125,United States,Phone Inquiry,,4452,Utilities,334-903-6345,Customer - Channel
+918,Kimia,4957735,988 Sauthoff Point,Springfield,Illinois,62794,United States,Purchased List,Donec posuere metus vitae ipsum.,5861,Not For Profit,217-270-7897,Customer - Channel
+919,Zoomzone,5817763,240 Hallows Lane,Atlanta,Georgia,31165,United States,Phone Inquiry,"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi.",6897,Shipping,404-652-0880,Other
+920,Edgewire,3317843,3614 Dottie Way,South Bend,Indiana,46620,United States,Web,,2682,Shipping,574-129-3662,Other
+921,Browsecat,1248406,51 Basil Place,Pittsburgh,Pennsylvania,15210,United States,Phone Inquiry,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.,,,724-499-6059,Technology Partner
+922,Dazzlesphere,9634260,38 Lakeland Pass,Portland,Oregon,97255,United States,Web,,,,971-645-5449,Installation Partner
+923,Zoomzone,5373061,1112 Linden Pass,Charlottesville,Virginia,22908,United States,Web,"Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.",9586,Machinery,434-106-3391,Channel Partner / Reseller
+924,Zoomzone,2871269,20811 Fordem Street,New Bedford,Massachusetts,02745,United States,Phone Inquiry,In hac habitasse platea dictumst.,3635,Utilities,508-873-2528,Installation Partner
+925,Blogtag,2695967,62396 Myrtle Way,Memphis,Tennessee,38126,United States,Other,Ut at dolor quis odio consequat varius. Integer ac leo.,5625,Government,901-401-9673,Prospect
+926,Vinder,3122475,1 Thackeray Alley,Portsmouth,New Hampshire,00214,United States,,,,,603-850-7890,
+927,Reallinks,5594105,8464 Acker Circle,White Plains,New York,10633,United States,Partner Referral,Maecenas tincidunt lacus at velit.,,,845-261-8416,Technology Partner
+928,Skyba,126287,14766 Old Shore Circle,Fresno,California,93740,United States,Partner Referral,Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor.,3411,Energy,559-310-5876,Customer - Channel
+929,Fatz,1064434,9 Larry Pass,Mobile,Alabama,36610,United States,Purchased List,Integer ac neque. Duis bibendum.,1732,Construction,251-349-0986,Technology Partner
+930,Voonder,2825485,0853 David Place,Amarillo,Texas,79182,United States,Partner Referral,,8220,Media,806-954-4396,Other
+931,Cogidoo,5596448,718 Summit Terrace,Saint Louis,Missouri,63196,United States,Partner Referral,Nulla ut erat id mauris vulputate elementum. Nullam varius.,1461,Engineering,314-497-7233,Customer - Direct
+932,Edgeclub,2203405,3 Esker Hill,Decatur,Georgia,30089,United States,Purchased List,"In est risus, auctor sed, tristique in, tempus sit amet, sem.",6489,Shipping,678-242-1687,Prospect
+933,Topdrive,5017250,78613 Eggendart Drive,Danbury,Connecticut,06816,United States,Partner Referral,Vivamus in felis eu sapien cursus vestibulum.,,,203-828-9150,Technology Partner
+934,Rhynoodle,2624977,96393 Sycamore Street,Memphis,Tennessee,38150,United States,Other,,8682,Chemicals,901-822-7102,Customer - Channel
+935,Omba,8142806,6 Fallview Road,Phoenix,Arizona,85053,United States,Phone Inquiry,,7440,Government,602-104-7217,Technology Partner
+936,Skyndu,8722235,42501 Bunker Hill Circle,Melbourne,Florida,32919,United States,Purchased List,,,,321-294-8071,Other
+937,Eamia,7531157,7 Farragut Court,Pasadena,California,91131,United States,Phone Inquiry,Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.,,,626-908-6179,Other
+938,Topicshots,9798757,14 Wayridge Trail,Savannah,Georgia,31416,United States,,,,,912-421-6233,
+939,Yadel,1345045,5029 Lukken Plaza,Schaumburg,Illinois,60193,United States,,"Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.",,,224-236-0266,
+940,Meemm,5694040,2 Almo Terrace,San Antonio,Texas,78291,United States,,Vestibulum sed magna at nunc commodo placerat.,2293,Construction,210-399-9978,
+941,Jaxspan,9290162,1 Anhalt Hill,Pittsburgh,Pennsylvania,15266,United States,,Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy.,1809,Finance,-301-9231,
+942,Cogibox,1368583,13062 Oneill Pass,Irving,Texas,75037,United States,Phone Inquiry,,,,214-791-6836,Technology Partner
+943,Mymm,5545200,565 Surrey Place,Indianapolis,Indiana,46202,United States,Phone Inquiry,Etiam faucibus cursus urna.,2004,Other,765-505-7105,Customer - Direct
+944,Eimbee,8710658,22 Lakewood Court,High Point,North Carolina,27264,United States,Purchased List,,2135,Engineering,336-535-5986,Customer - Direct
+945,Rhyzio,3038550,70 Dorton Court,Fort Wayne,Indiana,46814,United States,Phone Inquiry,Ut tellus. Nulla ut erat id mauris vulputate elementum.,4195,Manufacturing,260-786-6474,Prospect
+946,Skippad,6515495,8 International Alley,El Paso,Texas,88579,United States,Other,,4970,Construction,915-377-6335,Technology Partner
+947,Camimbo,5155853,00 Glacier Hill Hill,Warren,Ohio,44485,United States,Phone Inquiry,,6342,Utilities,330-392-4660,Prospect
+948,Jetwire,7161072,8293 Schmedeman Parkway,Corpus Christi,Texas,78405,United States,Partner Referral,,,,361-168-1551,Customer - Direct
+949,Aivee,2419448,152 East Park,Cincinnati,Ohio,45203,United States,Web,Suspendisse potenti.,,,513-416-4121,Customer - Direct
+950,Avamm,1328741,48 Golf Course Circle,Oklahoma City,Oklahoma,73152,United States,Phone Inquiry,,,,405-478-7642,Technology Partner
+951,Tavu,7017518,6 Mockingbird Parkway,Springfield,Massachusetts,01152,United States,Partner Referral,Mauris ullamcorper purus sit amet nulla.,4107,Apparel,413-626-3868,Channel Partner / Reseller
+952,Pixoboo,191963,64 Burning Wood Point,Stamford,Connecticut,06912,United States,Partner Referral,,6834,Chemicals,203-342-3496,Customer - Direct
+953,Ntags,244874,447 Harper Terrace,Des Moines,Iowa,50981,United States,Other,Sed vel enim sit amet nunc viverra dapibus.,4081,Retail,515-235-2744,Technology Partner
+954,Kazu,8580240,1418 Waubesa Lane,Panama City,Florida,32412,United States,Other,,,,850-807-2241,Installation Partner
+955,Edgeblab,6330665,25924 Oriole Plaza,Pensacola,Florida,32575,United States,,Quisque ut erat.,784,Machinery,850-967-4829,
+956,Realblab,3100335,40 Eagle Crest Junction,Las Vegas,Nevada,89110,United States,Purchased List,Vestibulum rutrum rutrum neque.,2163,Shipping,702-586-6696,Installation Partner
+957,Meezzy,270414,73 Dottie Street,New Orleans,Louisiana,70160,United States,Purchased List,Sed accumsan felis.,351,Banking,504-360-3117,Customer - Channel
+958,Yakidoo,8882040,165 Schiller Circle,Milwaukee,Wisconsin,53215,United States,Purchased List,Aliquam sit amet diam in magna bibendum imperdiet.,,,414-355-3495,Prospect
+959,Bubbletube,1413339,61 Melvin Junction,Gainesville,Florida,32610,United States,Web,Pellentesque at nulla. Suspendisse potenti.,,,352-910-7502,Installation Partner
+960,Aimbo,4781471,1251 School Street,Fort Myers,Florida,33906,United States,Partner Referral,Pellentesque ultrices mattis odio.,7236,Hospitality,239-913-3305,Prospect
+961,Topiczoom,8950304,8 Forster Road,Shawnee Mission,Kansas,66210,United States,Web,Integer ac leo. Pellentesque ultrices mattis odio.,34,Education,913-219-3252,Customer - Channel
+962,Feedmix,6223970,8361 Lukken Avenue,San Jose,California,95173,United States,Partner Referral,,2865,Construction,408-606-4474,Prospect
+963,Rhyloo,7017950,96 Cherokee Court,Lincoln,Nebraska,68531,United States,,Phasellus in felis.,7744,Insurance,402-797-4123,
+964,Oyondu,5729752,0244 Bay Circle,Boise,Idaho,83711,United States,,,2410,Environmental,208-348-3150,
+965,Plambee,1727292,724 Calypso Terrace,Baltimore,Maryland,21203,United States,Phone Inquiry,,7250,Shipping,410-356-8187,Customer - Channel
+966,Mycat,3663444,8 Mayer Place,Austin,Texas,78769,United States,Purchased List,,,,512-489-0956,Installation Partner
+967,Edgepulse,4560059,8 Anzinger Court,Washington,District of Columbia,20414,United States,Other,,2687,Technology,202-237-8413,Channel Partner / Reseller
+968,Npath,4439783,42273 Mandrake Lane,Anderson,South Carolina,29625,United States,Web,,6230,Healthcare,864-625-7119,Customer - Channel
+969,Edgetag,6983332,6 Maple Place,Washington,District of Columbia,20540,United States,Partner Referral,,9344,Apparel,202-737-7232,Installation Partner
+970,Yamia,1354695,446 Dapin Avenue,Reno,Nevada,89510,United States,,Fusce consequat. Nulla nisl.,,,775-873-8795,
+971,Linklinks,154765,79784 Monument Crossing,Canton,Ohio,44705,United States,Web,Morbi a ipsum. Integer a nibh.,,,330-773-7210,Technology Partner
+972,Flipopia,966458,0914 Mendota Crossing,San Diego,California,92196,United States,Purchased List,Vestibulum sed magna at nunc commodo placerat. Praesent blandit.,7010,Hospitality,619-540-1591,Installation Partner
+973,Rooxo,2161832,4 Forest Pass,Washington,District of Columbia,20210,United States,Purchased List,,6908,Insurance,202-391-5801,Customer - Direct
+974,Photobean,3581409,394 Dapin Junction,Tallahassee,Florida,32314,United States,Phone Inquiry,,19,Transportation,850-682-4149,Prospect
+975,Skippad,3845024,1647 Eliot Point,Milwaukee,Wisconsin,53215,United States,Partner Referral,,,,414-359-9238,Channel Partner / Reseller
+976,Livefish,7968255,5 Glendale Plaza,Denver,Colorado,80204,United States,Phone Inquiry,In congue.,1314,Food & Beverage,303-241-8502,Customer - Channel
+977,Jaxworks,6994962,8226 Graceland Street,Corpus Christi,Texas,78415,United States,,,4671,Engineering,361-560-4823,
+978,Tazzy,5553412,8599 Cherokee Parkway,Spring,Texas,77388,United States,Partner Referral,Duis aliquam convallis nunc.,9677,Manufacturing,409-381-8931,Customer - Channel
+979,Skyvu,2513705,3245 Independence Street,Mobile,Alabama,36670,United States,,"Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",,,251-774-7216,
+980,Lazzy,9264260,0 Ohio Avenue,Charlotte,North Carolina,28299,United States,Web,Nulla nisl.,9160,Agriculture,704-997-5633,Technology Partner
+981,Skiptube,2354871,0 Meadow Vale Lane,Lakeland,Florida,33805,United States,Partner Referral,,1507,Telecommunications,863-907-1004,Technology Partner
+982,Npath,4881897,09 Sommers Plaza,Norwalk,Connecticut,06859,United States,,,8454,Environmental,203-221-1399,
+983,Skidoo,5042445,584 Helena Junction,Washington,District of Columbia,20520,United States,Partner Referral,,,,202-701-2808,Customer - Direct
+984,Tekfly,8514094,04 Vahlen Trail,Ocala,Florida,34479,United States,Purchased List,,7522,Consulting,352-636-1815,Other
+985,Voolith,5403433,1006 Almo Circle,Mansfield,Ohio,44905,United States,,,3183,Entertainment,419-898-1283,
+986,Tagopia,2720809,77 Maywood Circle,Fort Pierce,Florida,34981,United States,Other,Donec semper sapien a libero. Nam dui.,,,772-619-3454,Prospect
+987,Meevee,3052596,19275 Trailsway Way,Sacramento,California,94280,United States,Partner Referral,"Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.",226,Environmental,916-314-1691,Other
+988,Muxo,838436,22429 Veith Alley,Sioux Falls,South Dakota,57110,United States,Web,,5554,Agriculture,605-296-9935,Other
+989,Eimbee,7924109,17788 Crowley Court,Greensboro,North Carolina,27415,United States,Phone Inquiry,Integer a nibh.,,,336-519-9681,Technology Partner
+990,Zooxo,3587105,57 Meadow Ridge Hill,Mobile,Alabama,36670,United States,Partner Referral,,9821,Media,251-801-0704,Customer - Channel
+991,Trunyx,8858590,3398 Montana Plaza,Bronx,New York,10474,United States,Partner Referral,Duis consequat dui nec nisi volutpat eleifend.,6304,Shipping,718-150-1691,Customer - Direct
+992,Buzzbean,92280,43 Westridge Place,Duluth,Georgia,30195,United States,Web,Donec posuere metus vitae ipsum. Aliquam non mauris.,8628,Technology,404-322-7659,Customer - Direct
+993,Livetube,4520751,3603 Mcguire Court,Springfield,Massachusetts,01129,United States,Purchased List,,,,413-697-4938,Customer - Direct
+994,Mycat,9056287,4950 Donald Way,Mobile,Alabama,36605,United States,Web,"Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.",1255,Retail,251-746-0773,Prospect
+995,Ntags,2865886,77771 Doe Crossing Center,El Paso,Texas,88525,United States,Partner Referral,Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor.,,,915-346-8945,Channel Partner / Reseller
+996,Edgeblab,1477429,5 Lillian Plaza,Long Beach,California,90847,United States,Phone Inquiry,,9568,Food & Beverage,562-700-2481,Channel Partner / Reseller
+997,Chatterpoint,3273035,60443 Erie Crossing,El Paso,Texas,88553,United States,,Suspendisse potenti. In eleifend quam a odio.,9487,Government,915-168-5068,
+998,Linkbuzz,1259132,018 Kings Pass,Milwaukee,Wisconsin,53277,United States,Purchased List,Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.,,,414-736-0326,Technology Partner
+999,Riffpedia,4133484,99835 Norway Maple Pass,Galveston,Texas,77554,United States,Phone Inquiry,,6913,Banking,281-132-9697,Customer - Direct
+1000,Fivespan,5915671,0 Sheridan Circle,Boulder,Colorado,80310,United States,Other,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",5833,Environmental,303-603-8110,Customer - Direct
