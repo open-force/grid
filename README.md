@@ -4,7 +4,7 @@ A Lightning Component grid implementation that expects a server-side data store.
 
 ## Setting up the demo ##
 
-This component is available as a self-contained SFDX project. If you would to run the example implementation, clone the repository then set up a new scratch org by running:
+This component is available as a self-contained SFDX project. If you would like to run the example implementation, clone the repository then set up a new scratch org by running:
 
     sfdx force:org:create -f config/project-scratch-def.json -a grid
     

@@ -1,10 +1,14 @@
 <aura:component controller="GridController" description="A component that surfaces a table of server-side data that supports search/filter/sort/paging.">
 
+	<aura:dependency resource="markup://aura:iteration" />
+	<aura:dependency resource="markup://lightning:buttonMenu" />
+	<aura:dependency resource="markup://lightning:menuItem" />
+
 	<!--Public Attributes-->
 	<aura:attribute name="columns" type="Aura.ComponentDefRef[]" />
 
 	<aura:attribute name="headerTemplate" type="Aura.ComponentDefRef[]">
-		<th>{!column.label}</th>
+		<th aura:id="gridHeader" data-fieldname="{!column.fieldName}">{!column.label}</th>
 	</aura:attribute>
 
 	<aura:attribute name="rowTemplate" type="Aura.ComponentDefRef[]">
@@ -20,6 +24,7 @@
 
 	<!--Private Attributes-->
 	<aura:attribute name="records" type="List" access="private" description="The data records to show in the table." />
+	<aura:attribute name="context" type="Map" access="private" description="The current state of the table (page number, filters, etc)" />
 	<aura:attribute name="simplifiedColumns" type="List" access="private" description="JSON object representations of the columns." />
 	<aura:attribute name="generatedRowMarkup" type="Aura.ComponentDefRef[]" access="private" description="Row template with column markup baked in." />
 

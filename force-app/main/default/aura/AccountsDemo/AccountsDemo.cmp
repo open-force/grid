@@ -5,31 +5,36 @@
 
 		<lightning:card title="Accounts Demo" class="slds-m-bottom_medium slds-p-horizontal_small">
 			<p>This is an example of how to use the Grid component. Below you will see Accounts in this org.</p>
+			<p>To see the code involved, look at the Lightning component AccountsDemo.cmp and its corresponding Apex support class AccountsDemo.cls.</p>
 		</lightning:card>
 
 		<aura:set attribute="columns">
 
-			<c:Column label="Account Id">
+			<c:Column fieldName="Id" label="Account Id">
 				{#record.Id}
 			</c:Column>
 
-			<c:Column label="Account Name">
+			<c:Column fieldName="AccountNumber" label="Account Number">
+				{#record.AccountNumber}
+			</c:Column>
+
+			<c:Column fieldName="Name" label="Account Name">
 				{#record.Name}
 			</c:Column>
 
-			<c:Column label="Account Type">
+			<c:Column fieldName="Type" label="Account Type">
 				{#record.Type}
 			</c:Column>
 
-			<c:Column label="Employees">
+			<c:Column fieldName="NumberOfEmployees" label="Employees">
 				<lightning:formattedNumber value="{#record.NumberOfEmployees}" />
 			</c:Column>
 
-			<c:Column label="Annual Revenue">
+			<c:Column fieldName="AnnualRevenue" label="Annual Revenue">
 				<lightning:formattedNumber value="{#record.AnnualRevenue}" style="currency" />
 			</c:Column>
 
-			<c:Column label="Industry">
+			<c:Column fieldName="Industry" label="Industry">
 				{#record.Industry}
 			</c:Column>
 

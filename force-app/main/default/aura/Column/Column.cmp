@@ -1,6 +1,7 @@
 <aura:component description="Data sub-component used to define table structure and markup for the Grid component.">
 
 	<!--Attributes-->
+	<aura:attribute name="fieldName" type="String" required="true" description="The record field tied to this column, used for populating filter choices and sorting." />
 	<aura:attribute name="label" type="String" description="The label shown for a given column." />
 	<aura:attribute name="body" type="Aura.ComponentDefRef[]" description="The markup for this column, used to render table row cells for each record." />
 

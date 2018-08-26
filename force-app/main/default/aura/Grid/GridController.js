@@ -1,18 +1,27 @@
 ({
 	doInit : function(component, event, helper) {
 
-		// build stripped down column representations for use in headers
-		let simplifiedColumns = [];
-		component.get('v.columns').forEach(function(column) {
-			let simplified = JSON.parse(JSON.stringify(column.attributes.values));
-			delete simplified.body;
-			simplifiedColumns.push(simplified);
+		helper.populateGeneratedAttributes(component);
+
+		helper.fetchRecords(component, function() {
+
+			helper.buildFilterMenus(component, false);
 		});
-		component.set('v.simplifiedColumns', simplifiedColumns);
+	},
 
-		// build row template
-		component.set('v.generatedRowMarkup', helper.buildRowMarkup(component));
+	filterChosen : function(component, event, helper) {
+		console.log('filterChosen', event.getSource().getLocalId(), event.getParam('value'));
 
-		helper.fetchRecords(component);
+		let fieldName = event.getSource().getLocalId(), value = event.getParam('value'), context = component.get('v.context');
+		if('--all--' === value)
+			delete context.activeFilters[fieldName];
+		else
+			context.activeFilters[fieldName] = value;
+		component.set('v.context', context, false);
+
+		helper.fetchRecords(component, function() {
+
+			helper.buildFilterMenus(component, true);
+		});
 	}
 });
