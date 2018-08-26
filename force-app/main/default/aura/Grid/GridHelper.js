@@ -166,9 +166,14 @@
 				component.set('v.records', response.records);
 				component.set('v.context', response.context);
 
+				// calculate our total number of pages
+				let size = response.context.totalFilteredRecords !== null ? response.context.totalFilteredRecords : response.context.totalRecords;
+				component.set('v.totalPages', Math.ceil(size / response.context.pageSize));
+
 				console.log('response', response);
 
-				onSuccess();
+				if(onSuccess)
+					onSuccess();
 			}
 		});
 
