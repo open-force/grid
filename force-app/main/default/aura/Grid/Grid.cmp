@@ -34,30 +34,36 @@
 	<!--Content-->
 	{!v.body}
 
-	<div class="slds-theme_default slds-p-around_x-small">
-		Total Records:
-		<lightning:formattedNumber value="{!v.context.totalRecords}" />
-		<aura:if isTrue="{!and(v.context.totalFilteredRecords, v.context.totalFilteredRecords != v.context.totalRecords)}">
-			(<lightning:formattedNumber value="{!v.context.totalFilteredRecords}" /> with current filters)
-		</aura:if>
+	<lightning:layout multipleRows="true" class="slds-theme_default slds-p-around_x-small">
 
-		<table class="slds-table slds-table_bordered">
+		<lightning:layoutItem>
+			Total Records:
+			<lightning:formattedNumber value="{!v.context.totalRecords}" />
+			<aura:if isTrue="{!and(v.context.totalFilteredRecords, v.context.totalFilteredRecords != v.context.totalRecords)}">
+				(<lightning:formattedNumber value="{!v.context.totalFilteredRecords}" /> with current filters)
+			</aura:if>
+		</lightning:layoutItem>
 
-			<thead>
+		<lightning:layoutItem size="12">
+			<table class="slds-table slds-table_bordered">
 
-			<tr>
-				<aura:iteration items="{!v.simplifiedColumns}" var="column" template="{!v.headerTemplate}" />
-			</tr>
+				<thead>
 
-			</thead>
+				<tr>
+					<aura:iteration items="{!v.simplifiedColumns}" var="column" template="{!v.headerTemplate}" />
+				</tr>
 
-			<tbody>
+				</thead>
 
-			<aura:iteration items="{!v.records}" var="record" template="{!v.generatedRowMarkup}" />
+				<tbody>
 
-			</tbody>
+				<aura:iteration items="{!v.records}" var="record" template="{!v.generatedRowMarkup}" />
 
-		</table>
-	</div>
+				</tbody>
+
+			</table>
+		</lightning:layoutItem>
+
+	</lightning:layout>
 
 </aura:component>
