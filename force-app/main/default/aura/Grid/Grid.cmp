@@ -35,7 +35,12 @@
 	{!v.body}
 
 	<div class="slds-theme_default slds-p-around_x-small">
-		
+		Total Records:
+		<lightning:formattedNumber value="{!v.context.totalRecords}" />
+		<aura:if isTrue="{!and(v.context.totalFilteredRecords, v.context.totalFilteredRecords != v.context.totalRecords)}">
+			(<lightning:formattedNumber value="{!v.context.totalFilteredRecords}" /> with current filters)
+		</aura:if>
+
 		<table class="slds-table slds-table_bordered">
 
 			<thead>
