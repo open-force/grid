@@ -34,22 +34,25 @@
 	<!--Content-->
 	{!v.body}
 
-	<table class="slds-table slds-table_bordered">
+	<div class="slds-theme_default slds-p-around_x-small">
+		
+		<table class="slds-table slds-table_bordered">
 
-		<thead>
+			<thead>
 
-		<tr>
-			<aura:iteration items="{!v.simplifiedColumns}" var="column" template="{!v.headerTemplate}" />
-		</tr>
+			<tr>
+				<aura:iteration items="{!v.simplifiedColumns}" var="column" template="{!v.headerTemplate}" />
+			</tr>
 
-		</thead>
+			</thead>
 
-		<tbody>
+			<tbody>
 
-		<aura:iteration items="{!v.records}" var="record" template="{!v.generatedRowMarkup}" />
+			<aura:iteration items="{!v.records}" var="record" template="{!v.generatedRowMarkup}" />
 
-		</tbody>
+			</tbody>
 
-	</table>
+		</table>
+	</div>
 
 </aura:component>
