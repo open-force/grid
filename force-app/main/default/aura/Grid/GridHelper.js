@@ -125,16 +125,24 @@
 		delete rowTemplate.attributes.valueProvider;
 
 		// set up ComponentDefRef to use for each row cell
-		let cellTemplate = component.get('v.cellTemplate')[0];
-		cellTemplate.attributes.values.body = cellTemplate.attributes.values.body || {descriptor : 'body', value : []};
-		delete cellTemplate.attributes.valueProvider;
-		cellTemplate = JSON.stringify(cellTemplate);
+		let firstCellTemplate = component.get('v.firstCellTemplate')[0];
+		firstCellTemplate.attributes.values.body = firstCellTemplate.attributes.values.body || {descriptor : 'body', value : []};
+		delete firstCellTemplate.attributes.valueProvider;
+		firstCellTemplate = JSON.stringify(firstCellTemplate);
+
+		let otherCellsTemplate = component.get('v.otherCellsTemplate')[0];
+		otherCellsTemplate.attributes.values.body = otherCellsTemplate.attributes.values.body || {descriptor : 'body', value : []};
+		delete otherCellsTemplate.attributes.valueProvider;
+		otherCellsTemplate = JSON.stringify(otherCellsTemplate);
+
+		let firstCellHandled = false; // flag for if we have seen the first cell yet
 
 		// build cell markup, one cell for each column that we were given
 		component.get('v.columns').forEach(function(column) {
 
 			// get a clean object for this cell
-			let cellForThisColumn = JSON.parse(cellTemplate);
+			let cellForThisColumn = JSON.parse(firstCellHandled ? otherCellsTemplate : firstCellTemplate);
+			firstCellHandled = true;
 
 			// merge column markup into the cell body
 			cellForThisColumn.attributes.values.body.value = cellForThisColumn.attributes.values.body.value.concat(column.attributes.values.body.value);

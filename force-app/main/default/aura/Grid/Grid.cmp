@@ -8,14 +8,18 @@
 	<aura:attribute name="columns" type="Aura.ComponentDefRef[]" />
 
 	<aura:attribute name="headerTemplate" type="Aura.ComponentDefRef[]">
-		<th aura:id="gridHeader" data-fieldname="{!column.fieldName}">{!column.label}</th>
+		<th aura:id="gridHeader" data-fieldname="{!column.fieldName}" scope="col">{!column.label}</th>
 	</aura:attribute>
 
 	<aura:attribute name="rowTemplate" type="Aura.ComponentDefRef[]">
 		<tr></tr>
 	</aura:attribute>
 
-	<aura:attribute name="cellTemplate" type="Aura.ComponentDefRef[]">
+	<aura:attribute name="firstCellTemplate" type="Aura.ComponentDefRef[]">
+		<th scope="row"></th>
+	</aura:attribute>
+
+	<aura:attribute name="otherCellsTemplate" type="Aura.ComponentDefRef[]">
 		<td></td>
 	</aura:attribute>
 
