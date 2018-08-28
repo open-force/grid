@@ -51,6 +51,14 @@
 
 	<lightning:layout multipleRows="true" horizontalAlign="spread" class="slds-theme_default slds-p-around_x-small">
 
+		<lightning:layoutItem size="12">
+			<span onkeypress="{!c.checkForSearchEnter}">
+				<lightning:input name="searchTerm" label="Search Term" placeholder="Search table records..." value="{!v.context.searchTerm}" />
+			</span>
+			<lightning:button iconName="utility:search" label="Search" onclick="{!c.doSearch}" />
+			<aura:if isTrue="{! !empty(v.context.searchTerm) }"><lightning:button label="Clear" onclick="{!c.clearSearch}" /></aura:if>
+		</lightning:layoutItem>
+
 		<lightning:layoutItem size="2">
 			Total Records:
 			<lightning:formattedNumber value="{!v.context.totalRecords}" />

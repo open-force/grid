@@ -28,6 +28,25 @@ public with sharing abstract class SObjectGridData implements GridData {
 					whereClauses.add(newClause);
 			}
 		}
+
+		/*
+		 * Check for a search term, and build appropriate where clauses if one is present.
+		 */
+		if(String.isNotBlank(context.searchTerm)) {
+			List<String> searchClauses = new List<String>();
+
+			for(String columnName : getSearchableColumnNames()) {
+
+				String newClause = buildSearchClause(columnName, context.searchTerm);
+				if(String.isNotBlank(newClause))
+					searchClauses.add(newClause);
+			}
+
+			// join our search clauses with OR and add them as a single where clause
+			if(searchClauses.size() > 0)
+				whereClauses.add('(' + String.join(searchClauses, ' OR ') + ')');
+		}
+
 		String whereStr = !whereClauses.isEmpty() ? ' WHERE ' + String.join(whereClauses, ' AND ') : '';
 
 		/*
@@ -93,6 +112,18 @@ public with sharing abstract class SObjectGridData implements GridData {
 	}
 
 	/**
+	 * Given a frontend column name and a search term, build the appropriate SOQL clause to search for this term in this column.
+	 *
+	 * @param column
+	 * @param searchTerm
+	 *
+	 * @return
+	 */
+	virtual protected String buildSearchClause(String column, String searchTerm) {
+		return columnNameToDatabaseField(column) + ' LIKE \'%' + String.escapeSingleQuotes(searchTerm) + '%\'';
+	}
+
+	/**
 	 * Helps us map frontend column names to actual database field names, so we can build queries.
 	 *
 	 * @param columnName
@@ -133,6 +164,15 @@ public with sharing abstract class SObjectGridData implements GridData {
 	 */
 	virtual protected Object transform(SObject record) {
 		return record;
+	}
+
+	/**
+	 * List of the columns that can have filters applied.
+	 *
+	 * @return
+	 */
+	virtual protected List<String> getSearchableColumnNames() {
+		return new List<String>();
 	}
 
 	/**

@@ -9,6 +9,27 @@
 		});
 	},
 
+	doSearch : function(component, event, helper) {
+
+		helper.fetchRecords(component);
+	},
+
+	checkForSearchEnter : function(component, event, helper) {
+
+		// if the user hit the enter key
+		if(event.which === 13)
+			helper.fetchRecords(component);
+	},
+
+	clearSearch : function(component, event, helper) {
+
+		let context = component.get('v.context');
+		context.searchTerm = '';
+		component.set('v.context', context);
+
+		helper.fetchRecords(component);
+	},
+
 	filterChosen : function(component, event, helper) {
 		console.log('filterChosen', event.getSource().getLocalId(), event.getParam('value'));
 

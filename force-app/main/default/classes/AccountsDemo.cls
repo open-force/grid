@@ -87,4 +87,16 @@ public with sharing class AccountsDemo extends SObjectGridData {
 			columnValue.equalsIgnoreCase(currentSelection)
 		);
 	}
+
+	// ---------------------------------------------
+	// ---- CONTROLLING SEARCHING ------------------
+	// ---------------------------------------------
+
+	/*
+	 * List the column names that we would like to offer searching on. These names should match the frontend field
+	 * names you have chosen, in case you decide to have different names for frontend and database.
+	 */
+	public override List<String> getSearchableColumnNames() {
+		return new List<String> {'Name', 'AccountNumber', 'Type', 'Industry'};
+	}
 }

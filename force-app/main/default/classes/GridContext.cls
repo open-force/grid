@@ -3,6 +3,8 @@
  */
 public with sharing class GridContext {
 
+	public String searchTerm = '';
+
 	public Integer currentPage = 1;
 	public Integer pageSize = 50;
 
