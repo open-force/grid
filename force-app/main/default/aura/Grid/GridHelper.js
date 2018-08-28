@@ -74,6 +74,7 @@
 				menusToCreate.push(['lightning:buttonMenu', {
 					'aura:id' : fieldName,
 					'onselect' : component.getReference('c.filterChosen'),
+					'variant' : 'bare',
 					'body' : children
 				}]);
 			}

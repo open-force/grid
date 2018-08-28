@@ -50,55 +50,96 @@
 	<!--Content-->
 	{!v.body}
 
-	<lightning:layout multipleRows="true" horizontalAlign="spread" class="slds-theme_default slds-p-around_x-small">
+	<lightning:layout multipleRows="true" horizontalAlign="spread" verticalAlign="center" class="slds-theme_default slds-p-around_x-small slds-m-bottom_small">
 
-		<lightning:layoutItem size="12">
-			<span onkeypress="{!c.checkForSearchEnter}">
-				<lightning:input name="searchTerm" label="Search Term" placeholder="Search table records..." value="{!v.context.searchTerm}" />
-			</span>
-			<lightning:button iconName="utility:search" label="Search" onclick="{!c.doSearch}" />
-			<aura:if isTrue="{! !empty(v.context.searchTerm) }"><lightning:buttonIcon alternativeText="Clear" iconName="utility:close" onclick="{!c.clearSearch}" /></aura:if>
-		</lightning:layoutItem>
+		<!-- Counts -->
+		<lightning:layoutItem size="3">
 
-		<lightning:layoutItem size="2">
-			Total Records:
+			<span class="slds-text-color_weak">Total Records:
 			<lightning:formattedNumber value="{!v.context.totalRecords}" />
 			<aura:if isTrue="{!and(v.context.totalFilteredRecords, v.context.totalFilteredRecords != v.context.totalRecords)}">
 				(<lightning:formattedNumber value="{!v.context.totalFilteredRecords}" /> with current filters)
 			</aura:if>
+			</span>
+
 		</lightning:layoutItem>
 
+		<!-- Search -->
 		<lightning:layoutItem size="3">
+
+			<lightning:layout>
+				<lightning:layoutItem>
+			<span onkeypress="{!c.checkForSearchEnter}">
+				<lightning:input variant="label-hidden"
+								 name="searchTerm"
+								 label="Search Term"
+								 placeholder="Search table records..."
+								 value="{!v.context.searchTerm}" />
+			</span>
+				</lightning:layoutItem>
+				<lightning:layoutItem>
+					<lightning:buttonIcon iconName="utility:search" alternativeText="Search" onclick="{!c.doSearch}" />
+					<aura:if isTrue="{! !empty(v.context.searchTerm) }">
+						<lightning:buttonIcon alternativeText="Clear" iconName="utility:close" onclick="{!c.clearSearch}" />
+					</aura:if>
+				</lightning:layoutItem>
+			</lightning:layout>
+
+		</lightning:layoutItem>
+
+		<!-- Filters -->
+		<lightning:layoutItem size="3" class="slds-p-horizontal_large">
 
 			<aura:iteration items="{!v.simplifiedFilters}" var="filter">
 				<span class="slds-badge" style="display: inline-block">
-					{!filter.fieldName} : {!filter.value} <lightning:buttonIcon iconName="utility:close" alternativeText="clearFilter" variant="bare" size="small" value="{!filter.fieldName}" onclick="{!c.clearFilter}" />
+					{!filter.fieldName} : {!filter.value}
+					<lightning:buttonIcon iconName="utility:close"
+										  alternativeText="clearFilter"
+										  variant="bare"
+										  size="small"
+										  value="{!filter.fieldName}"
+										  onclick="{!c.clearFilter}" />
 				</span>
 			</aura:iteration>
 		</lightning:layoutItem>
 
-		<lightning:layoutItem size="2">
-			<aura:if isTrue="{! greaterthan(v.context.currentPage, 1)}">
-				<lightning:button label="Previous" onclick="{!c.previousPage}" />
-			</aura:if>
-			Page #{!v.context.currentPage} of {!v.totalPages}
-			<aura:if isTrue="{! lessthan(v.context.currentPage, v.totalPages)}">
-				<lightning:button label="Next" onclick="{!c.nextPage}" />
-			</aura:if>
+		<!-- Pagination -->
+		<lightning:layoutItem size="3">
+
+			<lightning:layout horizontalAlign="end" verticalAlign="center">
+
+				<aura:if isTrue="{! greaterthan(v.context.currentPage, 1)}">
+					<lightning:layoutItem class="slds-m-horizontal_xx-small">
+						<lightning:button label="Previous" onclick="{!c.previousPage}" />
+					</lightning:layoutItem>
+				</aura:if>
+
+				<lightning:layoutItem class="slds-m-horizontal_x-small">
+					<span style="display: inline-block">Page {!v.context.currentPage} of {!v.totalPages}</span>
+				</lightning:layoutItem>
+
+				<aura:if isTrue="{! lessthan(v.context.currentPage, v.totalPages)}">
+					<lightning:layoutItem class="slds-m-horizontal_xx-small">
+						<lightning:button label="Next" onclick="{!c.nextPage}" />
+					</lightning:layoutItem>
+				</aura:if>
+
+				<lightning:layoutItem>
+					<lightning:select label="Page Size" value="{!v.context.pageSize}" onchange="{!c.changePageSize}" variant="label-hidden" class="pageSize">
+						<option value="10">10</option>
+						<option value="25">25</option>
+						<option value="50">50</option>
+						<option value="100">100</option>
+						<option value="250">250</option>
+						<option value="500">500</option>
+					</lightning:select>
+				</lightning:layoutItem>
+
+			</lightning:layout>
+
 		</lightning:layoutItem>
 
-		<lightning:layoutItem size="1">
-			<lightning:select label="Page Size" value="{!v.context.pageSize}" onchange="{!c.changePageSize}">
-				<option value="10">10</option>
-				<option value="25">25</option>
-				<option value="50">50</option>
-				<option value="100">100</option>
-				<option value="250">250</option>
-				<option value="500">500</option>
-			</lightning:select>
-		</lightning:layoutItem>
-
-		<lightning:layoutItem size="12">
+		<lightning:layoutItem size="12" class="slds-m-vertical_small">
 			<table class="slds-table slds-table_bordered slds-table_cell-buffer slds-table_striped">
 
 				<thead>
