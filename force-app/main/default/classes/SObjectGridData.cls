@@ -23,7 +23,7 @@ public with sharing abstract class SObjectGridData implements GridData {
 
 			for(String key : context.activeFilters.keySet()) {
 
-				String newClause = buildWhereClause(key, context.activeFilters.get(key));
+				String newClause = buildFilterClause(key, context.activeFilters.get(key));
 				if(String.isNotBlank(newClause))
 					whereClauses.add(newClause);
 			}
@@ -68,8 +68,6 @@ public with sharing abstract class SObjectGridData implements GridData {
 			String fieldName = columnNameToDatabaseField(columnName);
 			List<GridContext.FilterOption> options = new List<GridContext.FilterOption>();
 
-			System.debug(LoggingLevel.WARN, 'filterableColName: ' + columnName + ' => ' + fieldName);
-
 			for(AggregateResult res : Database.query('SELECT COUNT(Id) numRecords, ' + fieldName + ' FROM ' + getObjectName() + ' ' + whereStr + ' GROUP BY ' + fieldName)) {
 				String fieldValue = String.valueOf(res.get(fieldName));
 				options.add(getFilterOption(columnName, fieldValue, context.activeFilters.get(columnName), (Integer)res.get('numRecords')));
@@ -90,7 +88,9 @@ public with sharing abstract class SObjectGridData implements GridData {
 	 *
 	 * @return
 	 */
-	abstract private String buildWhereClause(String column, String value);
+	virtual protected String buildFilterClause(String column, String value) {
+		return columnNameToDatabaseField(column) + ' = \'' + String.escapeSingleQuotes(value) + '\'';
+	}
 
 	/**
 	 * Helps us map frontend column names to actual database field names, so we can build queries.
@@ -99,28 +99,30 @@ public with sharing abstract class SObjectGridData implements GridData {
 	 *
 	 * @return
 	 */
-	abstract private String columnNameToDatabaseField(String columnName);
+	virtual protected String columnNameToDatabaseField(String columnName) {
+		return columnName;
+	}
 
 	/**
 	 * List out any fields you want retrieved from the database for each record.
 	 *
 	 * @return
 	 */
-	abstract private Set<String> getSelectFields();
+	abstract protected Set<String> getSelectFields();
 
 	/**
 	 * The Salesforce object to query records from.
 	 *
 	 * @return
 	 */
-	abstract private String getObjectName();
+	abstract protected String getObjectName();
 
 	/**
 	 * A default ORDER BY clause (just field name and ASC/DESC)
 	 *
 	 * @return
 	 */
-	abstract private String getDefaultOrderByClause();
+	abstract String getDefaultOrderByClause();
 
 	/**
 	 * Do any necessarily transformations on the record before it is handed to the frontend.
@@ -129,19 +131,23 @@ public with sharing abstract class SObjectGridData implements GridData {
 	 *
 	 * @return
 	 */
-	abstract private Object transform(SObject record);
+	virtual protected Object transform(SObject record) {
+		return record;
+	}
 
 	/**
 	 * List of the columns that can have filters applied.
 	 *
 	 * @return
 	 */
-	abstract private List<String> getFilterableColumnNames();
+	virtual protected List<String> getFilterableColumnNames() {
+		return new List<String>();
+	}
 
 	/**
 	 * Describe the possible filter choices.
 	 *
 	 * @return
 	 */
-	abstract private GridContext.FilterOption getFilterOption(String columnName, String columnValue, String currentSelection, Integer count);
+	abstract protected GridContext.FilterOption getFilterOption(String columnName, String columnValue, String currentSelection, Integer count);
 }
