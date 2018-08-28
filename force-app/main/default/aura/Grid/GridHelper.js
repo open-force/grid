@@ -186,5 +186,18 @@
 		});
 
 		$A.enqueueAction(action);
+	},
+
+	/**
+	 * Look inside a header element and extract its data-fieldname attribute.
+	 *
+	 * @param headerElement
+	 */
+	extractFieldName : function(headerElement) {
+
+		for(let i = 0; i < headerElement.attributes.length; i++) {
+			if(headerElement.attributes[i].name === 'data-fieldname')
+				return headerElement.attributes[i].value;
+		}
 	}
 });

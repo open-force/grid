@@ -8,7 +8,17 @@
 	<aura:attribute name="columns" type="Aura.ComponentDefRef[]" />
 
 	<aura:attribute name="headerTemplate" type="Aura.ComponentDefRef[]">
-		<th aura:id="gridHeader" data-fieldname="{!column.fieldName}" scope="col">{!column.label}</th>
+		<th aura:id="gridHeader" data-fieldname="{!column.fieldName}" scope="col" class="slds-text-title_caps">
+			<div data-fieldname="{!column.fieldName}" onclick="{!column.sortable ? c.changeSort : ''}" style="display: inline-block">
+				{!column.label}
+				<aura:if isTrue="{!and('ASC' == v.context.sortedDirection, column.fieldName == v.context.sortedBy)}">
+					<lightning:icon iconName="utility:arrowup" size="xx-small" alternativeText="Sorted ascending" />
+				</aura:if>
+				<aura:if isTrue="{!and('DESC' == v.context.sortedDirection, column.fieldName == v.context.sortedBy)}">
+					<lightning:icon iconName="utility:arrowdown" size="xx-small" alternativeText="Sorted descending" />
+				</aura:if>
+			</div>
+		</th>
 	</aura:attribute>
 
 	<aura:attribute name="rowTemplate" type="Aura.ComponentDefRef[]">
@@ -71,7 +81,7 @@
 		</lightning:layoutItem>
 
 		<lightning:layoutItem size="12">
-			<table class="slds-table slds-table_bordered">
+			<table class="slds-table slds-table_bordered slds-table_cell-buffer slds-table_striped">
 
 				<thead>
 

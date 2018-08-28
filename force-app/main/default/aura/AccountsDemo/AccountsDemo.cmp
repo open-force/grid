@@ -14,27 +14,27 @@
 				{#record.Id}
 			</c:Column>
 
-			<c:Column fieldName="AccountNumber" label="Account Number">
+			<c:Column fieldName="AccountNumber" label="Account Number" sortable="true">
 				{#record.AccountNumber}
 			</c:Column>
 
-			<c:Column fieldName="Name" label="Account Name">
+			<c:Column fieldName="Name" label="Account Name" sortable="true">
 				{#record.Name}
 			</c:Column>
 
-			<c:Column fieldName="Type" label="Account Type">
+			<c:Column fieldName="Type" label="Account Type" sortable="true">
 				{#record.Type}
 			</c:Column>
 
-			<c:Column fieldName="NumberOfEmployees" label="Employees">
+			<c:Column fieldName="NumberOfEmployees" label="Employees" sortable="true">
 				<lightning:formattedNumber value="{#record.NumberOfEmployees}" />
 			</c:Column>
 
-			<c:Column fieldName="AnnualRevenue" label="Annual Revenue">
+			<c:Column fieldName="AnnualRevenue" label="Annual Revenue" sortable="true">
 				<lightning:formattedNumber value="{#record.AnnualRevenue}" style="currency" />
 			</c:Column>
 
-			<c:Column fieldName="Industry" label="Industry">
+			<c:Column fieldName="Industry" label="Industry" sortable="true">
 				{#record.Industry}
 			</c:Column>
 

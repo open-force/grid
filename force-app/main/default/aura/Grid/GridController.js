@@ -17,14 +17,25 @@
 			delete context.activeFilters[fieldName];
 		else
 			context.activeFilters[fieldName] = value;
-		component.set('v.context', context, false); // don't bother to redraw yet, wait for the server response
-
 		context.currentPage = 1; // reset to the first page
+		component.set('v.context', context, false); // don't bother to redraw yet, wait for the server response
 
 		helper.fetchRecords(component, function() {
 
 			helper.buildFilterMenus(component, true);
 		});
+	},
+
+	changeSort : function(component, event, helper) {
+
+		let context = component.get('v.context');
+
+		context.sortedBy = helper.extractFieldName(event.target);
+		context.sortedDirection = context.sortedDirection === 'ASC' ? 'DESC' : 'ASC';
+		context.currentPage = 1; // reset to the first page
+		component.set('v.context', context);
+
+		helper.fetchRecords(component);
 	},
 
 	changePageSize : function(component, event, helper) {
@@ -36,7 +47,7 @@
 		helper.fetchRecords(component);
 	},
 
-	nextPage: function(component, event, helper) {
+	nextPage : function(component, event, helper) {
 
 		let context = component.get('v.context');
 		context.currentPage = context.currentPage + 1;
@@ -44,7 +55,7 @@
 		helper.fetchRecords(component);
 	},
 
-	previousPage: function(component, event, helper) {
+	previousPage : function(component, event, helper) {
 
 		let context = component.get('v.context');
 		context.currentPage = context.currentPage - 1;
