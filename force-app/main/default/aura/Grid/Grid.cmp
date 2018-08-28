@@ -41,6 +41,7 @@
 	<aura:attribute name="context" type="Map" access="private" description="The current state of the table (page number, filters, etc)" />
 	<aura:attribute name="totalPages" type="Integer" access="private" description="Convenience value for the total number of pages" />
 	<aura:attribute name="simplifiedColumns" type="List" access="private" description="JSON object representations of the columns." />
+	<aura:attribute name="simplifiedFilters" type="List" access="private" description="JSON object representations of active filters." />
 	<aura:attribute name="generatedRowMarkup" type="Aura.ComponentDefRef[]" access="private" description="Row template with column markup baked in." />
 
 	<!--Event Handlers-->
@@ -65,6 +66,15 @@
 			<aura:if isTrue="{!and(v.context.totalFilteredRecords, v.context.totalFilteredRecords != v.context.totalRecords)}">
 				(<lightning:formattedNumber value="{!v.context.totalFilteredRecords}" /> with current filters)
 			</aura:if>
+		</lightning:layoutItem>
+
+		<lightning:layoutItem size="3">
+
+			<aura:iteration items="{!v.simplifiedFilters}" var="filter">
+				<span class="slds-badge" style="display: inline-block">
+					{!filter.fieldName} : {!filter.value} <lightning:buttonIcon iconName="utility:close" alternativeText="clearFilter" variant="bare" size="small" value="{!filter.fieldName}" onclick="{!c.clearFilter}" />
+				</span>
+			</aura:iteration>
 		</lightning:layoutItem>
 
 		<lightning:layoutItem size="2">

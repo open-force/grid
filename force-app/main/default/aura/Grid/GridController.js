@@ -31,20 +31,20 @@
 	},
 
 	filterChosen : function(component, event, helper) {
-		console.log('filterChosen', event.getSource().getLocalId(), event.getParam('value'));
 
-		let fieldName = event.getSource().getLocalId(), value = event.getParam('value'), context = component.get('v.context');
+		let fieldName = event.getSource().getLocalId(), value = event.getParam('value');
+
 		if('--all--' === value)
-			delete context.activeFilters[fieldName];
+			helper.clearFilter(component, fieldName);
 		else
-			context.activeFilters[fieldName] = value;
-		context.currentPage = 1; // reset to the first page
-		component.set('v.context', context, false); // don't bother to redraw yet, wait for the server response
+			helper.addFilter(component, fieldName, value);
+	},
 
-		helper.fetchRecords(component, function() {
+	clearFilter : function(component, event, helper) {
 
-			helper.buildFilterMenus(component, true);
-		});
+		let fieldName = event.getSource().get('v.value');
+
+		helper.clearFilter(component, fieldName);
 	},
 
 	changeSort : function(component, event, helper) {

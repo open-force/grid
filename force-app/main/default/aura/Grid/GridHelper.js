@@ -189,6 +189,60 @@
 	},
 
 	/**
+	 * Add a new filter value to our active filters. The filter may be net new, or simply replacing a value on an existing filter.
+	 *
+	 * @param component
+	 * @param fieldName
+	 * @param value
+	 */
+	addFilter : function(component, fieldName, value) {
+
+		this.mutateFilters(component, false, fieldName, value);
+	},
+
+	/**
+	 * Clear out an active filter.
+	 *
+	 * @param component
+	 * @param fieldName
+	 */
+	clearFilter : function(component, fieldName) {
+
+		this.mutateFilters(component, true, fieldName);
+	},
+
+	/**
+	 * Change active filters in some way. Causes a server-side fetch.
+	 *
+	 * @param component
+	 * @param clear True if you want to clear the active filter for fieldName
+	 * @param fieldName The name of the column
+	 * @param value A value to set for the filter; only needed if clear = false
+	 */
+	mutateFilters : function(component, clear, fieldName, value) {
+
+		let context = component.get('v.context');
+
+		if(clear)
+			delete context.activeFilters[fieldName];
+		else
+			context.activeFilters[fieldName] = value;
+
+		context.currentPage = 1; // reset to the first page
+
+		component.set('v.context', context, false); // don't bother to redraw yet, wait for the server response
+
+		this.rebuildSimpleFilters(component);
+
+		let helper = this;
+
+		this.fetchRecords(component, function() {
+
+			helper.buildFilterMenus(component, true);
+		});
+	},
+
+	/**
 	 * Look inside a header element and extract its data-fieldname attribute.
 	 *
 	 * @param headerElement
@@ -199,5 +253,25 @@
 			if(headerElement.attributes[i].name === 'data-fieldname')
 				return headerElement.attributes[i].value;
 		}
+	},
+
+	/**
+	 * We track active filters with a second attribute that is aura:iteration friendly.
+	 * @param component
+	 */
+	rebuildSimpleFilters : function(component) {
+
+		let context = component.get('v.context'), simplifiedFilters = [];
+
+		for(let fieldName in context.activeFilters) {
+			if(context.activeFilters.hasOwnProperty(fieldName)) {
+				simplifiedFilters.push({
+					'fieldName' : fieldName,
+					'value' : context.activeFilters[fieldName]
+				});
+			}
+		}
+
+		component.set('v.simplifiedFilters', simplifiedFilters);
 	}
 });
