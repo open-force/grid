@@ -3,22 +3,19 @@
 
 		helper.populateGeneratedAttributes(component);
 
-		helper.fetchRecords(component, function() {
-
-			helper.buildFilterMenus(component, false);
-		});
+		helper.fetchRecords(component, true, false);
 	},
 
 	doSearch : function(component, event, helper) {
 
-		helper.fetchRecords(component);
+		helper.fetchRecords(component, true, true);
 	},
 
 	checkForSearchEnter : function(component, event, helper) {
 
 		// if the user hit the enter key
 		if(event.which === 13)
-			helper.fetchRecords(component);
+			helper.fetchRecords(component, true, true);
 	},
 
 	clearSearch : function(component, event, helper) {
@@ -27,7 +24,7 @@
 		context.searchTerm = '';
 		component.set('v.context', context);
 
-		helper.fetchRecords(component);
+		helper.fetchRecords(component, true, true);
 	},
 
 	filterChosen : function(component, event, helper) {

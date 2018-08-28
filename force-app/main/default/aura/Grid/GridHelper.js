@@ -154,9 +154,9 @@
 		return rowTemplate;
 	},
 
-	fetchRecords : function(component, onSuccess) {
+	fetchRecords : function(component, rebuildFilterMenus, replaceExisting) {
 
-		let action = component.get('c.serverGetData');
+		let action = component.get('c.serverGetData'), helper = this;
 		action.setParams({
 			gridDataNamespace : component.get('v.namespace'),
 			gridDataClassName : component.get('v.className')
@@ -180,8 +180,8 @@
 
 				console.log('response', response);
 
-				if(onSuccess)
-					onSuccess();
+				if(rebuildFilterMenus)
+					helper.buildFilterMenus(component, replaceExisting);
 			}
 		});
 
@@ -234,12 +234,7 @@
 
 		this.rebuildSimpleFilters(component);
 
-		let helper = this;
-
-		this.fetchRecords(component, function() {
-
-			helper.buildFilterMenus(component, true);
-		});
+		this.fetchRecords(component, true, true);
 	},
 
 	/**
