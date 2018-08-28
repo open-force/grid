@@ -78,6 +78,8 @@ public with sharing abstract class SObjectGridData implements GridData {
 		context.totalRecords = Database.countQuery('SELECT COUNT() FROM ' + getObjectName());
 		if(String.isNotEmpty(whereStr))
 			context.totalFilteredRecords = Database.countQuery('SELECT COUNT() FROM ' + getObjectName() + ' ' + whereStr);
+		else
+			context.totalFilteredRecords = context.totalRecords;
 
 		/*
 		 * Figure out what filter choices should be offered for each column that is declared filterable
