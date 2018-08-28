@@ -88,7 +88,7 @@
 		</lightning:layoutItem>
 
 		<!-- Filters -->
-		<lightning:layoutItem size="3" class="slds-p-horizontal_large">
+		<lightning:layoutItem size="3">
 
 			<aura:iteration items="{!v.simplifiedFilters}" var="filter">
 				<span class="slds-badge" style="display: inline-block">
