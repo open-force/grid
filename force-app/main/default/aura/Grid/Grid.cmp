@@ -56,7 +56,7 @@
 				<lightning:input name="searchTerm" label="Search Term" placeholder="Search table records..." value="{!v.context.searchTerm}" />
 			</span>
 			<lightning:button iconName="utility:search" label="Search" onclick="{!c.doSearch}" />
-			<aura:if isTrue="{! !empty(v.context.searchTerm) }"><lightning:button label="Clear" onclick="{!c.clearSearch}" /></aura:if>
+			<aura:if isTrue="{! !empty(v.context.searchTerm) }"><lightning:buttonIcon alternativeText="Clear" iconName="utility:close" onclick="{!c.clearSearch}" /></aura:if>
 		</lightning:layoutItem>
 
 		<lightning:layoutItem size="2">
