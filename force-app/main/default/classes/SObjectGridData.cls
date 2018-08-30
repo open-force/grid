@@ -84,6 +84,24 @@ public with sharing abstract class SObjectGridData implements GridData {
 		/*
 		 * Figure out what filter choices should be offered for each column that is declared filterable
 		 */
+		context.filterOptions = getFilterOptions(context.activeFilters, whereStr);
+
+		return records;
+	}
+
+	/**
+	 * Allows children to create their own implementation for building FilterOptions to use in the column header dropdowns. For most
+	 * SObjects the default implementation (counting by possible value) will be perfectly fine.
+	 *
+	 * @param activeFilters Any currently-active filters (fieldName => filterValue)
+	 * @param whereStr The current WHERE clause we are using to filter our records
+	 *
+	 * @return
+	 */
+	virtual protected Map<String, List<GridContext.FilterOption>> getFilterOptions(Map<String, String> activeFilters, String whereStr) {
+
+		Map<String, List<GridContext.FilterOption>> filterOptions = new Map<String, List<GridContext.FilterOption>>();
+
 		for(String columnName : getFilterableColumnNames()) {
 
 			String fieldName = columnNameToDatabaseField(columnName);
@@ -91,14 +109,14 @@ public with sharing abstract class SObjectGridData implements GridData {
 
 			for(AggregateResult res : Database.query('SELECT COUNT(Id) numRecords, ' + fieldName + ' FROM ' + getObjectName() + ' ' + whereStr + ' GROUP BY ' + fieldName)) {
 				String fieldValue = String.valueOf(res.get(fieldName));
-				options.add(getFilterOption(columnName, fieldValue, context.activeFilters.get(columnName), (Integer)res.get('numRecords')));
+				options.add(getFilterOption(columnName, fieldValue, activeFilters.get(columnName), (Integer)res.get('numRecords')));
 			}
 			options.sort();
 
-			context.filterOptions.put(columnName, options);
+			filterOptions.put(columnName, options);
 		}
 
-		return records;
+		return filterOptions;
 	}
 
 	/**
