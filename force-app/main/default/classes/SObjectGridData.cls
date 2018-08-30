@@ -11,7 +11,7 @@ public with sharing abstract class SObjectGridData implements GridData {
 	 *
 	 * @return
 	 */
-	public List<Object> getRecords(GridContext context) {
+	virtual public List<Object> getRecords(GridContext context) {
 
 		Integer offset = context.pageSize * (context.currentPage - 1);
 
@@ -187,7 +187,7 @@ public with sharing abstract class SObjectGridData implements GridData {
 	 *
 	 * @return
 	 */
-	abstract String getDefaultOrderByClause();
+	abstract protected String getDefaultOrderByClause();
 
 	/**
 	 * Do any necessarily transformations on the record before it is handed to the frontend.
