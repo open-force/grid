@@ -1,0 +1,6 @@
+<aura:component controller="AccountsDemoController">
+    <aura:method name="fetchRecords" action="{!c.fetchRecords}">
+        <aura:attribute name="context" type="Map" />
+        <aura:attribute name="callback" type="Function" />
+    </aura:method>
+</aura:component>	

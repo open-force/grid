@@ -156,37 +156,27 @@
 	},
 
 	fetchRecords : function(component, rebuildFilterMenus, replaceExisting) {
-
-		let action = component.get('c.serverGetData'), helper = this;
-		action.setParams({
-			gridDataNamespace : component.get('v.namespace'),
-			gridDataClassName : component.get('v.className')
-		});
+		let datasource = component.get('v.datasource')[0];
+		let helper = this;
 		let context = component.get('v.context');
-		if(context)
-			action.setParam('serializedGridContext', JSON.stringify(context));
-		action.setCallback(this, function(serverResponse) {
+		datasource.fetchRecords(context, $A.getCallback(function(response, state){
+				response = JSON.parse(JSON.stringify(response));
+				if(state === 'SUCCESS') {
 
-			let state = serverResponse.getState();
-			if(state === 'SUCCESS') {
+					component.set('v.records', response.records);
+					component.set('v.context', response.context);
 
-				let response = JSON.parse(serverResponse.getReturnValue());
+					// calculate our total number of pages
+					let size = response.context.totalFilteredRecords !== null ? response.context.totalFilteredRecords : response.context.totalRecords;
+					component.set('v.totalPages', Math.ceil(size / response.context.pageSize));
 
-				component.set('v.records', response.records);
-				component.set('v.context', response.context);
+					console.log('response', response);
 
-				// calculate our total number of pages
-				let size = response.context.totalFilteredRecords !== null ? response.context.totalFilteredRecords : response.context.totalRecords;
-				component.set('v.totalPages', Math.ceil(size / response.context.pageSize));
-
-				console.log('response', response);
-
-				if(rebuildFilterMenus)
-					helper.buildFilterMenus(component, replaceExisting);
-			}
-		});
-
-		$A.enqueueAction(action);
+					if(rebuildFilterMenus)
+						helper.buildFilterMenus(component, replaceExisting);
+				}
+			})
+		);
 	},
 
 	/**

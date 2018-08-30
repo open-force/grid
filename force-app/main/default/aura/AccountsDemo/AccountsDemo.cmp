@@ -7,7 +7,9 @@
 			<p>This is an example of how to use the Grid component. Below you will see Accounts in this org.</p>
 			<p>To see the code involved, look at the Lightning component AccountsDemo.cmp and its corresponding Apex support class AccountsDemo.cls.</p>
 		</lightning:card>
-
+		<aura:set attribute="datasource">
+			<c:AccountsDemoDataSource/>
+		</aura:set>
 		<aura:set attribute="columns">
 
 			<c:Column fieldName="Id" label="Account Id">
