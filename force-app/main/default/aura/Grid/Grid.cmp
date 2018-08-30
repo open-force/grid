@@ -1,11 +1,11 @@
-<aura:component controller="GridController" description="A component that surfaces a table of server-side data that supports search/filter/sort/paging.">
+<aura:component description="A component that surfaces a table of server-side data that supports search/filter/sort/paging.">
 
 	<aura:dependency resource="markup://aura:iteration" />
 	<aura:dependency resource="markup://lightning:buttonMenu" />
 	<aura:dependency resource="markup://lightning:menuItem" />
 
 	<!--Public Attributes-->
-	<aura:attribute name="columns" type="Aura.ComponentDefRef[]" />
+	<aura:attribute name="datasource" type="Aura.Component[]"/>
 
 	<aura:attribute name="headerTemplate" type="Aura.ComponentDefRef[]">
 		<th aura:id="gridHeader" data-fieldname="{!column.fieldName}" scope="col" class="slds-text-title_caps">
@@ -46,9 +46,6 @@
 
 	<!--Event Handlers-->
 	<aura:handler name="init" value="{!this}" action="{!c.doInit}" />
-
-	<!--Content-->
-	{!v.body}
 
 	<lightning:layout multipleRows="true" horizontalAlign="spread" verticalAlign="center" class="slds-theme_default slds-p-around_x-small slds-m-bottom_small">
 
