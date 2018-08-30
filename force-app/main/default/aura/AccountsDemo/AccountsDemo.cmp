@@ -1,46 +1,45 @@
 <aura:component implements="force:appHostable" description="An example of how you can use the Grid component to fetch and filter/sort/page server data.">
+	<!--Content-->	
+	<lightning:card title="Accounts Demo" class="slds-m-bottom_medium slds-p-horizontal_small">
+		<p>This is an example of how to use the Grid component. Below you will see Accounts in this org.</p>
+		<p>To see the code involved, look at the Lightning component AccountsDemo.cmp and its corresponding Apex support class AccountsDemo.cls.</p>
+	</lightning:card>
 
-	<!--Content-->
+	
 	<c:Grid className="AccountsDemo">
 
-		<lightning:card title="Accounts Demo" class="slds-m-bottom_medium slds-p-horizontal_small">
-			<p>This is an example of how to use the Grid component. Below you will see Accounts in this org.</p>
-			<p>To see the code involved, look at the Lightning component AccountsDemo.cmp and its corresponding Apex support class AccountsDemo.cls.</p>
-		</lightning:card>
+		
 		<aura:set attribute="datasource">
 			<c:AccountsDemoDataSource/>
 		</aura:set>
-		<aura:set attribute="columns">
+			
+		<c:Column fieldName="Id" label="Account Id">
+			{#record.Id}
+		</c:Column>
 
-			<c:Column fieldName="Id" label="Account Id">
-				{#record.Id}
-			</c:Column>
+		<c:Column fieldName="AccountNumber" label="Account Number" sortable="true">
+			{#record.AccountNumber}
+		</c:Column>
 
-			<c:Column fieldName="AccountNumber" label="Account Number" sortable="true">
-				{#record.AccountNumber}
-			</c:Column>
+		<c:Column fieldName="Name" label="Account Name" sortable="true">
+			{#record.Name}
+		</c:Column>
 
-			<c:Column fieldName="Name" label="Account Name" sortable="true">
-				{#record.Name}
-			</c:Column>
+		<c:Column fieldName="Type" label="Account Type" sortable="true">
+			{#record.Type}
+		</c:Column>
 
-			<c:Column fieldName="Type" label="Account Type" sortable="true">
-				{#record.Type}
-			</c:Column>
+		<c:Column fieldName="NumberOfEmployees" label="Employees" sortable="true">
+			<lightning:formattedNumber value="{#record.NumberOfEmployees}" />
+		</c:Column>
 
-			<c:Column fieldName="NumberOfEmployees" label="Employees" sortable="true">
-				<lightning:formattedNumber value="{#record.NumberOfEmployees}" />
-			</c:Column>
+		<c:Column fieldName="AnnualRevenue" label="Annual Revenue" sortable="true">
+			<lightning:formattedNumber value="{#record.AnnualRevenue}" style="currency" />
+		</c:Column>
 
-			<c:Column fieldName="AnnualRevenue" label="Annual Revenue" sortable="true">
-				<lightning:formattedNumber value="{#record.AnnualRevenue}" style="currency" />
-			</c:Column>
-
-			<c:Column fieldName="Industry" label="Industry" sortable="true">
-				{#record.Industry}
-			</c:Column>
-
-		</aura:set>
+		<c:Column fieldName="Industry" label="Industry" sortable="true">
+			{#record.Industry}
+		</c:Column>
 
 	</c:Grid>
 

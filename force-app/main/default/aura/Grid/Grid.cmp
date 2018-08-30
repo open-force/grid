@@ -6,8 +6,6 @@
 
 	<!--Public Attributes-->
 	<aura:attribute name="datasource" type="Aura.Component[]"/>
-	
-	<aura:attribute name="columns" type="Aura.ComponentDefRef[]" />
 
 	<aura:attribute name="headerTemplate" type="Aura.ComponentDefRef[]">
 		<th aura:id="gridHeader" data-fieldname="{!column.fieldName}" scope="col" class="slds-text-title_caps">
@@ -48,9 +46,6 @@
 
 	<!--Event Handlers-->
 	<aura:handler name="init" value="{!this}" action="{!c.doInit}" />
-
-	<!--Content-->
-	{!v.body}
 
 	<lightning:layout multipleRows="true" horizontalAlign="spread" verticalAlign="center" class="slds-theme_default slds-p-around_x-small slds-m-bottom_small">
 

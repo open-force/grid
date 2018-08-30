@@ -2,15 +2,16 @@
 	/**
 	 * Create and fill values for v.simplifiedColumns and v.generatedRowMarkup.
 	 */
+	// Coulndn't come up with a clean way to inspect available attributes on a component, just cross-defined for now until we have a better way
+	columnAttributes: ['fieldName', 'label', 'sortable'],
 	populateGeneratedAttributes : function(component) {
 
 		// build stripped down column representations for use in headers
-		let simplifiedColumns = [];
-		component.get('v.columns').forEach(function(column) {
-			let simplified = {}, extracted = JSON.parse(JSON.stringify(column.attributes.values));
-			for(let property in extracted) {
-				if(property !== 'body')
-					simplified[property] = extracted[property].value;
+		let simplifiedColumns = [], self = this;
+		component.get('v.body').forEach(function(column) {
+			let simplified = {};
+			for(let a of self.columnAttributes){
+				simplified[a] = column.get('v.'+a);
 			}
 			simplifiedColumns.push(simplified);
 		});
@@ -139,15 +140,18 @@
 		let firstCellHandled = false; // flag for if we have seen the first cell yet
 
 		// build cell markup, one cell for each column that we were given
-		component.get('v.columns').forEach(function(column) {
+		component.get('v.body').forEach(function(column) {
 
 			// get a clean object for this cell
 			let cellForThisColumn = JSON.parse(firstCellHandled ? otherCellsTemplate : firstCellTemplate);
 			firstCellHandled = true;
 
 			// merge column markup into the cell body
-			cellForThisColumn.attributes.values.body.value = cellForThisColumn.attributes.values.body.value.concat(column.attributes.values.body.value);
-
+			let body = column.get('v.body');
+			for(let i = 0; i < body.length; i++) {
+				delete body[i].attributes.valueProvider;
+			}
+			cellForThisColumn.attributes.values.body.value = cellForThisColumn.attributes.values.body.value.concat(body);
 			// add this cell to the row's body
 			rowTemplate.attributes.values.body.value.push(cellForThisColumn);
 		});
