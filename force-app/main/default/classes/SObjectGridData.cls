@@ -28,6 +28,11 @@ public with sharing abstract class SObjectGridData implements GridData {
 					whereClauses.add(newClause);
 			}
 		}
+		String staticFilterClause = getStaticFilterClause(), staticWhereStr = '';
+		if(String.isNotBlank(staticFilterClause)) {
+			whereClauses.add(staticFilterClause);
+			staticWhereStr = ' WHERE ' + staticFilterClause;
+		}
 
 		/*
 		 * Check for a search term, and build appropriate where clauses if one is present.
@@ -75,7 +80,7 @@ public with sharing abstract class SObjectGridData implements GridData {
 		/*
 		 * Do some counting.
 		 */
-		context.totalRecords = Database.countQuery('SELECT COUNT() FROM ' + getObjectName());
+		context.totalRecords = Database.countQuery('SELECT COUNT() FROM ' + getObjectName() + staticWhereStr);
 		if(String.isNotEmpty(whereStr))
 			context.totalFilteredRecords = Database.countQuery('SELECT COUNT() FROM ' + getObjectName() + ' ' + whereStr);
 		else
@@ -141,6 +146,15 @@ public with sharing abstract class SObjectGridData implements GridData {
 	 */
 	virtual protected String buildSearchClause(String column, String searchTerm) {
 		return columnNameToDatabaseField(column) + ' LIKE \'%' + String.escapeSingleQuotes(searchTerm) + '%\'';
+	}
+
+	/**
+	 * In case there is some filtering that should always be applied to your table, you can set that filter here.
+	 *
+	 * @return A valid SOQL filter clause that will always be applied, for example: return 'Active__c = true';
+	 */
+	virtual protected String getStaticFilterClause() {
+		return '';
 	}
 
 	/**
