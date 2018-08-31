@@ -36,7 +36,7 @@ public with sharing class AccountsDemo extends SObjectGridData {
 	/*
 	 * Our default ordering.
 	 */
-	public String getDefaultOrderByClause() {
+	public override String getDefaultOrderByClause() {
 		return 'Name ASC';
 	}
 
