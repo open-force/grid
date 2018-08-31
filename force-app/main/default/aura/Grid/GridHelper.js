@@ -16,9 +16,20 @@
 			simplifiedColumns.push(simplified);
 		});
 		component.set('v.simplifiedColumns', simplifiedColumns);
+		
+		// assign headerTemplate once we have values for it to work with
+		component.find('header-iterator').set('v.template', component.get('v.headerTemplate'));
 
-		// build row template
-		component.set('v.generatedRowMarkup', this.buildRowMarkup(component));
+		// build row template and assign to iterator
+		component.find('row-iterator').set('v.template', this.buildRowMarkup(component));
+
+		// add dummy rows to reduce visual stutter while waiting for server records to load
+		// styleClass attribute added to allow us to enable CSS for placeholder content while waiting
+		let placeholders = new Array();
+		for(let i = 0; i < 30; i++){
+			placeholders.push({styleClass: 'showplaceholder'});
+		}
+		component.set('v.records', placeholders);
 	},
 
 	/**

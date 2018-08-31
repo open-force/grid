@@ -1,3 +1,8 @@
 .THIS .pageSize > label {
 	display: none;
 }
+
+.cGrid  tr.showplaceholder > *:before {
+	color: rgb(221, 219, 218);
+	content: "----------------";
+  }
