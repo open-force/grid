@@ -2,7 +2,7 @@
 	display: none;
 }
 
-.cGrid  tr.showplaceholder > *:before {
+.THIS tr.showplaceholder > *:before {
 	color: rgb(221, 219, 218);
 	content: "----------------";
-  }
+}
