@@ -2,7 +2,7 @@
 	/**
 	 * Create and fill values for v.simplifiedColumns and v.generatedRowMarkup.
 	 */
-	// Coulndn't come up with a clean way to inspect available attributes on a component, just cross-defined for now until we have a better way
+	// Couldn't come up with a clean way to inspect available attributes on a component, just cross-defined for now until we have a better way
 	columnAttributes: ['fieldName', 'label', 'sortable'],
 	populateGeneratedAttributes : function(component) {
 
