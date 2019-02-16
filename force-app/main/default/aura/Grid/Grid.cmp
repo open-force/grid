@@ -116,7 +116,7 @@
 				</aura:if>
 
 				<lightning:layoutItem class="slds-m-horizontal_x-small">
-					<span style="display: inline-block">Page {!v.context.currentPage} of {!v.totalPages}</span>
+					<span style="display: inline-block">Page <lightning:formattedNumber value="{!v.context.currentPage}" /> of <lightning:formattedNumber value="{!v.totalPages}" /></span>
 				</lightning:layoutItem>
 
 				<aura:if isTrue="{! lessthan(v.context.currentPage, v.totalPages)}">
