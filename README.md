@@ -27,7 +27,7 @@ Our desire was to build a table that would support arbitrary column markup in a 
 
 Here is the sample markup from the built-in "Accounts Demo" table:
 
-```
+```xml
 <aura:component implements="force:appHostable" description="An example of how you can use the Grid component to fetch and filter/sort/page server data.">
 
 	<!--Content-->
@@ -96,7 +96,7 @@ A "starting" filter looks like a normal filter a User would have selected, but i
 You can define zero or more filters for the `startingFilters` attribute.
 
 **Syntax:**
-```
+```xml
 <c:Grid>
 
 	<aura:set attribute="startingFilters">
@@ -118,7 +118,7 @@ Use these when you want to add a filter to the Grid that you know you're going t
 You can define zero or more filters for the `hiddenFilters` attribute.
 
 **Syntax:**
-```
+```xml
 <c:Grid>
 
 	<aura:set attribute="hiddenFilters">
@@ -130,7 +130,7 @@ You can define zero or more filters for the `hiddenFilters` attribute.
 
 Data is served to the Grid by your specified "data source":
 
-```
+```xml
 <c:Grid>
 
 	<aura:set attribute="dataSource">
@@ -141,7 +141,7 @@ Data is served to the Grid by your specified "data source":
 A data source is any Aura component that implements the `c:GridDataSource` interface:
 
 **[c:GridDataSource](force-app/main/default/aura/GridDataSource/GridDataSource.intf) interface:**
-```
+```xml
 <aura:interface description="Implement this interface to be usable as a data provider for the Grid component">
 	<aura:method name="fetchRecords">
 		<aura:attribute name="context" type="Map" />
@@ -169,7 +169,7 @@ We've already written two implementations of ***GridData**. Extend whichever you
 
 To use the built-in **ApexDataSource** data provider, simply pass it the namespace and className of your implementation of **GridData**. Here's that sample code again:
 
-```
+```xml
 <c:Grid>
 
 	<aura:set attribute="dataSource">
