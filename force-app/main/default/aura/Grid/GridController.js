@@ -8,14 +8,23 @@
 
 	doSearch : function(component, event, helper) {
 
+		let context = component.get('v.context');
+		context.currentPage = 1; // reset to the first page
+		component.set('v.context', context);
+
 		helper.fetchRecords(component, true, true);
 	},
 
 	checkForSearchEnter : function(component, event, helper) {
 
 		// if the user hit the enter key
-		if(event.which === 13)
+		if(event.which === 13) {
+			let context = component.get('v.context');
+			context.currentPage = 1; // reset to the first page
+			component.set('v.context', context);
+
 			helper.fetchRecords(component, true, true);
+		}
 	},
 
 	clearSearch : function(component, event, helper) {
