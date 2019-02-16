@@ -36,6 +36,10 @@
 	<aura:attribute name="namespace" type="String" description="The namespace of the Apex class that will provide data; leave blank if you don't know it" />
 	<aura:attribute name="className" type="String" required="true" description="The class name of the Apex class that will provide data" />
 
+	<aura:attribute name="hiddenFilters" type="Aura.Component[]" description="Any filters that need to be applied but not shown to the user." />
+	<aura:attribute name="startingFilters" type="Aura.Component[]" description="Some filters to start with, can be removed by the user." />
+	<aura:attribute name="startingPageSize" type="Integer" description="Set this if you want to override the default starting page size." />
+
 	<!--Private Attributes-->
 	<aura:attribute name="records" type="List" access="private" description="The data records to show in the table." />
 	<aura:attribute name="context" type="Map" access="private" description="The current state of the table (page number, filters, etc)" />

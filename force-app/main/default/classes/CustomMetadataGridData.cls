@@ -26,6 +26,8 @@ public with sharing abstract class CustomMetadataGridData extends SObjectGridDat
 		 * Evaluate the active filters and construct SOQL where clauses for each
 		 */
 		List<String> whereClauses = new List<String>();
+		List<String> staticWhereClauses = new List<String>();
+
 		if(context.activeFilters != null && !context.activeFilters.isEmpty()) {
 
 			for(String key : context.activeFilters.keySet()) {
@@ -35,14 +37,26 @@ public with sharing abstract class CustomMetadataGridData extends SObjectGridDat
 					whereClauses.add(newClause);
 			}
 		}
-		String staticFilterClause = getStaticFilterClause(), staticWhereStr = '';
-		if(String.isNotBlank(staticFilterClause)) {
-			whereClauses.add(staticFilterClause);
-			staticWhereStr = ' WHERE ' + staticFilterClause;
+
+		if(context.hiddenFilters != null && !context.hiddenFilters.isEmpty()) {
+
+			for(String key : context.hiddenFilters.keySet()) {
+
+				String newClause = buildFilterClause(key, context.hiddenFilters.get(key));
+				if(String.isNotBlank(newClause))
+					staticWhereClauses.add(newClause);
+			}
 		}
 
-		String whereStr = !whereClauses.isEmpty() ? ' WHERE ' + String.join(whereClauses, ' AND ') : '';
+		String staticFilterClause = getStaticFilterClause();
+		if(String.isNotBlank(staticFilterClause)) {
+			staticWhereClauses.add(staticFilterClause);
+		}
 
+		whereClauses.addAll(staticWhereClauses);
+
+		String whereStr = !whereClauses.isEmpty() ? ' WHERE ' + String.join(whereClauses, ' AND ') : '';
+		String staticWhereStr = !staticWhereClauses.isEmpty() ? ' WHERE ' + String.join(staticWhereClauses, ' AND ') : '';
 		/*
 		 * Construct an ORDER BY clause if we are doing sorting
 		 */

@@ -8,6 +8,11 @@
 	
 	<c:Grid className="AccountsDemo">
 
+		<aura:set attribute="startingFilters">
+
+			<c:GridFilter fieldName="Type" value="Channel Partner / Reseller" />
+
+		</aura:set>
 		
 		<aura:set attribute="datasource">
 			<c:AccountsDemoDataSource/>

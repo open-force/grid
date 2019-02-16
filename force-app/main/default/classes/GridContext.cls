@@ -3,19 +3,51 @@
  */
 public with sharing class GridContext {
 
-	public String searchTerm = '';
+	public String searchTerm;
 
-	public Integer currentPage = 1;
-	public Integer pageSize = 50;
+	public Integer currentPage;
+	public Integer pageSize;
 
-	public String sortedBy = '';
-	public String sortedDirection = '';
+	public String sortedBy;
+	public String sortedDirection;
 
-	public Map<String, String> activeFilters = new Map<String, String>();
-	public Map<String, List<FilterOption>> filterOptions = new Map<String, List<FilterOption>>();
+	public Map<String, String> activeFilters;
+	public Map<String, String> hiddenFilters;
+	public Map<String, List<FilterOption>> filterOptions;
 
 	public Integer totalFilteredRecords;
 	public Integer totalRecords;
+
+	public GridContext() {
+		initialize();
+	}
+
+	public void initialize() {
+
+		if(searchTerm == null)
+			searchTerm = '';
+
+		if(currentPage == null)
+			currentPage = 1;
+
+		if(pageSize == null)
+			pageSize = 50;
+
+		if(sortedBy == null)
+			sortedBy = '';
+
+		if(sortedDirection == null)
+			sortedDirection = '';
+
+		if(activeFilters == null)
+			activeFilters = new Map<String, String>();
+
+		if(hiddenFilters == null)
+			hiddenFilters = new Map<String, String>();
+
+		if(filterOptions == null)
+			filterOptions = new Map<String, List<FilterOption>>();
+	}
 
 	public class FilterOption implements Comparable {
 

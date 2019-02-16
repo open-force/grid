@@ -1,0 +1,7 @@
+<aura:component description="A filter for the Grid component">
+
+	<!--Attributes-->
+	<aura:attribute name="fieldName" type="String" description="The field to filter" />
+	<aura:attribute name="value" type="String" description="The value to use when filtering" />
+
+</aura:component>

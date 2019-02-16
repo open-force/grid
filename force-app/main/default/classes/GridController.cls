@@ -19,6 +19,7 @@ public with sharing class GridController {
 		// get the current GridContext for the active Grid instance
 		System.debug(LoggingLevel.WARN, serializedGridContext + ', [' + String.isBlank(serializedGridContext) + ']');
 		GridContext context = String.isBlank(serializedGridContext) ? new GridContext() : (GridContext)JSON.deserialize(serializedGridContext, GridContext.class);
+		context.initialize(); // fill in any blank required fields with sensible defaults
 
 		Map<String, Object> response = new Map<String, Object>();
 		response.put('records', data.getRecords(context));

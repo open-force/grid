@@ -171,9 +171,43 @@
 	},
 
 	fetchRecords : function(component, rebuildFilterMenus, replaceExisting) {
-		let datasource = component.get('v.datasource')[0];
-		let helper = this;
-		let context = component.get('v.context');
+		let datasource = component.get('v.datasource')[0], helper = this, context = component.get('v.context') || {},
+			hiddenFilters = component.get('v.hiddenFilters'), startingFilters = component.get('v.startingFilters');
+
+		if(hiddenFilters && hiddenFilters.length > 0) {
+			if(!context.hiddenFilters)
+				context.hiddenFilters = {};
+			hiddenFilters.forEach(function(filter) {
+				if(filter.isInstanceOf('aura:if')) {
+					filter.get('v.body').forEach(function(conditionalFilter) {
+						context.hiddenFilters[conditionalFilter.get('v.fieldName')] = conditionalFilter.get('v.value');
+					});
+				}
+				if(filter.isInstanceOf('c:GridFilter'))
+					context.hiddenFilters[filter.get('v.fieldName')] = filter.get('v.value');
+			});
+		}
+
+		if(startingFilters && startingFilters.length > 0) {
+			if(!context.activeFilters)
+				context.activeFilters = {};
+			startingFilters.forEach(function(filter) {
+				if(filter.isInstanceOf('aura:if')) {
+					filter.get('v.body').forEach(function(conditionalFilter) {
+						context.activeFilters[conditionalFilter.get('v.fieldName')] = conditionalFilter.get('v.value');
+					});
+				}
+				if(filter.isInstanceOf('c:GridFilter'))
+					context.activeFilters[filter.get('v.fieldName')] = filter.get('v.value');
+			});
+			component.set('v.startingFilters', null); // clear these out now that we've set them once
+			component.set('v.context', context, false);
+			helper.rebuildSimpleFilters(component);
+		}
+
+		if(context.pageSize === undefined && component.get('v.startingPageSize'))
+			context.pageSize = component.get('v.startingPageSize');
+
 		datasource.fetchRecords(context, $A.getCallback(function(response, state){
 				response = JSON.parse(JSON.stringify(response));
 				if(state === 'SUCCESS') {
