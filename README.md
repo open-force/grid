@@ -162,7 +162,7 @@ The provided [ApexDataSource](force-app/main/default/aura/ApexDataSource) Aura c
 
 **GridController** expects to instantiate some class you've built that implements the [GridData](force-app/main/default/classes/GridData.cls) Apex interface.
 
-We've already written two implementations of ***GridData**. Extend whichever you like:
+We've already written two implementations of **GridData**. Extend whichever you like:
 
 * [SObjectGridData](force-app/main/default/classes/SObjectGridData.cls) - knows how to work with SObjects
 * [CustomMetadataGridData](force-app/main/default/classes/CustomMetadataGridData.cls) - knows how to work with cMDT records
