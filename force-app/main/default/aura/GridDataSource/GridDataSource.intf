@@ -1,0 +1,6 @@
+<aura:interface description="Implement this interface to be usable as a data provider for the Grid component">
+	<aura:method name="fetchRecords">
+		<aura:attribute name="context" type="Map" />
+		<aura:attribute name="callback" type="Function" />
+	</aura:method>
+</aura:interface>

@@ -14,7 +14,7 @@
 
 		</aura:set>
 		
-		<aura:set attribute="datasource">
+		<aura:set attribute="dataSource">
 			<c:AccountsDemoDataSource/>
 		</aura:set>
 			

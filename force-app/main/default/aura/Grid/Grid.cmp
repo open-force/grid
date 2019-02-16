@@ -5,7 +5,7 @@
 	<aura:dependency resource="markup://lightning:menuItem" />
 
 	<!--Public Attributes-->
-	<aura:attribute name="datasource" type="Aura.Component[]"/>
+	<aura:attribute name="dataSource" type="Aura.Component[]"/>
 
 	<aura:attribute name="headerTemplate" type="Aura.ComponentDefRef[]">
 		<th aura:id="gridHeader" data-fieldname="{!column.fieldName}" scope="col" class="slds-text-title_caps">

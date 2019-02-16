@@ -171,8 +171,12 @@
 	},
 
 	fetchRecords : function(component, rebuildFilterMenus, replaceExisting) {
-		let datasource = component.get('v.datasource')[0], helper = this, context = component.get('v.context') || {},
+		let dataSource = component.get('v.dataSource')[0], helper = this, context = component.get('v.context') || {},
 			hiddenFilters = component.get('v.hiddenFilters'), startingFilters = component.get('v.startingFilters');
+
+		if(!dataSource.isInstanceOf('c:GridDataSource')) {
+			throw 'Your GridDataSource component must implement c:GridDataSource';
+		}
 
 		if(hiddenFilters && hiddenFilters.length > 0) {
 			if(!context.hiddenFilters)
@@ -208,7 +212,7 @@
 		if(context.pageSize === undefined && component.get('v.startingPageSize'))
 			context.pageSize = component.get('v.startingPageSize');
 
-		datasource.fetchRecords(context, $A.getCallback(function(response, state){
+		dataSource.fetchRecords(context, $A.getCallback(function(response, state){
 				response = JSON.parse(JSON.stringify(response));
 				if(state === 'SUCCESS') {
 
