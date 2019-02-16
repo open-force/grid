@@ -13,7 +13,7 @@
 		</aura:set>
 
 		<aura:set attribute="dataSource">
-			<c:AccountsDemoDataSource />
+			<c:ApexDataSource className="AccountsDemo" />
 		</aura:set>
 
 		<c:Column fieldName="Id" label="Account Id">

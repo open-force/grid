@@ -1,0 +1,11 @@
+<aura:component controller="GridController" implements="c:GridDataSource">
+
+	<aura:attribute name="namespace" type="String" default="" description="The namespace for the Apex class that will serve data" />
+	<aura:attribute name="className" type="String" required="true" description="The Apex class that will serve data" />
+
+	<aura:method name="fetchRecords" action="{!c.fetchRecords}">
+		<aura:attribute name="context" type="Map" />
+		<aura:attribute name="callback" type="Function" />
+	</aura:method>
+
+</aura:component>
