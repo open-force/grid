@@ -6,7 +6,7 @@
 	</lightning:card>
 
 	
-	<c:Grid className="AccountsDemo">
+	<c:Grid>
 
 		<aura:set attribute="startingFilters">
 
