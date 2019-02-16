@@ -1,23 +1,21 @@
 <aura:component implements="force:appHostable" description="An example of how you can use the Grid component to fetch and filter/sort/page server data.">
-	<!--Content-->	
+
+	<!--Content-->
 	<lightning:card title="Accounts Demo" class="slds-m-bottom_medium slds-p-horizontal_small">
 		<p>This is an example of how to use the Grid component. Below you will see Accounts in this org.</p>
 		<p>To see the code involved, look at the Lightning component AccountsDemo.cmp and its corresponding Apex support class AccountsDemo.cls.</p>
 	</lightning:card>
 
-	
 	<c:Grid>
 
 		<aura:set attribute="startingFilters">
-
 			<c:GridFilter fieldName="Type" value="Channel Partner / Reseller" />
+		</aura:set>
 
-		</aura:set>
-		
 		<aura:set attribute="dataSource">
-			<c:AccountsDemoDataSource/>
+			<c:AccountsDemoDataSource />
 		</aura:set>
-			
+
 		<c:Column fieldName="Id" label="Account Id">
 			{#record.Id}
 		</c:Column>
